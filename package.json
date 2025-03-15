@@ -1,0 +1,25 @@
+{
+  "name": "emergent-scholarship",
+  "version": "1.0.0",
+  "description": "An exploration of how emergent scholarship can support a different way of thinking about academia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-rowe/emergent-scholarship.git"
+  },
+  "author": "Michael Rowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-rowe/emergent-scholarship/issues"
+  },
+  "homepage": "https://github.com/michael-rowe/emergent-scholarship#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
