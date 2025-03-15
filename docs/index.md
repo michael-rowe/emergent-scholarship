@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "Emergent Scholarship"
-  text: "A project to explore alternative approaches to academia and scholarship in an uncertain and changing world"
-  tagline: My great project tagline
+  text: 
+  tagline: A framework for health professions education in a complex world
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Test
+      link: /test
     - theme: alt
       text: API Examples
       link: /api-examples
