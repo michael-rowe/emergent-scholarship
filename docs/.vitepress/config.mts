@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Emergent Scholarship",
-  description: "A project to explore alternative approaches to academia and scholarship in an uncertain and changing world",
+  description: "A framework for health professions education in a complex world",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Test', link: '/test' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
