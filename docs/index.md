@@ -5,24 +5,24 @@ layout: home
 hero:
   name: "Emergent Scholarship"
   text: 
-  tagline: A framework for health professions education in a complex world
+  tagline : |
+    A framework for health professions education in a complex world<br />
+    <small><em>by Michael Rowe</em></small>
   actions:
     - theme: brand
-      text: Read the book
-      link: /.html
+      text: Principles
+      link: /principles.md
     - theme: alt
       text: ToC
       link: /
 
 features:
-  - title: Principles
-    details: Principles for a connected, open, sustainable, and responsive scholarship for a complex world
-  - title: Case studies
-    details: Examples of emergent scholarship across different academic contexts
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Connection
+    details: Knowledge emerges at the intersections of ideas, disciplines, and people, creating a networked ecosystem where understanding develops through relationships rather than isolation
+  - title: Adaptation
+    details: Scholarly practices must evolve to thrive in complex, changing environments, embracing flexibility and responsiveness over rigid structures and predetermined outcomes
+  - title: Ecology
+    details: Scholarship exists within broader systems and must respect natural limits, nurturing sustainable practices that enhance rather than deplete human and environmental resources
 ---
 
-::: tip
-This is a tip box.
-:::
+Emergent scholarship is a forward-looking, interdisciplinary approach to knowledge creation and dissemination, embracing the principles of emergence observed in complex systems.
