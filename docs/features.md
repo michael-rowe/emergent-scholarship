@@ -7,7 +7,7 @@ Emergent scholarship is both a process for, and object of, inquiry:
 - It can describe *how* we enact scholarship
 - It can describe *what* we do scholarship on
 
-We can therefore use the principles of emergent scholarship to study emergent scholarship.
+We can therefore use the [principles of emergent scholarship](principles.md) to study emergent scholarship.
 
 ## Features of emergent scholarship
 
