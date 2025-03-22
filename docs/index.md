@@ -12,8 +12,8 @@ hero:
       text: Principles
       link: /principles.md
     - theme: alt
-      text: 
-      link: /
+      text: Features
+      link: /features.md
 
 features:
   - title: Connection
