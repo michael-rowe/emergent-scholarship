@@ -6,14 +6,13 @@ hero:
   name: "Emergent Scholarship"
   text: 
   tagline : |
-    A framework for scholarship in a complex world<br />
-    <small><em>by Michael Rowe</em></small>
+    A framework for health professions education in a complex world
   actions:
     - theme: brand
       text: Principles
       link: /principles.md
     - theme: alt
-      text: ToC
+      text: 
       link: /
 
 features:
@@ -24,3 +23,4 @@ features:
   - title: Ecology
     details: Scholarship exists within broader systems and must respect natural limits, nurturing sustainable practices that enhance rather than deplete human and environmental resources
 ---
+

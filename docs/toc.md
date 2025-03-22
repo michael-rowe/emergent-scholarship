@@ -1,25 +1,29 @@
 PART 1: Foundations and context
-[[01-changing-landscape-healthcare-education]]
-[[02-traditional-hpe-fit-for-purpose]]
-[[03 - Introducing emergent scholarship]]
-[[04-seven-principles-emergent-scholarship]]
-[[05 - How the principles work together]]
+
+1. [[changing-landscape-healthcare-education]]
+2. [[traditional-hpe-fit-for-purpose]]
+3. [[Introducing emergent scholarship]]
+4. [[seven-principles-emergent-scholarship]]
+5. [[How the principles work together]]
 
 PART 2: Emergent Scholarship in Practice
-[[05-reimigining-hpe]]
-[[06-assessment-in-an-ai-enabled-world]]
-[[07 - Breaking down silos in interprofessional education]]
-[[08 - From curriculum overload to connected learning]]
-[[09-students-teachers-learning-system]]
+
+6. [[reimagining-hpe]]
+7. [[assessment-in-an-ai-enabled-world]]
+8. [[Breaking down silos in interprofessional education]]
+9. [[From curriculum overload to connected learning]]
+10. [[students-teachers-learning-system]]
 
 PART 3: Applications across the educational continuum
-[[09 - Students]]
-[[10 - Educators]]
-[[11 - Researchers]]
-[[12 - Leaders and institutions]]
+
+11. [[Students]]
+12. [[Educators]]
+13. [[Researchers]]
+14. [[Leaders and institutions]]
 
 PART 4: Challenges and building the future
-[[13-common-concerns-and-challenges]]
-[[14 - Practical implementation frameworks]]
-[[15 - Diverse perspectives]]
-[[16 - Future horizons]]
+
+15. [[common-concerns-and-challenges]]
+16. [[Practical implementation frameworks]]
+17. [[Diverse perspectives]]
+18. [[Future horizons]]

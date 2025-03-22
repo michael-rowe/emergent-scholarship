@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dh1jimFm.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"reimagining-hpe.md","filePath":"reimagining-hpe.md"}'),n={name:"reimagining-hpe.md"};function i(r,o,s,c,p,m){return a(),t("div")}const g=e(n,[["render",i]]);export{d as __pageData,g as default};
