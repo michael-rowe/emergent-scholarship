@@ -8,6 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'About', link: '/about' },
+      { text: 'Article', link: './article/theoretical-framework-ai-integration-hpe' },
     ],
 
     sidebar: [
