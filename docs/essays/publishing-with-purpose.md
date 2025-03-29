@@ -17,10 +17,11 @@ doi:
 - **Created**: January 27, 2025
 - **Updated**: March 29, 2025
 - **Keywords**: editor, generative AI, journal, research, publication
+- **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
 :::
 
-Abstract
+**Abstract**
 
 The introduction of generative AI into scientific publishing presents both opportunities and risks for the research ecosystem. While AI could enhance knowledge creation and streamline research processes, it may also amplify existing problems within the "research industrial
 complex" - a system that prioritises publication metrics over meaningful scientific progress. In this viewpoint article I suggest that generative AI is likely to reinforce harmful processes unless scientific journals and editors use these technologies to transform themselves into vibrant knowledge communities that facilitate meaningful discourse and collaborative learning. I describe how AI could support this transformation by surfacing connections between researchers' work, making peer review more dialogic, enhancing post-publication discourse, and enabling multimodal knowledge translation. However, implementing this vision faces significant challenges, deeply rooted in the entrenched incentives of the current academic publishing system. Universities evaluate faculty based largely on publication counts, funding bodies rely on traditional metrics for grant decisions, and publishers benefit from maintaining existing models. Making meaningful change therefore requires coordinated action across multiple stakeholders who must be willing to accept short-term costs for long-term systemic benefits. The key to success lies in consistently returning to journals' core purpose: advancing scientific knowledge through thoughtful research and professional dialogue. By reimagining journals as AI-supported communities rather than metrics-driven repositories, we can better serve both the scientific community and the broader society it aims to benefit.
@@ -64,218 +65,60 @@ The key to these examples is to think of AI as a support for human-to-human scie
 
 ## Implementing the community model
 
-The transformation of scientific journals from gatekeepers and content repositories into
-vibrant knowledge communities requires a fundamental reimagining of editorial roles
-and processes. This transformation represents not merely an adaptation to
-technological change, but rather a return to journals' original purpose of facilitating
-learning and discourse in practice. In this section I propose several interconnected
-changes that journal editors might consider implementing as part of the journal
-transformation process.
-First, editors might reconceptualise peer review as an ongoing scholarly conversation ,
-which takes as its starting point the practice of post-publication peer review22. Thetraditional model of sequential rounds of peer review could be replaced with dynamic
-community dialogue, where standing review communities include generative AI agents,
-researchers, and practitioners, who engage with manuscripts from submission through
-publication and beyond15. Artificial intelligence can also support this transformation by
-identifying relevant reviewers based on expertise and interests, surfacing meaningful
-connections between submitted work and existing discussions in the community14, and
-facilitating structured conversations by articulating points of confusion and potential
-counterarguments. This approach transforms peer review from a primarily evaluative
-process into a collaborative endeavour where AI acts as a mediator and guide, working
-alongside human reviewers to strengthen both the immediate work and its relevance to
-the broader scientific discourse.
-The scope of publication formats must likewise expand beyond traditional research
-articles to accommodate a wider range of scholarly communication. Editors can create
-dedicated spaces for pre-publication discussion of protocols and methodologies,
-implementation experiences and case studies, practitioner perspectives, and ongoing
-discussions of published work. Again, AI can support this diversification by generating
-different versions of content tailored to various audiences while maintaining
-consistency, creating regularly updated topic-specific synthesis pages, and facilitating
-knowledge translation across languages and formats. These expanded formats
-acknowledge that scientific knowledge creation occurs through multiple channels and
-that different audiences may require different presentations of the same underlying
-research. This would also move us away from the idea that researchers should be
-rewarded per unit of publication, and that engagement with transformed research
-findings may be more meaningful than simplistic publication metrics.
-The role of editorial boards should also evolve away from primarily managing
-manuscript flow – which could be managed by dedicated AI agents - to actively
-cultivating the community. Board members could organise virtual journal clubs and
-themed discussions, connect researchers with relevant practitioners, educators,
-students, and other stakeholders, thereby creating opportunities for collaboration and
-sustained engagement. AI systems can assist by identifying emerging themes within the
-community that require deeper exploration, generating discussion summaries,
-connecting participants with shared interests, and tracking ongoing conversations. This
-shift positions editorial board members as facilitators of scientific discourse rather than
-merely arbiters of publication decisions and 'finders of peer-reviewers'.
-Fundamental to this transformation is the development of new impact metrics that better
-reflect journals' expanded role in the scientific community. Rather than relying primarily
-on citation counts and other quantitative metrics unrelated to real-world impact, journals
-should work with new stakeholders to create systems that track more authentic forms of
-research implementation, for example, changes in practice, and communityengagement across multiple platforms. Instead of focusing primarily on citation among
-academics as the principal measure of impact, editors could use AI to analyse a wide
-range of other signals of real-world engagement, tracking how research findings are
-influencing practice, and identifying patterns in community engagement and
-implementation. These new metrics would provide a more nuanced and meaningful
-assessment of journal – and researcher – contribution to scientific progress.
-Success in this transformation requires sustained commitment from the existing
-stakeholders in the scientific publishing ecosystem, as well as new stakeholders,
-including patients, service users, and members of society. Journal editors can lead the
-way in implementing these changes, but authors, reviewers, and practitioners must also
-adapt their approach to scientific communication. Authors and researchers should view
-publication not as the endpoint of research but as the beginning of a dialogue with their
-professional communities. Reviewers will need to embrace their role as contributors to
-ongoing scientific conversations rather than simply being called on to judge the quality
-of submitted manuscripts. And practitioners should actively engage in discussions about
-research priorities, methodology, and implementation, bringing their practical
-experience to bear on both the questions being asked and the ways that findings are
-translated into practice.
-The integration of AI tools throughout this transformation must be guided by a clear
-understanding of their proper role: to enhance human networks and understanding
-rather than reinforcing the acceleration of article publication. By thoughtfully
-implementing these changes, journals and editors can better serve their communities
-while advancing scientific knowledge and improving clinical outcomes. This evolution
-represents not just an adaptation to this oncoming technological change, but a return to
-the fundamental purpose of scientific journals as platforms for scientific discourse and
-professional development.
-Navigating challenges in the transition
-The transformation of scientific journals into knowledge communities faces significant
-systemic challenges, deeply rooted in what I have been calling the research industrial
-complex. This interconnected system of incentives, metrics, and institutional practices
-and norms has created a self-perpetuating cycle that prioritises publication volume over
-other, potentially more impactful, practices and activities. And the introduction of
-generative AI into this ecosystem will only reinforce an accelerationist agenda that will
-quickly overwhelm scientific journals and their existing workflows and processes.
-Understanding and addressing these systemic constraints is important for any
-meaningful transformation of scientific publishing.
-The most fundamental challenge lies in the deeply entrenched nature of current
-publication metrics within the broader academic ecosystem, and the use of thosemetrics to inform promotion decisions, grant application success, and institutional
-reputation. Universities, funding bodies, and promotion committees rely heavily on
-quantitative metrics like publication count and journal impact factors, creating powerful
-institutional resistance to change23. While individual journal editors might embrace the
-community-centred approaches suggested here, researchers - especially early-career
-academics – face strong systemic pressures to prioritise traditional publication metrics
-over meaningful engagement with their scientific communities. This path, reinforced by
-the introduction of generative AI, will further entrench misaligned incentives that work
-against the substantive reform of scientific communication and publication.
-Within the current metrics-driven system, authors will be pressured into using AI to
-accelerate article production and processing, further feeding the "publish or perish"
-mentality that already distorts academic incentives. Journal editors might respond to
-these AI advances by simply adapting their workflows to process more papers faster,
-seeing increased throughput as a competitive advantage relative to other journals.
-Given other challenges, like finding peer reviewers and managing the increased
-frequency of submissions, this risks creating an AI-driven paper mill24 that serves career
-advancement metrics and publisher revenues while further degrading the quality of
-scientific discourse. The challenge for journal editors is to resist this pressure and
-instead harness AI's capabilities to deepen, rather than hasten, professional dialogue.
-The current publishing system generates significant revenue through traditional article
-processing charges and subscription models, creating financial disincentives for
-fundamental change. Maintaining active knowledge communities requires more
-sustained investment than simply processing manuscripts, yet traditional funding
-models do not currently support this shift. While AI could help manage some aspects of
-community engagement more efficiently, a transition period would require significant
-investment in new infrastructure and processes, and the incentives within the research
-industrial complex are not aligned with this new vision of scientific publication. Individual
-researchers or journals attempting to break free from traditional metrics-driven
-publishing face significant risks. However, there is hope. Forward-thinking editors and
-publishers could better harness the intellectual work of scientific publication that is
-currently freely given by engaged academics. Instead of volunteering their time for peer
-review in a model that serves mainly to increase the profit margins of already wealthy
-publishers, academics may be more likely to seek out opportunities to grow and develop
-as part of these new communities of learning centred around scientific journals.
-This transformation is further complicated by the collective action problem - while most
-stakeholders might agree that the current system is sub-optimal (or actively harmful), no
-individual researcher, journal, or institution can safely step away from traditional metrics
-and publication practices while everyone else continues to use them. A researcher who
-focuses on 'building community' rather than increasing their publication rate risks beingdenied promotion. A journal that slows down to emphasise thoughtful discourse might
-see submissions decline. And universities that ignore traditional metrics could find
-themselves dropping in institutional rankings. Making meaningful change therefore
-requires coordinated action across multiple stakeholders, who must be willing to accept
-short-term costs for long-term systemic benefits. This coordination challenge helps
-explain why many previous attempts at reform have struggled to gain traction despite
-widespread recognition of the system's flaws. And while the system remains largely
-unchanged, I see the potential for generative AI to act in forcing function, as a new
-variable to be considered. The first step may require an acknowledgement that
-traditional academic impact metrics are meaningless relative to the real-world impact of
-improving society.
-Throughout all these challenges, the central question remains: how does the scientific
-community ensure that any reforms influenced by the integration of generative AI serve
-to enhance rather than merely accelerate scientific discourse? The answer lies in
-consistently returning to the core purpose of journals, which is to advance scientific
-knowledge and improve practice through thoughtful research and professional dialogue.
-This requires actively resisting the pressures of the research industrial complex while
-building new, AI-supported systems that better serve the needs of scientific
-communities and the broader areas of society they serve.
-Conclusion
-The rise of generative AI marks a critical juncture for scientific publishing. While AI could
-accelerate existing problems within the research industrial complex by enabling ever-
-faster article production, it also presents an opportunity to fundamentally reimagine
-scientific journals and the communities they serve. Rather than using AI to simply
-process more papers, more quickly, we can use these technologies to transform
-journals from metrics-driven repositories of content into vibrant communities that
-facilitate meaningful discourse and collaborative learning. This transformation will
-require coordinated action across the scientific ecosystem, with authors, journals,
-institutions, and funding bodies working together to prioritise genuine scholarly dialogue
-over publication counts. The future of scientific publishing lies not in using AI to
-accelerate publication, but to support the kind of thoughtful, community-driven discourse
-that advances both knowledge and practice.
-References
-1. Khalifa M, Albadawy M. Using artificial intelligence in academic writing and research: An
-essential productivity tool. Comput Methods Programs Biomed Update. 2024;5:100145.
-doi:10.1016/j.cmpbup.2024.1001452. Si C, Yang D, Hashimoto T. Can LLMs Generate Novel Research Ideas? A Large-Scale
-Human Study with 100+ NLP Researchers. Published online September 6, 2024. Accessed
-September 10, 2024. http://arxiv.org/abs/2409.04109
-2. Bogin B, Yang K, Gupta S, et al. SUPER: Evaluating Agents on Setting Up and Executing
-Tasks from Research Repositories. Published online September 11, 2024. Accessed
-October 4, 2024. http://arxiv.org/abs/2409.07440
-3. Chu JSG, Evans JA. Slowed canonical progress in large fields of science. Proc Natl Acad
-Sci. 2021;118(41). doi:10/gm2qmh
-4. Ezell JM. The Health Disparities Research Industrial Complex. Soc Sci Med.
-2024;351:116251. doi:10.1016/j.socscimed.2023.116251
-5. Buranyi S. Is the staggeringly profitable business of scientific publishing bad for science?
-The Guardian. https://www.theguardian.com/science/2017/jun/27/profitable-business-
-scientific-publishing-bad-for-science. June 27, 2017. Accessed November 17, 2021.
-6. Norman G. Data dredging, salami-slicing, and other successful strategies to ensure
-rejection: twelve tips on how to not get your paper published. Adv Health Sci Educ.
-2014;19(1):1-5. doi:10.1007/s10459-014-9494-8
-7. Büttner F, Ardern CL, Blazey P, et al. Counting publications and citations is not just
-irrelevant: it is an incentive that subverts the impact of clinical research. Br J Sports Med.
-2021;55(12):647-648. doi:10/ghq4z3
-8. Callaway E. Beat it, impact factor! Publishing elite turns against controversial metric. Nature.
-2016;535(7611):210-211. doi:10/b8wb
-9. Edwards MA, Roy S. Academic Research in the 21st Century: Maintaining Scientific
-Integrity in a Climate of Perverse Incentives and Hypercompetition. Environ Eng Sci.
-2017;34(1):51-61. doi:10.1089/ees.2016.0223
-10. Jack P. Academic backlash as publisher lets Microsoft train AI on papers. Times Higher
-Education (THE). July 30, 2024. Accessed December 18, 2024.
-https://www.timeshighereducation.com/news/academic-backlash-publisher-lets-microsoft-
-train-ai-papers
-11. Noy S, Zhang W. Experimental evidence on the productivity effects of generative artificial
-intelligence. Science. 2023;381(6654):187-192. doi:10.1126/science.adh2586
-12. Baldwin M. Peer Review. Encycl Hist Sci. 2020;4(1). doi:10.34758/srde-jw27
-13. Liu F, Xue S, Wu J, et al. Deep Learning for Community Detection: Progress, Challenges
-and Opportunities. In: Proceedings of the Twenty-Ninth International Joint Conference on
-Artificial Intelligence. International Joint Conferences on Artificial Intelligence Organization;
-2020:4981-4987. doi:10.24963/ijcai.2020/693
-14. Tan C, Lyu D, Li S, et al. Peer Review as A Multi-Turn and Long-Context Dialogue with
-Role-Based Interactions. Published online June 9, 2024. doi:10.48550/arXiv.2406.0568816. Checco A, Bracciale L, Loreti P, Pinfield S, Bianchi G. AI-assisted peer review. Humanit
-Soc Sci Commun. 2021;8(1):1-11. doi:10.1057/s41599-020-00703-8
-15. Jiang Y, Shao Y, Ma D, Semnani SJ, Lam MS. Into the Unknown Unknowns: Engaged
-Human Learning through Participation in Language Model Agent Conversations. Published
-online October 17, 2024. doi:10.48550/arXiv.2408.15232
-16. Ayre J, Mac O, McCaffery K, et al. New Frontiers in Health Literacy: Using ChatGPT to
-Simplify Health Information for People in the Community. J Gen Intern Med. 2024;39(4):573-
-17. doi:10.1007/s11606-023-08469-w
-18. Lion KC, Lin YH, Kim T. Artificial Intelligence for Language Translation: The Equity Is in the
-Details. JAMA. 2024;332(17):1427-1428. doi:10.1001/jama.2024.15296
-19. Dihan QA, Nihalani BR, Tooley AA, Elhusseiny AM. Eyes on Google’s NotebookLM: using
-generative AI to create ophthalmology podcasts with a single click. Eye. Published online
-November 20, 2024:1-2. doi:10.1038/s41433-024-03481-8
-20. Liu Y, Zhang K, Li Y, et al. Sora: A Review on Background, Technology, Limitations, and
-Opportunities of Large Vision Models. Published online April 17, 2024.
-doi:10.48550/arXiv.2402.17177
-21. Hunter J. Post-Publication Peer Review: Opening Up Scientific Conversation. Front Comput
-Neurosci. 2012;6. doi:10.3389/fncom.2012.00063
-22. Lindner MD, Torralba KD, Khan NA. Scientific productivity: An exploratory study of metrics
-and incentives. PLOS ONE. 2018;13(4):e0195321. doi:10.1371/journal.pone.0195321
-23. Eaton SE, Soulière M. Artificial intelligence (AI) and fake papers. COPE: Committee on
-Publication Ethics. March 23, 2023. Accessed December 19, 2024.
-https://publicationethics.org/topic-discussions/artificial-intelligence-ai-and-fake-papers
+The transformation of scientific journals from gatekeepers and content repositories into vibrant knowledge communities requires a fundamental reimagining of editorial roles and processes. This transformation represents not merely an adaptation to technological change, but rather a return to journals' original purpose of facilitating learning and discourse in practice. In this section I propose several interconnected changes that journal editors might consider implementing as part of the journal transformation process.
+
+First, editors might reconceptualise peer review as an ongoing scholarly conversation, which takes as its starting point the practice of post-publication peer review22. Thetraditional model of sequential rounds of peer review could be replaced with dynamic community dialogue, where standing review communities include generative AI agents, researchers, and practitioners, who engage with manuscripts from submission through publication and beyond15. Artificial intelligence can also support this transformation by identifying relevant reviewers based on expertise and interests, surfacing meaningful connections between submitted work and existing discussions in the community14, and facilitating structured conversations by articulating points of confusion and potential counterarguments. This approach transforms peer review from a primarily evaluative process into a collaborative endeavour where AI acts as a mediator and guide, working alongside human reviewers to strengthen both the immediate work and its relevance to the broader scientific discourse.
+
+The scope of publication formats must likewise expand beyond traditional research articles to accommodate a wider range of scholarly communication. Editors can create dedicated spaces for pre-publication discussion of protocols and methodologies, implementation experiences and case studies, practitioner perspectives, and ongoing discussions of published work. Again, AI can support this diversification by generating different versions of content tailored to various audiences while maintaining consistency, creating regularly updated topic-specific synthesis pages, and facilitating knowledge translation across languages and formats. These expanded formats acknowledge that scientific knowledge creation occurs through multiple channels and that different audiences may require different presentations of the same underlying research. This would also move us away from the idea that researchers should be rewarded per unit of publication, and that engagement with transformed research findings may be more meaningful than simplistic publication metrics.
+
+The role of editorial boards should also evolve away from primarily managing manuscript flow – which could be managed by dedicated AI agents - to actively cultivating the community. Board members could organise virtual journal clubs and themed discussions, connect researchers with relevant practitioners, educators, students, and other stakeholders, thereby creating opportunities for collaboration and sustained engagement. AI systems can assist by identifying emerging themes within the community that require deeper exploration, generating discussion summaries, connecting participants with shared interests, and tracking ongoing conversations. This shift positions editorial board members as facilitators of scientific discourse rather than merely arbiters of publication decisions and 'finders of peer-reviewers'.
+
+Fundamental to this transformation is the development of new impact metrics that better reflect journals' expanded role in the scientific community. Rather than relying primarily on citation counts and other quantitative metrics unrelated to real-world impact, journals should work with new stakeholders to create systems that track more authentic forms of research implementation, for example, changes in practice, and communityengagement across multiple platforms. Instead of focusing primarily on citation among academics as the principal measure of impact, editors could use AI to analyse a wide range of other signals of real-world engagement, tracking how research findings are influencing practice, and identifying patterns in community engagement and implementation. These new metrics would provide a more nuanced and meaningful assessment of journal – and researcher – contribution to scientific progress.
+
+Success in this transformation requires sustained commitment from the existing stakeholders in the scientific publishing ecosystem, as well as new stakeholders, including patients, service users, and members of society. Journal editors can lead the way in implementing these changes, but authors, reviewers, and practitioners must also adapt their approach to scientific communication. Authors and researchers should view publication not as the endpoint of research but as the beginning of a dialogue with their professional communities. Reviewers will need to embrace their role as contributors to ongoing scientific conversations rather than simply being called on to judge the quality of submitted manuscripts. And practitioners should actively engage in discussions about research priorities, methodology, and implementation, bringing their practical experience to bear on both the questions being asked and the ways that findings are translated into practice.
+
+The integration of AI tools throughout this transformation must be guided by a clear understanding of their proper role: to enhance human networks and understanding rather than reinforcing the acceleration of article publication. By thoughtfully implementing these changes, journals and editors can better serve their communities while advancing scientific knowledge and improving clinical outcomes. This evolution represents not just an adaptation to this oncoming technological change, but a return to the fundamental purpose of scientific journals as platforms for scientific discourse and professional development.
+
+## Navigating challenges in the transition
+
+The transformation of scientific journals into knowledge communities faces significant systemic challenges, deeply rooted in what I have been calling the research industrial complex. This interconnected system of incentives, metrics, and institutional practices and norms has created a self-perpetuating cycle that prioritises publication volume over other, potentially more impactful, practices and activities. And the introduction of generative AI into this ecosystem will only reinforce an accelerationist agenda that will quickly overwhelm scientific journals and their existing workflows and processes.
+
+Understanding and addressing these systemic constraints is important for any meaningful transformation of scientific publishing. The most fundamental challenge lies in the deeply entrenched nature of current publication metrics within the broader academic ecosystem, and the use of thosemetrics to inform promotion decisions, grant application success, and institutional reputation. Universities, funding bodies, and promotion committees rely heavily on quantitative metrics like publication count and journal impact factors, creating powerful institutional resistance to change23. While individual journal editors might embrace the community-centred approaches suggested here, researchers - especially early-career academics – face strong systemic pressures to prioritise traditional publication metrics over meaningful engagement with their scientific communities. This path, reinforced by the introduction of generative AI, will further entrench misaligned incentives that work against the substantive reform of scientific communication and publication.
+
+Within the current metrics-driven system, authors will be pressured into using AI to accelerate article production and processing, further feeding the "publish or perish" mentality that already distorts academic incentives. Journal editors might respond to these AI advances by simply adapting their workflows to process more papers faster, seeing increased throughput as a competitive advantage relative to other journals. Given other challenges, like finding peer reviewers and managing the increased frequency of submissions, this risks creating an AI-driven paper mill24 that serves career advancement metrics and publisher revenues while further degrading the quality of scientific discourse. The challenge for journal editors is to resist this pressure and instead harness AI's capabilities to deepen, rather than hasten, professional dialogue.
+
+The current publishing system generates significant revenue through traditional article processing charges and subscription models, creating financial disincentives for fundamental change. Maintaining active knowledge communities requires more sustained investment than simply processing manuscripts, yet traditional funding models do not currently support this shift. While AI could help manage some aspects of community engagement more efficiently, a transition period would require significant investment in new infrastructure and processes, and the incentives within the research industrial complex are not aligned with this new vision of scientific publication. Individual researchers or journals attempting to break free from traditional metrics-driven publishing face significant risks. However, there is hope. Forward-thinking editors and publishers could better harness the intellectual work of scientific publication that is currently freely given by engaged academics. Instead of volunteering their time for peer review in a model that serves mainly to increase the profit margins of already wealthy publishers, academics may be more likely to seek out opportunities to grow and develop as part of these new communities of learning centred around scientific journals.
+
+This transformation is further complicated by the collective action problem - while most stakeholders might agree that the current system is sub-optimal (or actively harmful), no individual researcher, journal, or institution can safely step away from traditional metrics and publication practices while everyone else continues to use them. A researcher who focuses on 'building community' rather than increasing their publication rate risks beingdenied promotion. A journal that slows down to emphasise thoughtful discourse might see submissions decline. And universities that ignore traditional metrics could find themselves dropping in institutional rankings. Making meaningful change therefore requires coordinated action across multiple stakeholders, who must be willing to accept short-term costs for long-term systemic benefits. This coordination challenge helps explain why many previous attempts at reform have struggled to gain traction despite widespread recognition of the system's flaws. And while the system remains largely unchanged, I see the potential for generative AI to act in forcing function, as a new variable to be considered. The first step may require an acknowledgement that traditional academic impact metrics are meaningless relative to the real-world impact of improving society.
+
+Throughout all these challenges, the central question remains: how does the scientific community ensure that any reforms influenced by the integration of generative AI serve to enhance rather than merely accelerate scientific discourse? The answer lies in consistently returning to the core purpose of journals, which is to advance scientific knowledge and improve practice through thoughtful research and professional dialogue. This requires actively resisting the pressures of the research industrial complex while building new, AI-supported systems that better serve the needs of scientific communities and the broader areas of society they serve.
+
+## Conclusion
+
+The rise of generative AI marks a critical juncture for scientific publishing. While AI could accelerate existing problems within the research industrial complex by enabling ever-faster article production, it also presents an opportunity to fundamentally reimagine scientific journals and the communities they serve. Rather than using AI to simply process more papers, more quickly, we can use these technologies to transform journals from metrics-driven repositories of content into vibrant communities that facilitate meaningful discourse and collaborative learning. This transformation will require coordinated action across the scientific ecosystem, with authors, journals, institutions, and funding bodies working together to prioritise genuine scholarly dialogue over publication counts. The future of scientific publishing lies not in using AI to accelerate publication, but to support the kind of thoughtful, community-driven discourse that advances both knowledge and practice.
+
+## References
+
+1. Khalifa M, Albadawy M. Using artificial intelligence in academic writing and research: An essential productivity tool. Comput Methods Programs Biomed Update. 2024;5:100145. doi:10.1016/j.cmpbup.2024.1001452.
+2. Si C, Yang D, Hashimoto T. Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers. Published online September 6, 2024. Accessed September 10, 2024. http://arxiv.org/abs/2409.04109
+3. Bogin B, Yang K, Gupta S, et al. SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories. Published online September 11, 2024. Accessed October 4, 2024. http://arxiv.org/abs/2409.07440
+4. Chu JSG, Evans JA. Slowed canonical progress in large fields of science. Proc Natl Acad Sci. 2021;118(41). doi:10/gm2qmh
+5. Ezell JM. The Health Disparities Research Industrial Complex. Soc Sci Med. 2024;351:116251. doi:10.1016/j.socscimed.2023.116251
+6. Buranyi S. Is the staggeringly profitable business of scientific publishing bad for science? The Guardian. https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science. June 27, 2017. Accessed November 17, 2021
+7. Norman G. Data dredging, salami-slicing, and other successful strategies to ensure rejection: twelve tips on how to not get your paper published. Adv Health Sci Educ. 2014;19(1):1-5. doi:10.1007/s10459-014-9494-8
+8. Büttner F, Ardern CL, Blazey P, et al. Counting publications and citations is not just irrelevant: it is an incentive that subverts the impact of clinical research. Br J Sports Med. 2021;55(12):647-648. doi:10/ghq4z3
+9. Callaway E. Beat it, impact factor! Publishing elite turns against controversial metric. Nature. 2016;535(7611):210-211. doi:10/b8wb
+10. Edwards MA, Roy S. Academic Research in the 21st Century: Maintaining Scientific Integrity in a Climate of Perverse Incentives and Hypercompetition. Environ Eng Sci. 2017;34(1):51-61. doi:10.1089/ees.2016.0223
+11. Jack P. Academic backlash as publisher lets Microsoft train AI on papers. Times Higher Education (THE). July 30, 2024. Accessed December 18, 2024. https://www.timeshighereducation.com/news/academic-backlash-publisher-lets-microsoft-train-ai-papers
+12. Noy S, Zhang W. Experimental evidence on the productivity effects of generative artificial intelligence. Science. 2023;381(6654)187-192. doi:10.1126/science.adh2586
+13. Baldwin M. Peer Review. Encycl Hist Sci. 2020;4(1). doi:10.34758/srde-jw27
+14. Liu F, Xue S, Wu J, et al. Deep Learning for Community Detection: Progress, Challenges and Opportunities. In: Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence. International Joint Conferences on Artificial Intelligence Organization; 2020:4981-4987. doi:10.24963/ijcai.2020/693
+15. Tan C, Lyu D, Li S, et al. Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions. Published online June 9, 2024. doi:10.48550/arXiv.2406.0568816. Checco A, Bracciale L, Loreti P, Pinfield S, Bianchi G. AI-assisted peer review. Humanit Soc Sci Commun. 2021;8(1):1-11. doi:10.1057/s41599-020-00703-8
+16. Jiang Y, Shao Y, Ma D, Semnani SJ, Lam MS. Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations. Published online October 17, 2024. doi:10.48550/arXiv.2408.15232
+17. Ayre J, Mac O, McCaffery K, et al. New Frontiers in Health Literacy: Using ChatGPT to Simplify Health Information for People in the Community. J Gen Intern Med. 2024;39(4):573 doi:10.1007/s11606-023-08469-w
+18. Lion KC, Lin YH, Kim T. Artificial Intelligence for Language Translation: The Equity Is in the Details. JAMA. 2024;332(17):1427-1428. doi:10.1001/jama.2024.15296
+19. Dihan QA, Nihalani BR, Tooley AA, Elhusseiny AM. Eyes on Google’s NotebookLM: using generative AI to create ophthalmology podcasts with a single click. Eye. Published online November 20, 2024:1-2. doi:10.1038/s41433-024-03481-8
+20. Liu Y, Zhang K, Li Y, et al. Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models. Published online April 17, 2024. doi:10.48550/arXiv.2402.17177
+21. Hunter J. Post-Publication Peer Review: Opening Up Scientific Conversation. Front Comput Neurosci. 2012;6. doi:10.3389/fncom.2012.00063
+22. Lindner MD, Torralba KD, Khan NA. Scientific productivity: An exploratory study of metrics and incentives. PLOS ONE. 2018;13(4):e0195321. doi:10.1371/journal.pone.0195321
+23. Eaton SE, Soulière M. Artificial intelligence (AI) and fake papers. COPE: Committee on Publication Ethics. March 23, 2023. Accessed December 19, 2024. https://publicationethics.org/topic-discussions/artificial-intelligence-ai-and-fake-papers

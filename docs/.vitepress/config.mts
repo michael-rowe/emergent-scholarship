@@ -23,7 +23,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/michael-rowe/emergent-scholarship' }, 
-      { icon: 'link', link: 'https://mrowe.co.za/blog' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/michael-rowe-0a6b814/' }
     ]
   }

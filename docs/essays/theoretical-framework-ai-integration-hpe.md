@@ -2,8 +2,12 @@
 title: The ACADEMIC framework for AI integration into Health Professions Education
 author: Michael Rowe
 created: 2025-03-22
-tags: 
+tags: ["artificial intelligence", "complexity", "connectivism", "critical pedagogy", "emergent scholarship", "health professions education", "learning theory", "social constructivism"]
 status: established
+doi: 
+    live: ""
+    preprint: ""
+    journal: ""
 ---
 
 # The ACADEMIC framework for AI integration into Health Professions Education
@@ -11,7 +15,8 @@ status: established
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: January 22, 2025
-- **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, health professions education, learning theory, social constructivism
+- **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
+- **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: 
 :::
 
