@@ -2,12 +2,7 @@
 
 **Emergent scholarship** is an interdisciplinary approach to scholarship (academic research, teaching, and service) that emphasizes adaptability, collaboration, and public engagement, integrating complexity and systems thinking to address dynamic, real-world problems. It promotes open access, diverse methodologies, and ethical, inclusive practices to produce holistic and impactful knowledge.
 
-Emergent scholarship is both a process for, and object of, inquiry:
-
-- It can describe *how* we enact scholarship
-- It can describe *what* we do scholarship on
-
-We can therefore use the [principles of emergent scholarship](principles.md) to study emergent scholarship.
+Emergent scholarship is both a process for, and object of, inquiry, which means we can use the [principles of emergent scholarship](principles.md) to study emergent scholarship.
 
 ## Features of emergent scholarship
 
