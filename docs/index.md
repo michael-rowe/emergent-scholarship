@@ -6,7 +6,7 @@ hero:
   name: "Emergent Scholarship"
   text: 
   tagline : |
-    A framework for health professions education in a complex world
+    A framework for scholarly engagement in a complex world
   actions:
     - theme: brand
       text: Principles

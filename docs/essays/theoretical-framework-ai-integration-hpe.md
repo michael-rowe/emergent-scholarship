@@ -1,7 +1,11 @@
 ---
-categories: article
-status: draft
+title: The ACADEMIC framework for AI integration into Health Professions Education
+author: Michael Rowe
+created: 2025-03-22
+tags: 
+status: established
 ---
+
 # The ACADEMIC framework for AI integration into Health Professions Education
 
 <p></p>
@@ -18,7 +22,7 @@ Health professions education faces a significant challenge: graduates are simult
 
 ## Introduction
 
-Health professions education stands at a crossroads. Despite decades of innovation and reform, our education systems introduce a troubling tension: graduates who are simultaneously overwhelmed with information yet under-prepared for the complexity of modern practice. Typical approaches to learning and teaching—characterised by content overload, decontextualised knowledge, and assessment practices that reward recall over reasoning—are increasingly at odds with the realities of healthcare delivery.
+Health professions education stands at a crossroads. Despite decades of innovation and reform, our education systems introduce a troubling tension: graduates who are simultaneously overwhelmed with information yet under-prepared for the complexity of modern practice. Typical approaches to learning and teaching, characterised by content overload, decontextualised knowledge, and assessment practices that reward recall over reasoning, are increasingly at odds with the realities of healthcare delivery.
 
 The challenges are multifaceted and entrenched. Students struggle to integrate theoretical knowledge with clinical practice, while educators labour under curricular structures that fragment learning into discrete subjects and skills. Assessment practices often measure what is easy to evaluate rather than what is important to learn, focusing on outputs as proxies for what has been learned, rather than the processes of learning. Meanwhile, healthcare systems grow more complex, with expanding bodies of knowledge, evolving technologies, and increasing emphasis on interprofessional collaboration. The gap between how we educate and how professionals actually work widens, despite our best efforts to bridge it.
 
@@ -321,3 +325,4 @@ Health professions education faces a fundamental challenge: graduates are simult
 This article presents the ACADEMIC framework for AI integration in HPE. An analysis of social constructivism, critical pedagogy, complexity theory, and connectivism through the lens of learning interactions, identified seven principles to guide AI implementation. These principles help all stakeholders in a learning ecosystem to shift focus from AI as content generator to AI as a learning partner, providing a theoretically grounded middle path between viewing AI as either threat or panacea, and addressing the misalignment between education and practice through adaptive approaches.
 
 Perhaps most significantly, it recognises that students need guidance in learning with AI, focusing on processes rather than the all-to-easy mechanism of using AI to create better outputs. This repositions AI not as a replacement for human educators but as a catalyst for addressing persistent challenges in preparing health professionals for contemporary healthcare environments.
+
