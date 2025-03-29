@@ -1,190 +1,68 @@
 ---
 title: "Publishing with purpose: Using AI to enhance scientific discourse"
-author: Michael Rowe
-tags:
-  - editor
-  - generative-ai
-  - journal
-  - research
-  - publication
-status: 
-created: 2025-01-27
+author: "Michael Rowe"
+tags: ["editor", "generative AI", "journal", "research", "publication"]
+status: "established"
+created: "2025-01-27"
+doi: 
+  live: ""
+  preprint: "10.31219/osf.io/d7hwf_v1"
+  published: ""
 ---
+
 # Publishing with purpose: Using AI to enhance scientific discourse
 
-Abstract
-The introduction of generative AI into scientific publishing presents both opportunities and risks for the research ecosystem. While AI could enhance knowledge creation and streamline
-research processes, it may also amplify existing problems within the "research industrial
-complex" - a system that prioritises publication metrics over meaningful scientific progress.
+::: tip Article information
+- **Created**: January 27, 2025
+- **Updated**: March 29, 2025
+- **Keywords**: editor, generative AI, journal, research, publication
+- **DOI**: [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
+:::
 
-In this viewpoint article I suggest that generative AI is likely to reinforce harmful processes unless
-scientific journals and editors use these technologies to transform themselves into vibrant
-knowledge communities that facilitate meaningful discourse and collaborative learning. I
-describe how AI could support this transformation by surfacing connections between
-researchers' work, making peer review more dialogic, enhancing post-publication discourse,
-and enabling multimodal knowledge translation. However, implementing this vision faces
-significant challenges, deeply rooted in the entrenched incentives of the current academic
-publishing system. Universities evaluate faculty based largely on publication counts, funding
-bodies rely on traditional metrics for grant decisions, and publishers benefit from maintaining
-existing models. Making meaningful change therefore requires coordinated action across
-multiple stakeholders who must be willing to accept short-term costs for long-term systemic
-benefits. The key to success lies in consistently returning to journals' core purpose: advancing
-scientific knowledge through thoughtful research and professional dialogue. By reimagining
-journals as AI-supported communities rather than metrics-driven repositories, we can better
-serve both the scientific community and the broader society it aims to benefit.
-Introduction
-The introduction of generative AI into the research publication process presents both
-unprecedented opportunities and significant risks. While this technology could enhance
-the process of knowledge creation1, generate novel hypotheses2, and streamline the
-research process3, it may also reinforce and amplify existing problems in academic
-publishing4. One of the most fundamental of these problems is the embedding of the
-academic publication ecosystem within a "research industrial complex" (RIC) with a
-clear conflict of interest between publishers and their journals, universities, and funding
-organisations. This system prioritises metrics like publication counts and impact factors
-over meaningful contributions to knowledge creation, creating powerful incentives for
-researchers to focus on quantity over quality4.
-These incentives drive researchers to publish at an increasing pace, at the expense of
-thoughtful inquiry and real-world impact. In the existing system the metrics that matter
-include things like the h-index and citation counts, which emphasise the degree to whichthe value of any publication is determined by its use by other academics, rather than
-anyone working in practice4. This dynamic is especially concerning in a clinical field,
-where research should ultimately translate into better patient care rather than a drive
-towards higher - and potentially meaningless - citation metrics. With the introduction of
-AI tools that can dramatically accelerate article production (as opposed to knowledge
-creation), we risk intensifying these accelerationist incentives unless we fundamentally
-rethink the role of journals in our scientific communities.
-This viewpoint article argues that academic journals should begin a process of
-transformation, shifting away from their current role as publication platforms, towards
-learning communities that facilitate meaningful discourse and collaborative
-engagement. Rather than serving primarily as credentialing mechanisms for the RIC,
-journals should become spaces where clinicians, researchers, and educators can
-collectively advance knowledge at the cutting edge of our field. By reimagining journals
-as communities, we can harness AI's potential to enhance scientific inquiry, ultimately
-producing research that better serves our patients and profession.
-The research industrial complex
-The concept of an "industrial complex" - first articulated by President Eisenhower in
-describing the military-industrial complex - helps illustrate the problematic dynamics in
-the academic publishing ecosystem. Just as the military industrial complex creates self-
-perpetuating cycles that prioritise institutional interests over the public good, today's
-research publishing system has developed its own self-reinforcing patterns that work
-against the interests of patients and practitioners5. While the academic publishing
-ecosystem may not exactly mirror other industrial complexes, the analogy usefully
-highlights how interconnected institutional incentives can create self-perpetuating cycles
-that prioritise metrics over their purported missions. Just as defence contractors benefit
-from continued military spending regardless of strategic outcomes, publishers,
-universities, and funding bodies have developed mutually reinforcing systems that
-reward publication volume and profit over meaningful scientific progress6.
-In the scientific community, this manifests in several important ways. The pressure to
-publish frequently leads researchers to slice their work into minimum publishable units,
-where researchers are incentivised to present the same data in different ways7. A single
-rehabilitation intervention trial might be parsed into methodology papers, preliminary
-results, sub-group analyses, and follow-up studies - each counting as a publication but
-making it harder for clinicians to synthesise the practical implications of the original
-work8. Researchers driven to increase their research output will use generative AI to
-drive this process of re-presenting data to create multiple articles. In addition, the
-emphasis on novel findings can discourage crucial replication studies or research on
-routine clinical challenges that matter deeply to practitioners but may not generateexciting headlines. Again, the use of generative AI to articulate faux novelty in
-persuasive narratives8 will influence what kinds of papers are published, as well as
-raising questions about which agendas are being privileged. And finally, the focus on
-quantitative publication metrics has blurred the boundary between clinically meaningful
-research, and research that serves, among other things, a journal's impact factor9.
-These dynamics are sustained by mutually reinforcing incentives across the research
-ecosystem. Universities evaluate faculty performance based largely on publication
-counts and journal impact factors. Funding bodies look to publication metrics when
-making grant decisions. Individual researchers need publications for career
-advancement. And journal publishers benefit from a steady stream of submissions.
-Each actor in this system is responding rationally to their incentives, but the collective
-result is a publishing culture that fails to serve the core mission of advancing scientific
-knowledge10. Recent developments suggest that AI may already be intensifying
-problematic incentives in academic publishing. For example, publishers have entered
-into business partnerships with companies developing frontier generative AI models,
-allowing models to train on their content11. These deals between publishers and AI
-companies represent a troubling new dynamic where the pressure to produce content
-quickly is driven not just by traditional academic metrics, but by commercial imperatives
-to generate training data for AI systems. This risks further divorcing the publication
-process from its core purpose of advancing scientific knowledge, creating additional
-incentives for quantity over quality.
-While there are limitations to the 'industrial complex' analogy (for example, publishers
-are not intentionally maintaining social and healthcare problems for continued profits), it
-nonetheless serves as a useful framework to explore the introduction of generative AI
-into the scientific process. There is already evidence that generative AI will enable
-researchers to produce papers at unprecedented speed - conducting analyses, drafting
-manuscripts, and responding to reviewer comments far faster than human researchers
-can do on their own12. While this might seem like progress, it risks further divorcing
-research from careful reflection and clinical relevance. Without thoughtful guardrails, AI
-could amplify the volume-over-value tendency that the research industrial complex has
-triggered.
-Reimagining journals as AI-supported communities
-Scientific journals originally emerged as public records of conversations between
-scholars working on the most difficult problems of their time, serving as forums for
-ongoing dialogue13. This original vision of journals as spaces for collaborative discourse
-stands in stark contrast to their current role as credentialing mechanisms within the
-research industrial complex. We might instead aim to recapture the original spirit of
-journals as platforms for scientific discourse, leveraging AI's capabilities to supportconversation and dialogue, rather than using it to produce more papers with less value.
-The future of scientific publishing lies not in becoming more efficient article-processing
-platforms, but in returning to the original purpose of journals: facilitating learning
-communities and discourse at the cutting edge of practice.
-First, generative AI could help surface meaningful connections between different
-researchers' work that might otherwise go unnoticed. Instead of accelerating article
-production, AI might be used by journals and editors to analyse a submitted
-manuscript's methodology, findings, and theoretical framework to identify relevant
-ongoing discussions in the journal's community14. For example, when a researcher
-submits a paper on a novel healthcare intervention, an AI system could not only flag
-related published papers, but also highlight active discussions in other communities
-where clinicians are debating similar approaches, or connect them with practitioners
-who have documented case studies in related areas. This shifts the focus from simply
-adding more to the literature toward joining an existing scholarly conversation, even
-when that conversation is happening elsewhere. It might also encourage authors and
-researchers to proactively connect to those existing discussions, embedding their work
-more effectively within those contexts.
-Second, AI could make peer review more dialogic rather than merely evaluative (or in
-some cases, combative). Current large language models excel at asking probing follow-
-up questions and identifying unstated assumptions, which might help support all parties
-in a review process. This capability could be used to facilitate structured discussions
-between authors and reviewers, where the AI helps articulate points of confusion,
-surfaces potential counterarguments, and suggests areas where additional practitioner
-perspectives might be valuable, as part of a multi-turn, long-context dialogue15. Instead
-of reviewers (and more likely, AI-based review systems) simply judging if a paper meets
-the publication criteria16, the review process could facilitate a genuine dialogue about
-strengthening the work's contribution to practice, while being supported by a critical yet
-constructive language model fine-tuned for peer review.
-Third, AI could help make post-publication discourse more focused and productive.
-Rather than having fragmented discussions across unrelated journals, comment
-sections, social media, and separate response papers, AI could help organise and
-synthesise ongoing scholarly conversations about published work, in a special section
-of the journal17. It could identify key themes in practitioner responses, highlight emerging
-consensus or disagreements, and help authors engage systematically with how their
-work is being interpreted and applied. This maintains the paper as a living document
-within an active community rather than a static artifact, where the AI-generated content
-is regenerated and updated in response to new publications and discussion from across
-the internet.And finally, generative AI's multimodal capabilities offer unique opportunities to make
-research more accessible and engaging across different contexts and audiences.
-Rather than limiting research dissemination to traditional PDF formats, journals could
-use AI to automatically generate alternative presentations of published work - from
-simplified explanations for practitioners and public audiences18, to translations in
-multiple languages19, to audio versions for listening while otherwise occupied20, and
-eventually, video summaries that visualise key concepts and findings21. This multimodal
-approach would help break down barriers to accessing scholarly work while enabling
-researchers to engage with the literature in ways that best suit their needs and
-preferences. However, the focus should remain on meaningful knowledge translation
-rather than simply multiplying formats - each alternative presentation should be
-thoughtfully designed to serve the journal's community and advance scholarly
-discourse. This reimagining of how research is shared could help journals fulfil their
+Abstract
+
+The introduction of generative AI into scientific publishing presents both opportunities and risks for the research ecosystem. While AI could enhance knowledge creation and streamline research processes, it may also amplify existing problems within the "research industrial
+complex" - a system that prioritises publication metrics over meaningful scientific progress. In this viewpoint article I suggest that generative AI is likely to reinforce harmful processes unless scientific journals and editors use these technologies to transform themselves into vibrant knowledge communities that facilitate meaningful discourse and collaborative learning. I describe how AI could support this transformation by surfacing connections between researchers' work, making peer review more dialogic, enhancing post-publication discourse, and enabling multimodal knowledge translation. However, implementing this vision faces significant challenges, deeply rooted in the entrenched incentives of the current academic publishing system. Universities evaluate faculty based largely on publication counts, funding bodies rely on traditional metrics for grant decisions, and publishers benefit from maintaining existing models. Making meaningful change therefore requires coordinated action across multiple stakeholders who must be willing to accept short-term costs for long-term systemic benefits. The key to success lies in consistently returning to journals' core purpose: advancing scientific knowledge through thoughtful research and professional dialogue. By reimagining journals as AI-supported communities rather than metrics-driven repositories, we can better serve both the scientific community and the broader society it aims to benefit.
+
+## Introduction
+
+The introduction of generative AI into the research publication process presents both unprecedented opportunities and significant risks. While this technology could enhance the process of knowledge creation (1), generate novel hypotheses (2), and streamline the research process (3), it may also reinforce and amplify existing problems in academic publishing (4). One of the most fundamental of these problems is the embedding of the academic publication ecosystem within a "research industrial complex" (RIC) with a clear conflict of interest between publishers and their journals, universities, and funding organisations. This system prioritises metrics like publication counts and impact factors over meaningful contributions to knowledge creation, creating powerful incentives for researchers to focus on quantity over quality (4).
+
+These incentives drive researchers to publish at an increasing pace, at the expense of thoughtful inquiry and real-world impact. In the existing system the metrics that matter include things like the h-index and citation counts, which emphasise the degree to whichthe value of any publication is determined by its use by other academics, rather than anyone working in practice4. This dynamic is especially concerning in a clinical field, where research should ultimately translate into better patient care rather than a drive towards higher - and potentially meaningless - citation metrics. With the introduction of AI tools that can dramatically accelerate article production (as opposed to knowledge creation), we risk intensifying these accelerationist incentives unless we fundamentally rethink the role of journals in our scientific communities.
+
+This viewpoint article argues that academic journals should begin a process of transformation, shifting away from their current role as publication platforms, towards learning communities that facilitate meaningful discourse and collaborative engagement. Rather than serving primarily as credentialing mechanisms for the RIC, journals should become spaces where clinicians, researchers, and educators can collectively advance knowledge at the cutting edge of our field. By reimagining journals as communities, we can harness AI's potential to enhance scientific inquiry, ultimately producing research that better serves our patients and profession.
+
+## The research industrial complex
+
+The concept of an "industrial complex" - first articulated by President Eisenhower in describing the military-industrial complex - helps illustrate the problematic dynamics in the academic publishing ecosystem. Just as the military industrial complex creates self-perpetuating cycles that prioritise institutional interests over the public good, today's research publishing system has developed its own self-reinforcing patterns that work against the interests of patients and practitioners5. While the academic publishing ecosystem may not exactly mirror other industrial complexes, the analogy usefully highlights how interconnected institutional incentives can create self-perpetuating cycles that prioritise metrics over their purported missions. Just as defence contractors benefit from continued military spending regardless of strategic outcomes, publishers, universities, and funding bodies have developed mutually reinforcing systems that reward publication volume and profit over meaningful scientific progress6.
+
+In the scientific community, this manifests in several important ways. The pressure to publish frequently leads researchers to slice their work into minimum publishable units, where researchers are incentivised to present the same data in different ways7. A single rehabilitation intervention trial might be parsed into methodology papers, preliminary results, sub-group analyses, and follow-up studies - each counting as a publication but making it harder for clinicians to synthesise the practical implications of the original work8. Researchers driven to increase their research output will use generative AI to drive this process of re-presenting data to create multiple articles. In addition, the emphasis on novel findings can discourage crucial replication studies or research on routine clinical challenges that matter deeply to practitioners but may not generateexciting headlines. Again, the use of generative AI to articulate faux novelty in
+persuasive narratives8 will influence what kinds of papers are published, as well as raising questions about which agendas are being privileged. And finally, the focus on quantitative publication metrics has blurred the boundary between clinically meaningful research, and research that serves, among other things, a journal's impact factor9.
+
+These dynamics are sustained by mutually reinforcing incentives across the research ecosystem. Universities evaluate faculty performance based largely on publication counts and journal impact factors. Funding bodies look to publication metrics when making grant decisions. Individual researchers need publications for career advancement. And journal publishers benefit from a steady stream of submissions. Each actor in this system is responding rationally to their incentives, but the collective result is a publishing culture that fails to serve the core mission of advancing scientific knowledge10. Recent developments suggest that AI may already be intensifying problematic incentives in academic publishing. For example, publishers have entered into business partnerships with companies developing frontier generative AI models, allowing models to train on their content11. These deals between publishers and AI companies represent a troubling new dynamic where the pressure to produce content quickly is driven not just by traditional academic metrics, but by commercial imperatives
+to generate training data for AI systems. This risks further divorcing the publication process from its core purpose of advancing scientific knowledge, creating additional incentives for quantity over quality.
+
+While there are limitations to the 'industrial complex' analogy (for example, publishers are not intentionally maintaining social and healthcare problems for continued profits), it nonetheless serves as a useful framework to explore the introduction of generative AI into the scientific process. There is already evidence that generative AI will enable researchers to produce papers at unprecedented speed - conducting analyses, drafting manuscripts, and responding to reviewer comments far faster than human researchers can do on their own12. While this might seem like progress, it risks further divorcing research from careful reflection and clinical relevance. Without thoughtful guardrails, AI could amplify the volume-over-value tendency that the research industrial complex has triggered.
+
+## Reimagining journals as AI-supported communities
+
+Scientific journals originally emerged as public records of conversations between scholars working on the most difficult problems of their time, serving as forums for ongoing dialogue13. This original vision of journals as spaces for collaborative discourse stands in stark contrast to their current role as credentialing mechanisms within the research industrial complex. We might instead aim to recapture the original spirit of journals as platforms for scientific discourse, leveraging AI's capabilities to supportconversation and dialogue, rather than using it to produce more papers with less value. The future of scientific publishing lies not in becoming more efficient article-processing platforms, but in returning to the original purpose of journals: facilitating learning communities and discourse at the cutting edge of practice.
+
+First, generative AI could help surface meaningful connections between different researchers' work that might otherwise go unnoticed. Instead of accelerating article production, AI might be used by journals and editors to analyse a submitted manuscript's methodology, findings, and theoretical framework to identify relevant ongoing discussions in the journal's community14. For example, when a researcher
+submits a paper on a novel healthcare intervention, an AI system could not only flag related published papers, but also highlight active discussions in other communities where clinicians are debating similar approaches, or connect them with practitioners who have documented case studies in related areas. This shifts the focus from simply adding more to the literature toward joining an existing scholarly conversation, even when that conversation is happening elsewhere. It might also encourage authors and researchers to proactively connect to those existing discussions, embedding their work more effectively within those contexts.
+
+Second, AI could make peer review more dialogic rather than merely evaluative (or in some cases, combative). Current large language models excel at asking probing follow-up questions and identifying unstated assumptions, which might help support all parties in a review process. This capability could be used to facilitate structured discussions between authors and reviewers, where the AI helps articulate points of confusion, surfaces potential counterarguments, and suggests areas where additional practitioner perspectives might be valuable, as part of a multi-turn, long-context dialogue15. Instead of reviewers (and more likely, AI-based review systems) simply judging if a paper meets the publication criteria16, the review process could facilitate a genuine dialogue about strengthening the work's contribution to practice, while being supported by a critical yet constructive language model fine-tuned for peer review.
+
+Third, AI could help make post-publication discourse more focused and productive. Rather than having fragmented discussions across unrelated journals, comment sections, social media, and separate response papers, AI could help organise and synthesise ongoing scholarly conversations about published work, in a special section of the journal17. It could identify key themes in practitioner responses,  highlight emerging consensus or disagreements, and help authors engage systematically with how their work is being interpreted and applied. This maintains the paper as a living document within an active community rather than a static artifact, where the AI-generated content is regenerated and updated in response to new publications and discussion from across the internet.
+
+And finally, generative AI's multimodal capabilities offer unique opportunities to make research more accessible and engaging across different contexts and audiences. Rather than limiting research dissemination to traditional PDF formats, journals could use AI to automatically generate alternative presentations of published work - from simplified explanations for practitioners and public audiences18, to translations in multiple languages19, to audio versions for listening while otherwise occupied20, and eventually, video summaries that visualise key concepts and findings21. This multimodal approach would help break down barriers to accessing scholarly work while enabling
+researchers to engage with the literature in ways that best suit their needs and preferences. However, the focus should remain on meaningful knowledge translation rather than simply multiplying formats - each alternative presentation should be thoughtfully designed to serve the journal's community and advance scholarly discourse. This reimagining of how research is shared could help journals fulfil their
 core purpose of facilitating learning and dialogue.
-The key to these examples is to think of AI as a support for human-to-human scientific
-discourse and engagement, rather than a means of producing more articles, more
-quickly. This reimagining requires us to change our perspective of what a "journal" is.
-Rather than maintaining their gatekeeping and repository functions, scientific journals
-could become more dynamic spaces that foster ongoing dialogue between researchers,
-clinicians, educators, and society. These spaces would support multiple formats for
-sharing knowledge, with the aim of enhancing thoughtful human connection and
-understanding. But most importantly, they would redefine success through evidence of
-real-world impact rather than meaningless citation counts. The value of AI is that it can
-help process and connect information at scale, enabling researchers to better embed
-their findings within broader contexts. The role of generative AI in scientific publishing
-should therefore be to support meaningful scholarly dialogue rather than obscure it with
-an avalanche of AI-generated content that serves only to feed the research industrial
-complex.
-Implementing the community model
+
+The key to these examples is to think of AI as a support for human-to-human scientific discourse and engagement, rather than a means of producing more articles, more quickly. This reimagining requires us to change our perspective of what a "journal" is. Rather than maintaining their gatekeeping and repository functions, scientific journals could become more dynamic spaces that foster ongoing dialogue between researchers, clinicians, educators, and society. These spaces would support multiple formats for sharing knowledge, with the aim of enhancing thoughtful human connection and understanding. But most importantly, they would redefine success through evidence of real-world impact rather than meaningless citation counts. The value of AI is that it can help process and connect information at scale, enabling researchers to better embed their findings within broader contexts. The role of generative AI in scientific publishing should therefore be to support meaningful scholarly dialogue rather than obscure it with an avalanche of AI-generated content that serves only to feed the research industrial complex.
+
+## Implementing the community model
+
 The transformation of scientific journals from gatekeepers and content repositories into
 vibrant knowledge communities requires a fundamental reimagining of editorial roles
 and processes. This transformation represents not merely an adaptation to

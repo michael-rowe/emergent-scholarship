@@ -1,21 +1,24 @@
 ---
-title: Technological nature of language and the implications for health professions education
-author: Michael Rowe
-status: coalescing
-created: 2025-03-28
-updated: 2025-03-29
-tags:
-  - language
-  - technology
-  - LLMs
-  - health
-  - professions
-  - education
-  - emergent
-  - scholarship
+title: "Technological nature of language and the implications for health professions education"
+author: "Michael Rowe"
+status: "coalescing"
+created: "2025-03-28"
+updated: "2025-03-29"
+tags: ["language", "technology", "LLMs", "health professions education", "general purpose technology"]
+doi: 
+  live: ""
+  preprint: ""
+  journal: ""
+
 ---
 
 # Technological nature of language and the implications for health professions education
+
+::: tip Article information
+- **Created**: March 27, 2025
+- **Keywords**: editor, generative AI, journal, research, publication
+- **DOI**: 
+:::
 
 ## Emergent Scholarship context
 
