@@ -12,7 +12,8 @@ doi:
 
 # Publishing with purpose: Using AI to enhance scientific discourse
 
-::: tip Article information
+::: tip Metadata
+- **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: January 27, 2025
 - **Updated**: March 29, 2025
 - **Keywords**: editor, generative AI, journal, research, publication

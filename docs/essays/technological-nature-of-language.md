@@ -14,7 +14,8 @@ doi:
 
 # Technological nature of language and the implications for health professions education
 
-::: tip Article information
+::: tip Metadata
+- **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: March 27, 2025
 - **Keywords**: editor, generative AI, journal, research, publication
 - **DOI**: 
