@@ -15,8 +15,9 @@ export default defineConfig({
       {
         text: '',
         items: [
-          { text: 'Why this?', link: '/' },
-          { text: 'Why now?', link: '/' }
+          { text: 'What is it?', link: '/what.md' },
+          { text: 'Why does it matter?', link: '/why.md' },
+          { text: 'Principles' , link: '/principles.md'}
         ]
       }
     ],

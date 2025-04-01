@@ -24,3 +24,4 @@ features:
     details: Scholarship exists within broader systems and must respect natural limits, nurturing sustainable practices that enhance rather than deplete human and environmental resources
 ---
 
+

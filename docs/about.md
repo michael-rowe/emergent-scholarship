@@ -1,8 +1,4 @@
-# About Emergent Scholarship
-
-Emergent scholarship is a forward-looking, interdisciplinary approach to knowledge creation and dissemination, embracing the principles of emergence observed in complex systems.
-
-## About the author
+# About me
 
 <img src="/media/Michael-Rowe-profile.png" alt="Profile photo of the author, Michael Rowe" class="right-aligned-image" style="width: 200px; ">
 

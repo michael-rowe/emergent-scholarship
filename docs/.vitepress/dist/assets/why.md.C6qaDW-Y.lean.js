@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as i,ae as r}from"./chunks/framework.Dh1jimFm.js";const m=JSON.parse('{"title":"Why does it matter?","description":"","frontmatter":{},"headers":[],"relativePath":"why.md","filePath":"why.md"}'),o={name:"why.md"};function s(n,e,l,c,d,h){return i(),t("div",null,e[0]||(e[0]=[r("",9)]))}const g=a(o,[["render",s]]);export{m as __pageData,g as default};

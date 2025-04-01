@@ -10,7 +10,6 @@ doi:
   journal: ""
 
 ---
-
 # Technological nature of language and the implications for health professions education
 
 ::: tip Metadata

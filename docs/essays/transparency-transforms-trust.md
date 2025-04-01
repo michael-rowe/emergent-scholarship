@@ -1,17 +1,17 @@
 ---
 title: "From journals to networks: How transparency transforms trust in scholarship"
-author: "Michael Rowe"
-status: "emerging"
-created: "2025-03-29"
-tags: ["journal", "trust", "publishingi", "authorship"]
-doi: 
-    live: ""
-    preprint: ""
-    journal: ""
+author: Michael Rowe
+status: emerging
+created: 2025-03-29
+tags: ["journal", "trust", "authorship"]
+doi:
+  live: ""
+  preprint: ""
+  journal: ""
 ---
 # From journals to networks: How transparency transforms trust in scholarship
 
-::: tip Article information
+::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: March 29, 2025
 - **Keywords**: emergent scholarship, journals, publishing, transparency, trust
@@ -43,7 +43,7 @@ Publishers emerged as essential intermediaries who could manage reproduction, di
 
 This system effectively solved problems of its time. Physical journals created permanent, unchangeable records. Editorial selection helped scholars navigate information overload. Peer review, though imperfect, provided quality assurance. Citation tracking created networks of related knowledge.
 
-Yet these solutions also introduced constraints that persist even as technology has transformed what's possible (*For a detailed discussion of how AI might support the transformation of academic journals, see [Publishing with purpose](./publishing-with-purpose.md)*). The closed, opaque nature of traditional peer review obscures the developmental dialogue that shapes ideas. The emphasis on finished products neglects the evolving nature of knowledge. The privileging of established voices can marginalise new perspectives. And perhaps most critically, the outsourcing of trust to commercial entities has created misaligned incentives between publishing profit and scholarly progress.
+Yet these solutions also introduced constraints that persist even as technology has transformed what's possible (*for a detailed discussion of how AI might support the transformation of academic journals, see [Publishing with purpose](./publishing-with-purpose.md)*). The closed, opaque nature of traditional peer review obscures the developmental dialogue that shapes ideas. The emphasis on finished products neglects the evolving nature of knowledge. The privileging of established voices can marginalise new perspectives. And perhaps most critically, the outsourcing of trust to commercial entities has created misaligned incentives between publishing profit and scholarly progress.
 
 ## Valuable elements worth preserving
 

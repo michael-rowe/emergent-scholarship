@@ -9,7 +9,6 @@ doi:
     preprint: "10.5281/zenodo.15106214"
     journal: ""
 ---
-
 # A theoretical framework for integrating AI into health professions education
 
 ::: tip Metadata
