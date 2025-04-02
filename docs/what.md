@@ -1,4 +1,4 @@
-# What is Emergent Scholarship?
+# What is emergent scholarship?
 
 Emergent scholarship is a forward-looking, interdisciplinary approach to knowledge creation and sharing that embraces complexity, connection, collaboration, adaptation, and public engagement. It represents an evolution of scholarly practice for our interconnected world, recognising that knowledge doesn't just flow linearly from experts to audiences but emerges dynamically from networks of diverse participants, technologies, and ideas.
 

@@ -16,8 +16,10 @@ export default defineConfig({
         text: '',
         items: [
           { text: 'What is it?', link: '/what.md' },
-          { text: 'Why does it matter?', link: '/why.md' },
-          { text: 'Principles' , link: '/principles.md'}
+          { text: 'What problem does it address?', link: '/problems.md' },
+          { text: 'Why does it matter?' , link: '/why.md'}, 
+          { text: 'How is this different?' , link: '/difference.md'}, 
+          { text: 'We already do this' , link: 'exists.md' }
         ]
       }
     ],

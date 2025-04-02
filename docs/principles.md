@@ -1,6 +1,10 @@
-# Emergent Scholarship principles
+# Emergent scholarship principles
 
 Emergent scholarship doesn't reject traditional academic values like rigour, evidence, and expertise. Instead, it reimagines how these values can be realised in ways that are more connected, open, sustainable, and responsive to complex real-world challenges. It represents an evolution of scholarship appropriate for our increasingly complex, interconnected world.
+
+<figure>
+  <img src="/media/emergent-scholarship-principles.png" alt="Principles of emergent scholarship" style="width: 700px; ">
+</figure>
 
 ## Knowledge through connection
 
@@ -9,7 +13,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Understanding develops through both formal and informal exchanges across networks
 - Collective intelligence surpasses individual efforts in creating robust knowledge
 
-## Information Flow through Networks
+## Information flow through networks
 
 - Information exists in dynamic motion rather than static repositories
 - Networks form the fundamental infrastructure of contemporary knowledge systems
@@ -17,7 +21,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Network structures shape what knowledge becomes visible and valued
 - Information gains meaning and relevance through its movement patterns
 
-## Identity through Community
+## Identity through community
 
 - Professional identity forms through participation in communities rather than individual achievement alone
 - Communities provide contexts for meaning-making and knowledge validation
@@ -25,7 +29,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Multiple community memberships create richness and complexity in professional identity
 - Trust relationships form the foundation for knowledge development and innovation
 
-## Innovation through Openness
+## Innovation through openness
 
 - Novel insights emerge when ideas can flow freely across traditional boundaries
 - Transparency creates conditions for unexpected connections and discoveries
@@ -33,7 +37,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Open environments foster diversity of thought and approach
 - Public engagement enriches scholarly work through diverse perspectives
 
-## Meaning through Medium
+## Meaning through medium
 
 - The form of expression fundamentally shapes how knowledge is understood
 - Different media reveal different aspects of complex phenomena
@@ -41,7 +45,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Formats evolve alongside the knowledge they express
 - Technology transforms rather than merely transmits scholarly expression
 
-## Value through Engagement
+## Value through engagement
 
 - Worth emerges through meaningful interaction with diverse stakeholders
 - Impact manifests across multiple dimensions beyond traditional metrics
@@ -49,7 +53,7 @@ Emergent scholarship doesn't reject traditional academic values like rigour, evi
 - Multiple perspectives are essential in determining what scholarship matters
 - Societal relevance forms a core component of scholarly value
 
-## Sustainability through Ecology
+## Sustainability through ecology
 
 - Scholarship exists within broader social and environmental systems
 - Knowledge creation practices must respect human and planetary limits
