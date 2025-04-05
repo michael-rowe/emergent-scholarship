@@ -7,8 +7,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Notes', link: 'notes' },
       { text: 'About', link: 'about' },
-      { text: 'Essays', link: 'essays' },
+      { text: 'Essays', link: 'essays' }
     ],
 
     sidebar: [

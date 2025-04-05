@@ -22,12 +22,12 @@ The use of generative AI in the scientific publishing system offers opportunitie
 
 ## From journals to networks: How transparency transforms trust in scholarship
 
-The essay critiques the academic system where trust is outsourced to publishers and journals, proposing instead a framework based on visible scholarly processes rather than institutional proxies. It advocates for a three-tier technical approach that maintains compatibility with traditional structures while creating new possibilities: a live working environment, preprints with DOIs, and journal publication. While offering benefits like greater autonomy and transparency, this approach also presents challenges including technical barriers, potential fragmentation, and resource demands.
+The essay critiques the academic system where trust is outsourced to publishers and journals, proposing instead a framework based on visible scholarly processes rather than institutional proxies. It advocates for a three-tier technical approach that maintains compatibility with traditional structures while creating nehttps://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repositoryhttps://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repositoryw possibilities: a live working environment, preprints with DOIs, and journal publication. While offering benefits like greater autonomy and transparency, this approach also presents challenges including technical barriers, potential fragmentation, and resource demands.
 
 [Read more](/essays/transparency-transforms-trust.md)
 
 ## Technological nature of language and the implications for health professions education
 
-[Read more](/essays/technological-nature-of-language.md)
-
 This essay examines language as humanity's original general purpose technology and presents large language models as a significant evolution in this continuum rather than merely new digital tools. It explores how LLMs extend language's core capabilities through scale, synthesis, adaptability, and multimodality, which is especially relevant to health professions education where students struggle with information overload and preparation for complex practice environments. By framing LLMs as an evolution of our fundamental technology, the essay suggests shifting educational focus to clinical reasoning and adaptive expertise, developing healthcare-specific AI literacy, and reimagining assessment approaches—offering a balanced perspective between uncritical enthusiasm and reflexive resistance.
+
+[Read more](/essays/technological-nature-of-language.md)

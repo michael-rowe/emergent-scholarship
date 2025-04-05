@@ -2,7 +2,7 @@
 
 Emergent scholarship matters because our most pressing challenges—from climate change to healthcare transformation to the societal impact of AI—require approaches to knowledge creation that are as complex, adaptive, and interconnected as the problems themselves. By reimagining scholarship as an emergent process that embraces complexity, fosters public engagement, and transcends traditional boundaries, we can:
 
-- Design collaborative learning environments wehre students and teachers co-create understanding
+- Design collaborative learning environments where students and teachers co-create understanding
 - Create more responsive and relevant knowledge that addresses real-world problems
 - Build adaptive capacity to respond to rapidly changing contexts
 - Foster inclusive participation from diverse voices and perspectives

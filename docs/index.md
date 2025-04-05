@@ -31,6 +31,8 @@ features:
   <figcaption>Figure: Principles of emergent scholarship</figcaption>
 </figure>
 
+<div class="spacer"></div>
+
 ::: tip Core principles
 
 Emergent scholarship is built on seven interconnected principles:

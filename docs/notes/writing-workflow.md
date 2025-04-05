@@ -1,4 +1,4 @@
-# Writing workflow: Towards an open, collaborative academic writing system
+# Writing in an open, collaborative system
 
 The way we write profoundly shapes what we can say and how we collaborate. Traditional academic writing processes—centred around word processors and email exchanges—both reflect and reinforce closed, hierarchical knowledge systems. This new academic writing workflow isn't only a technical choice; it's a deliberate effort to create bridges between how we talk about scholarship and how we actually practise it.
 

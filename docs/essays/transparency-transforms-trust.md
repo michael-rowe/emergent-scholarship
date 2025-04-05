@@ -87,6 +87,8 @@ However, by moving from external proxies to "in-housed" trust mechanisms, we gai
 
 **Diverse forms of contribution**. Traditional publishing models privilege certain forms of scholarship while marginalising others. By reclaiming control of trust mechanisms, scholarly communities can create systems that recognise and reward diverse forms of contribution, from traditional research articles to datasets, software, educational resources, and public engagement.
 
+## Challenges and risks
+
 However, this reclamation of trust mechanisms comes with significant challenges and risks:
 
 **Technical barriers to participation**. As trust mechanisms become more technically sophisticated, they may create new barriers to participation, potentially excluding scholars without technical expertise or institutional support. This could inadvertently reinforce existing power structures even while attempting to dismantle them.
@@ -96,6 +98,8 @@ However, this reclamation of trust mechanisms comes with significant challenges 
 **Resource demands**. Traditional publishing outsources not only trust but labor—the work of managing peer review, copyediting, formatting, and distribution. Bringing these processes under scholarly control requires redistributing this labor, potentially adding to the burdens of already-taxed academics.
 
 **Credibility in traditional contexts**. Academic careers remain largely structured around traditional publishing metrics. Scholars embracing alternative trust mechanisms may face challenges in promotion, tenure, and grant applications if their work doesn't translate easily into conventional metrics.
+
+## Technology to increase trust
 
 The technical infrastructure I propose helps mitigate these risks through several key features:
 
