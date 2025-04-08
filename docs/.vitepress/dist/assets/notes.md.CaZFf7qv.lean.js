@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as a,ae as r}from"./chunks/framework.Dh1jimFm.js";const d=JSON.parse('{"title":"Project notes","description":"","frontmatter":{},"headers":[],"relativePath":"notes.md","filePath":"notes.md"}'),n={name:"notes.md"};function s(i,e,l,c,_,p){return a(),o("div",null,e[0]||(e[0]=[r("",2)]))}const f=t(n,[["render",s]]);export{d as __pageData,f as default};
