@@ -17,7 +17,7 @@ doi:
 - **Created**: March 27, 2025
 - **Keywords**: artificial intelligence, editor, emergent scholarship, generative AI, LLM, journal, publication, research
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **DOI**: 
+- **DOI**: [Why no DOI?](/notes/versions.md)
 :::
 
 **Abstract**

@@ -2,6 +2,12 @@
 
 A collection of essays exploring the implications of emergent scholarship across different education and practice contexts.
 
+## Beyond text boxes: Exploring a network-based user interface for AI-supported learning
+
+This essay critiques text-entry interfaces for AI-supported learning, arguing they perpetuate outdated container metaphors that do more to fragment and artificially separate knowledge structures than to connect them. Instead, network-based interfaces using interactive knowledge graphs better reflect how expertise actually develops. In this alternative user interface, AI serves as both conversational partner and network builder, with dialogue embedded within spatial knowledge landscapes rather than isolated chat histories. Features like multimodal nodes, multi-dimensional navigation, and progressive complexity management support integrative thinking. Though implementable with current technologies, the barriers are primarily conceptual—our attachment to container thinking. Network interfaces would better develop the connection-making capabilities that define professional expertise.
+
+[Read more](/essays/beyond-text-boxes.md)
+
 ## The ACADEMIC framework for integrating AI into health professions education
 
 Health professions education faces the dual challenge of information overload and inadequate preparation for complex healthcare environments, while students rapidly adopt AI tools that highlight deficiencies in traditional education. The ACADEMIC framework proposes integrating AI into health professions education by focusing on learning processes rather than outputs, based on theoretical principles across six dimensions of learning interactions. Rather than seeing AI as merely a content delivery tool or threat to academic integrity, the framework positions it as a learning partner that can address persistent challenges and better prepare students for the complexity and collaborative nature of modern healthcare practice.

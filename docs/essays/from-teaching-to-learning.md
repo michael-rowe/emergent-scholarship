@@ -1,5 +1,5 @@
 ---
-title: "From teaching to learning"
+title: "From teaching to learning: How emergent scholarship disrupts traditional education hieararchies"
 author: Michael Rowe
 status: emerging
 created: 2025-04-01
@@ -16,7 +16,7 @@ doi:
 - **Created**: April 01, 2025
 - **Keywords**: emergent scholarship, higher education learning, teaching, university
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **DOI**: 
+- **DOI**: [Why no DOI?](/notes/versions.md)
 :::
 
 ## Abstract
