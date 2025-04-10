@@ -21,6 +21,7 @@ doi:
 
 There are many ideas that inspired this essay, but these are the ones that most clearly stand out for me:
 
+- Dave Cormier's [Rhizomatic Education: Community as Curriculum](https://eric.ed.gov/?id=EJ840362) (2008)
 - [Design principles](https://www.mrowe.co.za/blog/2015/09/design-principles-for-blended-learning-environments-a-presentation/) for blended learning environments that I developed as part of my PhD (2013) 
 - Sean Michael Morris & Jesse Stommel, [The Course as Container: Distributed Learning and the MOOC](https://link.springer.com/chapter/10.1007/978-3-319-10482-9_10), in Layne, P. C., & Lake, P. (2015). Global innovation of teaching and learning in higher education: Transgressing boundaries
 - Stephen Downes' (2015) [Design Elements in a Personal Learning Environment](https://www.downes.ca/files/slides/2015_03_05_-_Downes_Riyadh_a.pdf)

@@ -10,12 +10,12 @@ Here's how my academic writing and publication process works:
 
 1. [Markdown](https://en.wikipedia.org/wiki/Markdown) for writing: Plain text with simple formatting that focuses on content rather than presentation (I do most of my writing in [Obsidian](https://obsidian.md/))
 2. [Git](https://en.wikipedia.org/wiki/Git)/[GitHub](https://github.com/) for versioning and collaboration: Version control with transparent history, public engagement, and the possibility of peer review
-3. [VitePress](https://vitepress.dev/) for presentation: Automated conversion of markdown to a readable website
-4. [Netlify](https://www.netlify.com/) for deployment: Automated publishing of the "live" version of the document
+3. [VitePress](https://vitepress.dev/) for presentation: Automated conversion of markdown to a readable website (this site is built with Vitepress)
+4. [Netlify](https://www.netlify.com/) for deployment: Automated publishing of the "live" version of the document, initially with no DOI
 5. Manual [Zenodo](https://zenodo.org/) submission: For creating [DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier) and permanent snapshots through preprints (I will also start adding the preprints to the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive) for long-term archiving)
 6. Journal submission: If I decide to, I can submit the preprint to a traditional academic journal for a more traditional publication
 
-This system creates live documents that evolve transparently while maintaining academically citable versions. It's not just about the technology—it's about putting emergent scholarship principles into practice through the very medium we use to communicate.
+This system enables me to rapidly create and publish live documents that evolve transparently while maintaining academically citable versions. It's not just about the technology—it's about putting emergent scholarship principles into practice through the media I use to share ideas.
 
 ## Emgergent scholarship principles embodied
 
