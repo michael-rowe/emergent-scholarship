@@ -1,0 +1,17 @@
+Here are several conceptually similar highlights from different documents, echoing Zvi Mowshowitz’s critique of the education system's reliance on “forced fake work,” frustrations of educators, and the obsolescence of traditional schooling:
+
+1. Ivan Illich argues for a shift away from systems that compel students to learn through institutional authority, suggesting "that we can depend on self-motivated learning instead of employing teachers to bribe or compel the student to find time and the will to learn," and that education should offer "new links to the world instead of continuing to funnel all educational programs through the teacher" [Illich on self-motivated learning](https://readwise.io/bookreview/4459739/?highlight=84509067).
+
+2. In another highlight reflecting both student and teacher disillusionment, Illich describes how "students submit to certified teachers in order to obtain certificates of their own; both are frustrated...The same people, paradoxically, when pressed to specify how they acquired what they know and value, will readily admit that they learned it more often outside than inside school" [Illich on school frustration and non-school learning](https://readwise.io/bookreview/4459739/?highlight=84509068).
+
+3. John Holt, cited in a piece by Jesse Stommel, critiques the authoritarian nature of grading and school competition: "Agency, dialogue, self-actualization, and social justice are not possible in a hierarchical system that pits teachers against students and encourages competition by ranking students against one another" [Holt on the dangers of competitive schooling](https://readwise.io/bookreview/4459733/?highlight=84509050).
+
+4. David notes the futility of many school assignments: "They’re assignments that add no value to the world – after a student spends three hours creating it, a teacher spends 30 minutes grading it, and then the student throws it away. Not only do these assignments add no value to the world, they actually suck value out of the world" [On valueless assignments](https://readwise.io/bookreview/14915625/?highlight=313524572).
+
+5. A related critique from Adam Mastroianni asks, "Why do we have an education system where it’s reasonable for students to debase themselves in exchange for made-up points?" [Mastroianni on the pointlessness of school metrics](https://readwise.io/bookreview/30565432/?highlight=570386115).
+
+6. John Gatto’s extensive list (summarized in Ovens et al.) outlines how school prevents real learning, including teaching "good students [to] wait for a teacher to tell them what to do…Curiosity has no important place, only conformity. Bad kids fight this..."—suggesting school encourages performative work and suppresses genuine inquiry [Gatto on enforced conformity and fake engagement](https://readwise.io/bookreview/11940893/?highlight=250770463).
+
+7. Paul Ramsden observes, "It looks more and more bothered about dispensing education efficiently than questioning whether it’s doing the right thing. Challenging students to think...is struggling against the twin tides of consumer satisfaction and pressure to produce obedient employees" [Ramsden on the aimlessness and misdirection of schooling](https://readwise.io/bookreview/18374590/?highlight=374503362).
+
+These highlights share critical perspectives on forced compliance, performative assignments, and the undermining of meaningful teaching and learning, paralleling Mowshowitz’s themes of "fake work" and the erosion of teacher authority by more effective systems or technologies.

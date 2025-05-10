@@ -1,0 +1,19 @@
+Here are several conceptually similar highlights from different documents discussing how automation and AI threaten the signaling value and practical worth of educational credentials, especially degrees:
+
+- Matthew Yglesias observes that "the same AI that can pass your college classes for you is radically devaluing the skills that a college degree ... used to convey in the market," further warning that the true challenge is AI "undermining the financial value of the degree!" ([link](https://readwise.io/bookreview/51285346/?highlight=887808542)). This echoes the concern that degrees lose signaling power when AI can easily substitute for learning or assessment.
+
+- Jim Dickinson notes that if higher education continues relying on unsupervised digital assessments, "there’s no way to prove they made it, and... it’s increasingly clear that it doesn’t necessarily signal that they’ve learned anything," causing employers and the public to lose trust in what a degree means ([link](https://readwise.io/bookreview/33387260/?highlight=613567057)). The risk is a collapse of degree value as a reliable signal.
+
+- From "How to Make a 100% Accurate AI Detector – Or, Why We Need Specificity in Discussions of AI Detector Accuracy," the author poses, "What is the value of assessment in a world where machines autonomously define and complete their own tasks?" ([link](https://readwise.io/bookreview/45677740/?highlight=809869364)). This highlights the core issue of credentials losing meaning if machine work can't be distinguished from human achievement.
+
+- Donald Clark points out that if GPT-4 can reliably perform at undergraduate exam levels, "Do we really need to put hundreds of thousands of young people through a full degree in this subject... when many of the tasks are likely to be seriously affected by AI?" ([link](https://readwise.io/bookreview/41846234/?highlight=739116430)). This questions whether the economic and signaling value of a degree remains when AI can substitute for learned skills.
+
+- Bert Verhoeven frames this in institutional terms: "To adapt, universities must offer value propositions that extend beyond knowledge transfer and accredited awards" ([link](https://readwise.io/bookreview/41503725/?highlight=733995941)). The implication is that as AI erodes the traditional value of credentials, higher education must redefine what unique value it provides.
+
+- Miriam Reynoldson also captures this critique of standards, stating, "Students know that Ps get degrees – and so do employers... allowing students to pass at 50% sends a very dubious message about the capabilities of graduates" ([link](https://readwise.io/bookreview/49326241/?highlight=859413124)), reflecting how employer skepticism undercuts the signaling function.
+
+- "THE Campus" raises the concern directly: rapid adoption of language models "might undermine the accreditation function of universities, which is essentially what people pay for. If students can use language models to complete assessment tasks, and the value of the degree drops as a result, what would students be paying for?" ([link](https://readwise.io/bookreview/26832764/?highlight=514675738)).
+
+- Andrew Maynard asks, "Where does the value of learning and education lie when AI can problem-solve faster and better than any one person, or any collective of people?" ([link](https://readwise.io/bookreview/50653806/?highlight=878985461)), emphasizing the broad disruption of value and signaling.
+
+Collectively, these highlights illustrate a widespread anxiety: if AI can easily substitute for student work or even outperform human learning, the degree as a market signal risks rapid devaluation—unless institutions discover and impart new forms of value that employers will continue to recognize.

@@ -1,0 +1,19 @@
+Here are some conceptually similar highlights from different documents that echo the sense that institutions—especially universities and similar traditional bodies—are aware of, or complicit in, their own decline, and lack the will or ability to defend themselves robustly:
+
+1. In discussing the failure of universities to react meaningfully, Matthew Kirschenbaum observes that educational institutions produce policy responses that are "proof of concept of a continuous organizational strategy simultaneously anathema to the work of the university while scarily sanguine about the prospects for bringing the medieval institution into line with the data-drawn vectors of twenty-first-century capital"—suggesting a kind of rote performance in the face of fundamental decline rather than real engagement or defense ([AI and the University as a Service](https://readwise.io/bookreview/45371870/?highlight=804713072)).
+
+2. The article “Distill Hiatus” notes, "When a structure turns a public good into an appearance of corruption, it suggests it might not be such a good structure." This gets at the sense that outward maintenance masks inner rot, and those inside often sense it ([Distill Hiatus](https://readwise.io/bookreview/27465282/?highlight=525474406)).
+
+3. Peter M. Senge captures the moment of institutional exhaustion and transition: "Today, many things indicate that we are going through a transitional period, when it seems that something is on the way out and something else is painfully being born. It is as if something were crumbling, decaying and exhausting itself, while something else, still indistinct, were arising from the rubble" ([The Fifth Discipline](https://readwise.io/bookreview/17146779/?highlight=352597795)).
+
+4. In an analysis of the peer review system, there’s the diagnosis that "solutions aimed at changing our personal motivations seem to miss the point that we're all operating against a set of incentive structures imposed on us by our universities (and really a set of standards developed and set by elite institutions...)." This highlights the structural nature of decline and the inability or unwillingness of institutions to address foundational problems ([Seems like the peer review system has given up the ghost](https://readwise.io/bookreview/13793127/?highlight=291999891)).
+
+5. A parallel from Donald A. Schon: "In these years, both professional and layman have suffered through public events which have undermined belief in the competence of expertise and brought the legitimacy of the professions into serious question" ([The Reflective Practitioner](https://readwise.io/bookreview/12015598/?highlight=252885278)).
+
+6. Another similar notion: “Institutions like schooling and medicine had a tendency to end up working in ways that reversed their original purpose,” signaling an internal awareness of mission drift or deadening ([Ivan Illich: deschooling, conviviality and lifelong learning](https://readwise.io/bookreview/42261422/?highlight=745010060)).
+
+7. Senge again, on slow institutional failure: "the primary threats to our survival, both of our organizations and of our societies, come not from sudden events but from slow, gradual processes: the arms race, environmental decay, the erosion of a society’s public education system" ([The Fifth Discipline](https://readwise.io/bookreview/17146779/?highlight=386647799)).
+
+8. Similarly, a highlight from Donald Clark notes, “Institutions will try to preserve the problem to which they are a solution” ([AI Is a Provocation](https://readwise.io/bookreview/43929188/?highlight=783306180)), echoing the corpse-defending image with the idea of self-preservation despite obsolescence.
+
+These highlights across documents collectively reflect the concept of exhausted or hollowed-out institutions, aware of their own obsolescence, and unable or unwilling to marshal a genuine defense.
