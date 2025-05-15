@@ -28,7 +28,7 @@ The use of generative AI in the scientific publishing system offers opportunitie
 
 ## From journals to networks: How transparency transforms trust in scholarship
 
-The essay critiques the academic system where trust is outsourced to publishers and journals, proposing instead a framework based on visible scholarly processes rather than institutional proxies. It advocates for a three-tier technical approach that maintains compatibility with traditional structures while creating nehttps://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repositoryhttps://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repositoryw possibilities: a live working environment, preprints with DOIs, and journal publication. While offering benefits like greater autonomy and transparency, this approach also presents challenges including technical barriers, potential fragmentation, and resource demands.
+The essay critiques the academic system where trust is outsourced to publishers and journals, proposing instead a framework based on visible scholarly processes rather than institutional proxies. It advocates for a three-tier technical approach that maintains compatibility with traditional structures while creating new possibilities: a live working environment, preprints with DOIs, and journal publication. While offering benefits like greater autonomy and transparency, this approach also presents challenges including technical barriers, potential fragmentation, and resource demands.
 
 [Read more](/essays/transparency-transforms-trust.md)
 
