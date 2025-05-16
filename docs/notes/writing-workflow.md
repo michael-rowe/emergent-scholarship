@@ -1,6 +1,6 @@
 # Writing in an open, collaborative system
 
-The way we write profoundly shapes what we can say and how we collaborate. Traditional academic writing processes—centred around word processors and email exchanges—both reflect and reinforce closed, hierarchical knowledge systems. This new academic writing workflow isn't only a technical choice; it's a deliberate effort to create bridges between how we talk about scholarship and how we actually practise it.
+The way we write profoundly shapes what we can say and how we collaborate. Traditional academic writing processes—centred around journals and publishers—both reflect and reinforce closed, hierarchical knowledge systems. This new academic writing workflow isn't only a technical choice; it's a deliberate effort to create bridges between how we talk about scholarship and how we actually practise it.
 
 This workflow enables a low-cost, near frictionless method for open scholarly practice and rapid dissemination of academic work, while also directly challenging the [publishing industry's control](/essays/transparency-transforms-trust.md) over trust and publication. By managing our own means of creation, production, distribution, and archival channels, we shift power back to scholars and communities, making knowledge more accessible and allowing for more responsive, evolving scholarship.
 
