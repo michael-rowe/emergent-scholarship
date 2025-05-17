@@ -17,7 +17,7 @@ hero:
 
 features:
   - title: Connection
-    details: Knowledge emerges at the intersections of ideas, disciplines, and people, creating a networked ecosystem where understanding develops through relationships rather than isolation
+    details: Knowledge emerges at the intersections of ideas, disciplines, and people, creating a networked ecosystem where understanding develops through relationships rather than in isolation
   - title: Adaptation
     details: Scholarly practices must evolve to thrive in complex, changing environments, embracing flexibility and responsiveness over rigid structures and predetermined outcomes
   - title: Ecology

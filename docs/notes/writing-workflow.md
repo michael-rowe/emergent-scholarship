@@ -37,7 +37,7 @@ While this writing process enables a more open and collaborative practice, it's 
 
 - Open repositories allow anyone to fork, adapt, and build upon work (I recognise that this is quite technical and possibly out of reach for many people who don't have the time or inclination to adapt to new processes)
 - Automated publishing ensures ideas move freely and rapidly
-- Multiple distribution formats (web, PDF, DOI) enable content to flow across contexts
+- Multiple distribution formats (web / HTML, journal / PDF, and at some point, other formats) enable content to more easily flow across contexts
 
 **Identity through community**
 
