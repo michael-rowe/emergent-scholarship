@@ -14,6 +14,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: March 29, 2025
+- **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [10.5281/zenodo.15106214](https://zenodo.org/records/15106214)

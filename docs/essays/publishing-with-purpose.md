@@ -14,7 +14,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: January 27, 2025
-- **Updated**: March 29, 2025
+- **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: editor, generative AI, journal, research, publication
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Preprint DOI**: [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
