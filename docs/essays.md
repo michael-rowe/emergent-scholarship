@@ -2,6 +2,12 @@
 
 A collection of essays exploring the implications of emergent scholarship across different education and practice contexts.
 
+## Context sovereignty in AI-supported learning
+
+Current AI education discourse focuses on prompting strategies, overlooking the dynamic and relational nature of context more broadly. **Context sovereignty** offers a framework based on three principles: persistent understanding, individual agency, and cognitive extension. This enables AI systems to adapt to human cognitive patterns rather than requiring human adaptation, creating genuine cognitive partnerships whilst preserving privacy and human agency. The framework transforms personalised learning from content delivery optimisation to collaborative intelligence, addresses concerns about echo chambers through sophisticated contextual challenge, and suggests assessment focusing on collaborative problem-solving rather than isolated performance.
+
+[Read more](/essays/context-sovereignty.md)
+
 ## Beyond text boxes: Exploring a network-based user interface for AI-supported learning
 
 This essay critiques text-entry interfaces for AI-supported learning, arguing they perpetuate outdated container metaphors that do more to fragment and artificially separate knowledge structures than to connect them. Instead, network-based interfaces using interactive knowledge graphs better reflect how expertise actually develops. In this alternative user interface, AI serves as both conversational partner and network builder, with dialogue embedded within spatial knowledge landscapes rather than isolated chat histories. Features like multimodal nodes, multi-dimensional navigation, and progressive complexity management support integrative thinking. Though implementable with current technologies, the barriers are primarily conceptual—our attachment to container thinking. Network interfaces would better develop the connection-making capabilities that define professional expertise.
