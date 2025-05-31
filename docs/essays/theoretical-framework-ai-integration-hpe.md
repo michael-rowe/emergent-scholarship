@@ -18,9 +18,14 @@ doi:
 - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [10.5281/zenodo.15106214](https://zenodo.org/records/15106214)
+- **Peer reviewed**: No
 :::
 
+::: warning
 I am in the process of updating the data analysis section of this essay. I suspect that the final outcomes (i.e. the principles) will remain unchanged, but I mention it here for transparency.
+:::
+
+---
 
 **Abstract**
 

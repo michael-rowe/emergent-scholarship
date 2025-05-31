@@ -18,6 +18,7 @@ doi:
 - **Keywords**: emergent scholarship, journals, publishing, transparency, trust
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [Why no DOI?](/notes/versions.md)
+- **Peer reviewed**: No
 :::
 
 **Abstract**

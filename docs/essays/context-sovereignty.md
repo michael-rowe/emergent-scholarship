@@ -18,6 +18,7 @@ doi:
 - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personalised learning
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [Why no DOI?](/notes/versions.md)
+- **Peer reviewed**: No
 :::
 
 ## Abstract
