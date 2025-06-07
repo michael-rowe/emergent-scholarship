@@ -1,5 +1,5 @@
 ---
-title: "AI and the Learning Alignment Problem"
+title: "The learning alignment problem: AI and the loss of control in higher education"
 author: Michael Rowe
 status: emerging
 created: 2025-06-05
@@ -10,7 +10,7 @@ doi:
   journal: ""
 
 ---
-# AI and the learning alignment problem
+# The learning alignment problem: AI and the loss of control in higher education
 
   ::: tip **Metadata**
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
