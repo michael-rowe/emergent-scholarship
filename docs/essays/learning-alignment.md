@@ -1,5 +1,5 @@
 ---
-title: "The learning alignment problem: AI and the loss of control in higher education"
+title: "AI and the Learning Alignment Problem"
 author: Michael Rowe
 status: emerging
 created: 2025-06-05
