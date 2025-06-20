@@ -3,3 +3,9 @@
 
 # VitePress cache
 .vitepress/cache
+
+# project notes
+/notes
+
+# Scholar (book development)
+/book

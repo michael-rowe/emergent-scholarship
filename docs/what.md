@@ -4,4 +4,4 @@ Emergent scholarship is a forward-looking, interdisciplinary approach to knowled
 
 Rather than rejecting traditional academic values like rigour, evidence, and expertise, emergent scholarship reimagines how these values can be realised in ways that are more connected, open, responsive, and sustainable.
 
-Emergent scholarship is both a process for, and object of, inquiry, which means we can use the [principles of emergent scholarship](principles.md) to study emergent scholarship.
+Emergent scholarship is both a process for, and object of, inquiry, which means we can use the [principles of emergent scholarship](principles.md) to explore emergent scholarship.

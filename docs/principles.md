@@ -2,6 +2,8 @@
 
 Emergent scholarship doesn't reject traditional academic values like rigour, evidence, and expertise. Instead, it reimagines how these values can be realised in ways that are more connected, open, sustainable, and responsive to complex real-world challenges. It represents an evolution of scholarship appropriate for our increasingly complex, interconnected world.
 
+You can think of the principles as a toolset for navigating the complexities of modern scholarship, where knowledge is not just a product but a process that thrives on interaction, diversity, and adaptability.
+
 <figure>
   <img src="/media/emergent-scholarship-principles.png" alt="Principles of emergent scholarship" style="width: 700px; ">
 </figure>
