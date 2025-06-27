@@ -3,7 +3,15 @@ title: "Beyond text boxes: Exploring a network-based user interface for AI-suppo
 author: Michael Rowe
 status: emerging
 created: 2025-04-08
-tags: ["emergent scholarship", "knowledge", "learning", "professional education", "university", "user interface"]
+tags:
+  - knowledge
+  - learning
+  - professional
+  - education
+  - higher-education
+  - user-interface
+  - emergent-scholarship
+  - scholarship
 doi:
   live: ""
   preprint: ""

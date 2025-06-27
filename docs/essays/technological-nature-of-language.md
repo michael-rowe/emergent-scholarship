@@ -3,12 +3,11 @@ title: "Technological nature of language and the implications for health profess
 author: "Michael Rowe"
 status: "coalescing"
 created: "2025-03-28"
-tags: ["language", "technology", "LLMs", "health professions education", "general purpose technology"]
+tags: ["language", "technology", "language-model", "health professions education", "general purpose technology"]
 doi: 
   live: ""
   preprint: ""
   journal: ""
-
 ---
 # Technological nature of language and the implications for health professions education
 

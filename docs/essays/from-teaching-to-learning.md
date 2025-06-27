@@ -3,7 +3,11 @@ title: "From teaching to learning: How emergent scholarship disrupts traditional
 author: Michael Rowe
 status: emerging
 created: 2025-04-01
-tags: ["emergent scholarship", "higher education", "teaching", "learning", "university"]
+tags:
+  - teaching
+  - learning
+  - higher-education
+  - emergent-scholarship
 doi:
   live: ""
   preprint: ""

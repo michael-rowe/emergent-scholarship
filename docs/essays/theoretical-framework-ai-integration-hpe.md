@@ -2,12 +2,21 @@
 title: A theoretical framework for integrating AI into health professions education
 author: Michael Rowe
 created: 2025-03-22
-tags: ["artificial intelligence", "complexity", "connectivism", "critical pedagogy", "emergent scholarship", "health professions education", "learning theory", "social constructivism"]
+tags:
+  - complexity
+  - connectivism
+  - social
+  - constructivism
+  - artificial-intelligence
+  - critical-pedagogy
+  - health-professions-education
+  - learning-theory
+  - emergent-scholarship
 status: established
-doi: 
-    live: ""
-    preprint: "10.5281/zenodo.15106214"
-    journal: ""
+doi:
+  live: ""
+  preprint: 10.5281/zenodo.15106214
+  journal: ""
 ---
 # A theoretical framework for integrating AI into health professions education
 
