@@ -109,7 +109,7 @@ AI response quality remains constrained by users' context curation capabilities,
 
 Concerns about increased AI interaction complexity must be weighed against current cognitive burden of constant re-contextualisation. Context sovereignty trades episodic orientation overhead for persistent cognitive partnership development becoming more valuable over time, representing shift from immediate convenience to long-term capability development, acknowledging meaningful learning partnerships require investment rather than automatic emergence from casual interaction.
 
-%%There's a significant piece of work that needs to be done, addressing the *how* of this process.%%
+<!--There's a significant piece of work that needs to be done, addressing the how of this process.-->
 
 ## Implications of context sovereignty for learning
 
