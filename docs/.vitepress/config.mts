@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/emergent-scholarship/', 
   title: "Emergent Scholarship",
   description: "Exploring an alternative approach to scholarship",
   themeConfig: {

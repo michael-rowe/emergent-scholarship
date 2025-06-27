@@ -1,12 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
   name: "Emergent scholarship"
   text: 
-  tagline : |
-    A framework for scholarly engagement in a complex world
+  tagline : "A framework for scholarly engagement in a complex world"
   actions:
     - theme: brand
       text: Principles
