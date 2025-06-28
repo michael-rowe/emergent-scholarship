@@ -17,7 +17,7 @@ tags:
   - personal-learning
 doi:
   live: ""
-  preprint: ""
+  preprint: "https://zenodo.org/records/15762589"
   journal: ""
 ---
 # Context engineering for AI-supported learning: A human-centred approach
@@ -30,7 +30,7 @@ doi:
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **DOI**: [Why no DOI?](/notes/versions.md)
+- **DOI**: [10.5281/zenodo.15762589](https://zenodo.org/records/15762589)
 - **Peer reviewed**: No
 :::
 
