@@ -1,0 +1,447 @@
+# .github/workflows/generate-pdf.yml
+name: Generate PDF from Markdown
+
+on:
+  push:
+    paths:
+      - '**/*.md' # Trigger on any markdown file changes
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering
+    inputs:
+      essay_file:
+        description: 'Path to essay file (e.g., essays/emergent-scholarship.md)'
+        required: true
+        type: string
+      version:
+        description: 'Version number (e.g., v0.9)'
+        required: true
+        type: string
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: Check for version 0.9 files
+      id: check-version
+      run: |
+        # Find all changed markdown files with version: 0.9 in frontmatter
+        CHANGED_FILES=""
+        
+        # Get list of changed markdown files
+        if [ "${{ github.event_name }}" = "push" ]; then
+          # For push events, check files changed in the last commit
+          CHANGED_MD_FILES=$(git diff --name-only HEAD~1 HEAD | grep '\.md
+      run: |
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          # Manual trigger
+          ESSAY_FILE="${{ github.event.inputs.essay_file }}"
+          VERSION="${{ github.event.inputs.version }}"
+        else
+          # Automatic trigger - process the first file found with version 0.9
+          ESSAY_FILE=$(echo "${{ steps.check-version.outputs.files_to_process }}" | awk '{print $1}')
+          VERSION="0.9"
+        fi
+        
+        # Get current date
+        CURRENT_DATE=$(date '+%Y-%m-%d')
+        
+        # Extract directory and filename
+        ESSAY_DIR=$(dirname "$ESSAY_FILE")
+        ESSAY_BASENAME=$(basename "$ESSAY_FILE" .md)
+        
+        # Create PDF filename: Rowe-filename_version_YYYY-MM-DD.pdf
+        PDF_FILENAME="Rowe-${ESSAY_BASENAME}_v${VERSION}_${CURRENT_DATE}.pdf"
+        PDF_PATH="${ESSAY_DIR}/${PDF_FILENAME}"
+        
+        echo "essay_file=$ESSAY_FILE" >> $GITHUB_OUTPUT
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "pdf_filename=$PDF_FILENAME" >> $GITHUB_OUTPUT
+        echo "pdf_path=$PDF_PATH" >> $GITHUB_OUTPUT
+        echo "current_date=$CURRENT_DATE" >> $GITHUB_OUTPUT
+        
+    - name: Install pandoc and dependencies
+      if: steps.check-version.outputs.should_generate == 'true'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+        
+    - name: Extract metadata and prepare content
+      if: steps.check-version.outputs.should_generate == 'true'
+      id: extract-content
+      run: |
+        ESSAY_FILE="${{ steps.extract-info.outputs.essay_file }}"
+        
+        # Check if file exists
+        if [ ! -f "$ESSAY_FILE" ]; then
+          echo "Error: Essay file $ESSAY_FILE not found"
+          exit 1
+        fi
+        
+        # Install yq for YAML parsing
+        # sudo snap install yq  # Already installed in check-version step
+        
+        # Extract YAML frontmatter
+        TITLE=$(yq eval '.title // "Untitled"' "$ESSAY_FILE")
+        AUTHOR=$(yq eval '.author // "Author"' "$ESSAY_FILE")
+        ABSTRACT=$(yq eval '.abstract // ""' "$ESSAY_FILE")
+        KEYWORDS=$(yq eval '.keywords // []' "$ESSAY_FILE")
+        DATE=$(yq eval '.date // ""' "$ESSAY_FILE")
+        
+        # Create temporary markdown file with formatted header
+        cat > temp_essay.md << EOF
+---
+title: "$TITLE"
+author: "$AUTHOR"
+date: "${{ steps.extract-info.outputs.current_date }}"
+version: "${{ steps.extract-info.outputs.version }}"
+geometry: margin=1in
+fontsize: 11pt
+linestretch: 1.2
+---
+
+# $TITLE
+
+**Author:** $AUTHOR  
+**Version:** ${{ steps.extract-info.outputs.version }}  
+**Date:** ${{ steps.extract-info.outputs.current_date }}
+
+EOF
+
+        # Add abstract if it exists
+        if [ -n "$ABSTRACT" ]; then
+          cat >> temp_essay.md << EOF
+## Abstract
+
+$ABSTRACT
+
+EOF
+        fi
+        
+        # Add keywords if they exist
+        if [ "$KEYWORDS" != "[]" ] && [ "$KEYWORDS" != "null" ]; then
+          KEYWORDS_STRING=$(echo "$KEYWORDS" | yq eval 'join(", ")' -)
+          cat >> temp_essay.md << EOF
+**Keywords:** $KEYWORDS_STRING
+
+EOF
+        fi
+        
+        # Add a separator before main content
+        echo "---" >> temp_essay.md
+        echo "" >> temp_essay.md
+        
+        # Extract main content (everything after frontmatter)
+        awk '
+        BEGIN { in_frontmatter = 0; frontmatter_count = 0 }
+        /^---$/ { 
+          frontmatter_count++
+          if (frontmatter_count == 1) in_frontmatter = 1
+          else if (frontmatter_count == 2) in_frontmatter = 0
+          next
+        }
+        !in_frontmatter && frontmatter_count >= 2 { print }
+        ' "$ESSAY_FILE" >> temp_essay.md
+        
+        echo "Prepared content for PDF generation"
+        
+    - name: Generate PDF
+      if: steps.check-version.outputs.should_generate == 'true'
+      run: |
+        pandoc temp_essay.md \
+          -o "${{ steps.extract-info.outputs.pdf_path }}" \
+          --pdf-engine=pdflatex \
+          --variable=colorlinks:true \
+          --variable=linkcolor:blue \
+          --variable=urlcolor:blue \
+          --variable=toccolor:gray \
+          --toc \
+          --number-sections
+          
+        echo "✅ PDF generated: ${{ steps.extract-info.outputs.pdf_path }}"
+        
+    - name: Verify PDF was created
+      run: |
+        if [ -f "${{ steps.extract-info.outputs.pdf_path }}" ]; then
+          PDF_SIZE=$(stat -c%s "${{ steps.extract-info.outputs.pdf_path }}")
+          echo "✅ PDF successfully created"
+          echo "📄 File: ${{ steps.extract-info.outputs.pdf_filename }}"
+          echo "📏 Size: ${PDF_SIZE} bytes"
+        else
+          echo "❌ PDF generation failed"
+          exit 1
+        fi
+        
+    - name: Commit PDF to repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add "${{ steps.extract-info.outputs.pdf_path }}"
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Generate PDF: ${{ steps.extract-info.outputs.pdf_filename }}"
+          git push
+          echo "✅ PDF committed and pushed to repository"
+        fi
+        
+    - name: Create summary
+      run: |
+        cat >> $GITHUB_STEP_SUMMARY << EOF
+        # 📄 PDF Generated Successfully
+        
+        **Essay:** ${{ steps.extract-content.outputs.title }}  
+        **Version:** ${{ steps.extract-info.outputs.version }}  
+        **PDF File:** \`${{ steps.extract-info.outputs.pdf_filename }}\`
+        
+        ## File Details
+        - **Location:** \`${{ steps.extract-info.outputs.pdf_path }}\`
+        - **Generated:** ${{ steps.extract-info.outputs.current_date }}
+        - **Source:** \`${{ steps.extract-info.outputs.essay_file }}\`
+        
+        ## PDF Content
+        - Title page with metadata
+        - Table of contents
+        - Abstract (if present)
+        - Keywords (if present)
+        - Full essay content with numbered sections
+        
+        The PDF has been committed to the repository and is ready for download.
+        EOF
+        
+    - name: Clean up temporary files
+      run: |
+        rm -f temp_essay.md || true)
+        else
+          # For manual dispatch, just use the specified file
+          CHANGED_MD_FILES="${{ github.event.inputs.essay_file }}"
+        fi
+        
+        echo "Checking markdown files: $CHANGED_MD_FILES"
+        
+        # Check each file for version: 0.9
+        for file in $CHANGED_MD_FILES; do
+          if [ -f "$file" ]; then
+            # Check if file has version: 0.9 in frontmatter
+            VERSION_CHECK=$(yq eval '.version // ""' "$file" 2>/dev/null || echo "")
+            if [ "$VERSION_CHECK" = "0.9" ] || [ "$VERSION_CHECK" = "v0.9" ]; then
+              if [ -z "$CHANGED_FILES" ]; then
+                CHANGED_FILES="$file"
+              else
+                CHANGED_FILES="$CHANGED_FILES $file"
+              fi
+              echo "Found version 0.9 in: $file"
+            fi
+          fi
+        done
+        
+        if [ -z "$CHANGED_FILES" ]; then
+          echo "No files with version 0.9 found. Skipping PDF generation."
+          echo "should_generate=false" >> $GITHUB_OUTPUT
+        else
+          echo "Files to process: $CHANGED_FILES"
+          echo "should_generate=true" >> $GITHUB_OUTPUT
+          echo "files_to_process=$CHANGED_FILES" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Install dependencies
+      if: steps.check-version.outputs.should_generate == 'true'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+        sudo snap install yq
+        
+    - name: Extract essay information
+      if: steps.check-version.outputs.should_generate == 'true'
+      id: extract-info
+      run: |
+        if [ "${{ github.event_name }}" = "push" ]; then
+          # Extract from tag name: essay-title-v1.0
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          ESSAY_NAME=$(echo $TAG_NAME | sed 's/essay-\(.*\)-v[0-9]\+\.[0-9]\+/\1/')
+          VERSION=$(echo $TAG_NAME | sed 's/essay-.*-\(v[0-9]\+\.[0-9]\+\)/\1/')
+          ESSAY_FILE="essays/${ESSAY_NAME}.md"
+        else
+          # Manual trigger
+          ESSAY_FILE="${{ github.event.inputs.essay_file }}"
+          VERSION="${{ github.event.inputs.version }}"
+          ESSAY_NAME=$(basename "$ESSAY_FILE" .md)
+        fi
+        
+        # Get current date
+        CURRENT_DATE=$(date '+%Y-%m-%d')
+        
+        # Extract directory and filename
+        ESSAY_DIR=$(dirname "$ESSAY_FILE")
+        ESSAY_BASENAME=$(basename "$ESSAY_FILE" .md)
+        
+        # Create PDF filename: Rowe-filename_version_YYYY-MM-DD.pdf
+        PDF_FILENAME="Rowe-${ESSAY_BASENAME}_${VERSION}_${CURRENT_DATE}.pdf"
+        PDF_PATH="${ESSAY_DIR}/${PDF_FILENAME}"
+        
+        echo "essay_file=$ESSAY_FILE" >> $GITHUB_OUTPUT
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "essay_name=$ESSAY_NAME" >> $GITHUB_OUTPUT
+        echo "pdf_filename=$PDF_FILENAME" >> $GITHUB_OUTPUT
+        echo "pdf_path=$PDF_PATH" >> $GITHUB_OUTPUT
+        echo "current_date=$CURRENT_DATE" >> $GITHUB_OUTPUT
+        
+    - name: Install pandoc and dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+        
+    - name: Extract metadata and prepare content
+      id: extract-content
+      run: |
+        ESSAY_FILE="${{ steps.extract-info.outputs.essay_file }}"
+        
+        # Check if file exists
+        if [ ! -f "$ESSAY_FILE" ]; then
+          echo "Error: Essay file $ESSAY_FILE not found"
+          exit 1
+        fi
+        
+        # Install yq for YAML parsing
+        sudo snap install yq
+        
+        # Extract YAML frontmatter
+        TITLE=$(yq eval '.title // "Untitled"' "$ESSAY_FILE")
+        AUTHOR=$(yq eval '.author // "Author"' "$ESSAY_FILE")
+        ABSTRACT=$(yq eval '.abstract // ""' "$ESSAY_FILE")
+        KEYWORDS=$(yq eval '.keywords // []' "$ESSAY_FILE")
+        DATE=$(yq eval '.date // ""' "$ESSAY_FILE")
+        
+        # Create temporary markdown file with formatted header
+        cat > temp_essay.md << EOF
+---
+title: "$TITLE"
+author: "$AUTHOR"
+date: "${{ steps.extract-info.outputs.current_date }}"
+version: "${{ steps.extract-info.outputs.version }}"
+geometry: margin=1in
+fontsize: 11pt
+linestretch: 1.2
+---
+
+# $TITLE
+
+**Author:** $AUTHOR  
+**Version:** ${{ steps.extract-info.outputs.version }}  
+**Date:** ${{ steps.extract-info.outputs.current_date }}
+
+EOF
+
+        # Add abstract if it exists
+        if [ -n "$ABSTRACT" ]; then
+          cat >> temp_essay.md << EOF
+## Abstract
+
+$ABSTRACT
+
+EOF
+        fi
+        
+        # Add keywords if they exist
+        if [ "$KEYWORDS" != "[]" ] && [ "$KEYWORDS" != "null" ]; then
+          KEYWORDS_STRING=$(echo "$KEYWORDS" | yq eval 'join(", ")' -)
+          cat >> temp_essay.md << EOF
+**Keywords:** $KEYWORDS_STRING
+
+EOF
+        fi
+        
+        # Add a separator before main content
+        echo "---" >> temp_essay.md
+        echo "" >> temp_essay.md
+        
+        # Extract main content (everything after frontmatter)
+        awk '
+        BEGIN { in_frontmatter = 0; frontmatter_count = 0 }
+        /^---$/ { 
+          frontmatter_count++
+          if (frontmatter_count == 1) in_frontmatter = 1
+          else if (frontmatter_count == 2) in_frontmatter = 0
+          next
+        }
+        !in_frontmatter && frontmatter_count >= 2 { print }
+        ' "$ESSAY_FILE" >> temp_essay.md
+        
+        echo "Prepared content for PDF generation"
+        
+    - name: Generate PDF
+      run: |
+        pandoc temp_essay.md \
+          -o "${{ steps.extract-info.outputs.pdf_path }}" \
+          --pdf-engine=pdflatex \
+          --variable=colorlinks:true \
+          --variable=linkcolor:blue \
+          --variable=urlcolor:blue \
+          --variable=toccolor:gray \
+          --toc \
+          --number-sections
+          
+        echo "✅ PDF generated: ${{ steps.extract-info.outputs.pdf_path }}"
+        
+    - name: Verify PDF was created
+      run: |
+        if [ -f "${{ steps.extract-info.outputs.pdf_path }}" ]; then
+          PDF_SIZE=$(stat -c%s "${{ steps.extract-info.outputs.pdf_path }}")
+          echo "✅ PDF successfully created"
+          echo "📄 File: ${{ steps.extract-info.outputs.pdf_filename }}"
+          echo "📏 Size: ${PDF_SIZE} bytes"
+        else
+          echo "❌ PDF generation failed"
+          exit 1
+        fi
+        
+    - name: Commit PDF to repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add "${{ steps.extract-info.outputs.pdf_path }}"
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Generate PDF: ${{ steps.extract-info.outputs.pdf_filename }}"
+          git push
+          echo "✅ PDF committed and pushed to repository"
+        fi
+        
+    - name: Create summary
+      run: |
+        cat >> $GITHUB_STEP_SUMMARY << EOF
+        # 📄 PDF Generated Successfully
+        
+        **Essay:** ${{ steps.extract-content.outputs.title }}  
+        **Version:** ${{ steps.extract-info.outputs.version }}  
+        **PDF File:** \`${{ steps.extract-info.outputs.pdf_filename }}\`
+        
+        ## File Details
+        - **Location:** \`${{ steps.extract-info.outputs.pdf_path }}\`
+        - **Generated:** ${{ steps.extract-info.outputs.current_date }}
+        - **Source:** \`${{ steps.extract-info.outputs.essay_file }}\`
+        
+        ## PDF Content
+        - Title page with metadata
+        - Table of contents
+        - Abstract (if present)
+        - Keywords (if present)
+        - Full essay content with numbered sections
+        
+        The PDF has been committed to the repository and is ready for download.
+        EOF
+        
+    - name: Clean up temporary files
+      run: |
+        rm -f temp_essay.md
