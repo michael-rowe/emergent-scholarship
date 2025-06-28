@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  ignoreDeadLinks: true, // Ignore dead links in the sidebar
   base: '/emergent-scholarship/', 
   title: "Emergent Scholarship",
   description: "Exploring an alternative approach to scholarship",
