@@ -47,6 +47,8 @@ What distinguishes human language from animal communication is precisely its tec
 
 The philosopher Andy Clark describes language as "the ultimate artifact," noting that "words enable us to objectify our own thoughts and to reason about them." Through this technology, we've extended our individual cognitive capacities far beyond biological limitations, creating what philosopher Daniel Dennett calls the "tools for thinking" that have defined human progress.
 
+test
+
 ## Language as a General Purpose Technology
 
 General purpose technologies (GPTs) share three key characteristics: they have economy-wide effects, applications across numerous domains, and enable complementary innovations. The steam engine, electricity, and computing are commonly cited examples. Language, when viewed through this framework, stands as the original GPT—one that has transformed human civilisation more fundamentally than any subsequent innovation.
