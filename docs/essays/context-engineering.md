@@ -22,9 +22,9 @@ doi:
 ::: tip **Metadata**
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: May 23, 2025
-- **Version**: 0.7
+- **Version**: 0.7 (last updated: Jun 28, 2025)
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
-- **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personalised learning
+- **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **DOI**: [Why no DOI?](/notes/versions.md)
 - **Peer reviewed**: No
