@@ -2,7 +2,7 @@
 title: "Publishing with purpose: Using AI to enhance scientific discourse"
 author: "Michael Rowe"
 tags: ["editor", "generative AI", "journal", "research", "publication"]
-status: "established"
+version: 1.1
 created: "2025-01-27"
 doi: 
   live: ""
@@ -14,6 +14,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: January 27, 2025
+- **Version**: 1.1
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: editor, generative AI, journal, research, publication
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)

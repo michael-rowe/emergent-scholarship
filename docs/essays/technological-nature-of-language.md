@@ -1,7 +1,7 @@
 ---
 title: "Technological nature of language and the implications for health professions education"
 author: "Michael Rowe"
-status: "coalescing"
+version: 0.5
 created: "2025-03-28"
 tags: ["language", "technology", "language-model", "health professions education", "general purpose technology"]
 doi: 
@@ -14,6 +14,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: March 27, 2025
+- **Version**: 0.5
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, editor, emergent scholarship, generative AI, LLM, journal, publication, research
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)

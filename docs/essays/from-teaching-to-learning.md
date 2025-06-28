@@ -1,7 +1,7 @@
 ---
 title: "From teaching to learning: How emergent scholarship disrupts traditional education hieararchies"
 author: Michael Rowe
-status: emerging
+version: 0.5
 created: 2025-04-01
 tags:
   - teaching
@@ -18,6 +18,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: April 01, 2025
+- **Version**: 0.5
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: emergent scholarship, higher education learning, teaching, university
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)

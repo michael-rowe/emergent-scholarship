@@ -1,7 +1,7 @@
 ---
 title: "The learning alignment problem: AI and the loss of control in higher education"
 author: Michael Rowe
-status: emerging
+version: 0.5
 created: 2025-06-05
 tags: ["AI principles", "higher education", "learning alignment", "professional education", "prompt engineering", "value alignment"]
 doi:
@@ -15,6 +15,7 @@ doi:
   ::: tip **Metadata**
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: June 05, 2025
+- **Version**: 0.5
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: AI principles, higher education, learning alignment, professional education, prompt engineering, value alignment
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)

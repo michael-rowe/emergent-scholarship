@@ -1,7 +1,8 @@
 ---
-title: A theoretical framework for integrating AI into health professions education
-author: Michael Rowe
-created: 2025-03-22
+title: "A theoretical framework for integrating AI into health professions education"
+author: "Michael Rowe"
+created: "2025-03-22"
+version: 0.9
 tags:
   - complexity
   - connectivism
@@ -12,7 +13,6 @@ tags:
   - health-professions-education
   - learning-theory
   - emergent-scholarship
-status: established
 doi:
   live: ""
   preprint: 10.5281/zenodo.15106214
@@ -23,6 +23,7 @@ doi:
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 - **Created**: March 29, 2025
+- **Version**: 0.9
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
