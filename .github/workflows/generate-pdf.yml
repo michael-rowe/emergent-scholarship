@@ -167,6 +167,7 @@ EOF
         echo "✅ PDF generated: ${{ steps.extract-info.outputs.pdf_path }}"
         
     - name: Verify PDF was created
+      if: steps.check-version.outputs.should_generate == 'true'
       run: |
         if [ -f "${{ steps.extract-info.outputs.pdf_path }}" ]; then
           PDF_SIZE=$(stat -c%s "${{ steps.extract-info.outputs.pdf_path }}")
@@ -179,6 +180,7 @@ EOF
         fi
         
     - name: Commit PDF to repository
+      if: steps.check-version.outputs.should_generate == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -194,6 +196,7 @@ EOF
         fi
         
     - name: Create summary
+      if: steps.check-version.outputs.should_generate == 'true'
       run: |
         cat >> $GITHUB_STEP_SUMMARY << EOF
         # 📄 PDF Generated Successfully
