@@ -1,13 +1,20 @@
 ---
-title: "Technological nature of language and the implications for health professions education"
-author: "Michael Rowe"
+title: Technological nature of language and the implications for health professions education
+author: Michael Rowe
 version: 0.5
-created: "2025-03-28"
-tags: ["language", "technology", "language-model", "health professions education", "general purpose technology"]
-doi: 
+created: 2025-03-28
+tags:
+  - language
+  - technology
+  - language-model
+  - education
+  - general-purpose-technology
+  - technology
+doi:
   live: ""
   preprint: ""
   journal: ""
+abstract: This essay explores the idea of language as humanity's first general purpose technology—a system we developed to extend human capabilities across a range of domains, which enabled complementary innovations. Through this conceptual lens, large language models (LLMs) emerge not merely as new digital tools, but as a significant evolution in the continuum of language technologies that stretches from spoken language through writing, printing, and digital text. The essay explores how LLMs extend language's core capabilities through unprecedented scale, cross-domain synthesis, adaptability, and emerging multimodality. These extensions are particularly relevant to health professions education, where students face the dual challenge of information overload and inadequate preparation for complex practice environments. By viewing LLMs as an evolution of our most fundamental technology rather than simply new applications, we can better understand their implications for clinical education. This perspective suggests shifting educational emphasis from knowledge acquisition to clinical reasoning and adaptive expertise, developing new forms of "AI literacy" specific to healthcare contexts, and reimagining assessment approaches. Understanding LLMs as part of language's ongoing evolution offers a nuanced middle path between uncritical enthusiasm and reflexive resistance, informing thoughtful integration that enhances rather than diminishes the human dimensions of healthcare education.
 ---
 # Technological nature of language and the implications for health professions education
 
@@ -21,7 +28,7 @@ doi:
 - **DOI**: [Why no DOI?](/notes/versions.md)
 - **Peer reviewed**: No
 :::
-
+  
 **Abstract**
 
 This essay explores the idea of language as humanity's first general purpose technology—a system we developed to extend human capabilities across a range of domains, which enabled complementary innovations. Through this conceptual lens, large language models (LLMs) emerge not merely as new digital tools, but as a significant evolution in the continuum of language technologies that stretches from spoken language through writing, printing, and digital text. The essay explores how LLMs extend language's core capabilities through unprecedented scale, cross-domain synthesis, adaptability, and emerging multimodality. These extensions are particularly relevant to health professions education, where students face the dual challenge of information overload and inadequate preparation for complex practice environments. By viewing LLMs as an evolution of our most fundamental technology rather than simply new applications, we can better understand their implications for clinical education. This perspective suggests shifting educational emphasis from knowledge acquisition to clinical reasoning and adaptive expertise, developing new forms of "AI literacy" specific to healthcare contexts, and reimagining assessment approaches. Understanding LLMs as part of language's ongoing evolution offers a nuanced middle path between uncritical enthusiasm and reflexive resistance, informing thoughtful integration that enhances rather than diminishes the human dimensions of healthcare education.
