@@ -1,6 +1,9 @@
 ---
 title: "The learning alignment problem: AI and the loss of control in higher education"
-author: Michael Rowe
+author: "Michael Rowe"
+affiliation: "University of Lincoln"
+email: "mrowe@lincoln.ac.uk"
+abstract: 
 version: 0.5
 created: 2025-06-05
 tags: ["AI principles", "higher education", "learning alignment", "professional education", "prompt engineering", "value alignment"]
@@ -14,6 +17,7 @@ doi:
 
   ::: tip **Metadata**
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
+- **Affilitation**: University of Lincoln (mrowe@lincoln.ac.uk)
 - **Created**: June 05, 2025
 - **Version**: 0.5
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)

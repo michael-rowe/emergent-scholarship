@@ -1,6 +1,9 @@
 ---
 title: "Publishing with purpose: Using AI to enhance scientific discourse"
 author: "Michael Rowe"
+affiliation: "University of Lincoln"
+email: "mrowe@lincoln.ac.uk"
+abstract: ""
 tags: ["editor", "generative AI", "journal", "research", "publication"]
 version: 1.1
 created: "2025-01-27"
@@ -13,6 +16,7 @@ doi:
 
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
+- **Affilitation**: University of Lincoln (mrowe@lincoln.ac.uk)
 - **Created**: January 27, 2025
 - **Version**: 1.1
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)

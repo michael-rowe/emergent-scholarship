@@ -1,6 +1,9 @@
 ---
 title: "From journals to networks: How transparency transforms trust in scholarship"
-author: Michael Rowe
+author: "Michael Rowe"
+affiliation: "University of Lincoln"
+email: "mrowe@lincoln.ac.uk"
+abstract: ""
 version: 0.5
 created: 2025-03-29
 tags: ["journal", "trust", "authorship"]
@@ -13,6 +16,7 @@ doi:
 
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
+- **Affilitation**: University of Lincoln (mrowe@lincoln.ac.uk)
 - **Created**: March 29, 2025
 - **Version**: 0.5
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
