@@ -23,21 +23,21 @@ tags:
   - personal-learning
 doi:
   live: ""
-  preprint: ""
+  preprint: "10.31219/osf.io/8czva_v1"
   journal: ""
 ---
 # Context sovereignty for AI-supported learning: A human-centred approach
 
 ::: tip **Metadata**
-- **Authors**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
-- **Affiliations**: University of Lincoln; [Snapplify](https://www.snapplify.com)
+- **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
+- **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 - **Created**: May 23, 2025
 - **Version**: 0.9 (last updated: Jun 30, 2025)
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Preprint DOI**:
-	- Open Science Framework (preferred): 
+	- Open Science Framework (preferred): [10.31219/osf.io/8czva_v1](https://doi.org/10.31219/osf.io/8czva_v1)
 	- Zenodo (legacy): [10.5281/zenodo.15772242](https://doi.org/10.5281/zenodo.15762588)
 - **Peer reviewed**: No
 :::
