@@ -10,20 +10,20 @@ Here's how my academic writing and publication process works:
 
 1. [Markdown](https://en.wikipedia.org/wiki/Markdown) for writing: Plain text with simple formatting that focuses on content rather than presentation (I do most of my writing in [Obsidian](https://obsidian.md/))
 2. [Git](https://en.wikipedia.org/wiki/Git)/[GitHub](https://github.com/) for versioning and collaboration: Version control with transparent history, public engagement, and the possibility of peer review
-3. [VitePress](https://vitepress.dev/) for presentation: Automated conversion of markdown to a readable website (this site is built with Vitepress)
+3. [VitePress](https://vitepress.dev/) for presentation: Automated conversion of markdown to a clean, responsive, static website
 4. [GitHub Actions](https://docs.github.com/en/actions) and [GitHub Pages](https://pages.github.com/) for deployment: Automated building and publishing of the "live" version of the document through GitHub's infrastructure
-5. Manual [Zenodo](https://zenodo.org/) submission: For creating [DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier) and permanent snapshots through preprints (I will also start adding the preprints to the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive) for long-term archiving)
+5. Manual [OSF](https://osf.io/dashboard) submission: For creating [DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier) and permanent snapshots through preprints (I will also start adding the preprints to the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive) for long-term archiving)
 6. Journal submission: If I decide to, I can submit the preprint to a traditional academic journal for a more traditional publication
 
 VitePress with GitHub Actions primarily automates presentation and deployment—they're not strictly necessary for the core functions of writing, reviewing, and publishing. The essential components are markdown-based writing and GitHub for transparent version control and collaboration.
 
 This process creates a living document that anyone can see evolve, contribute to, and engage with (via the Github repo and published website), while still maintaining academically viable versions for citation purposes (preprint and journal submissions).
 
-While the initial idea might seem overly complicated, it's almost all automated and takes seconds to go from editing in Obsidian to an updated website through GitHub Actions. The manual submission to Zenodo for the DOI, and minor editing required, are nothing compared to the hoops we have to jump through with journal submissions.
+While the initial idea might seem overly complicated, it's almost all automated and takes seconds to go from editing in Obsidian to an updated website through GitHub Actions. The manual submission to OSF for the DOI, and minor editing required, are nothing compared to the hoops we have to jump through with journal submissions.
 
 This system enables me to rapidly [create and publish live documents](/essays.md) that evolve transparently while maintaining academically citable versions. It's not just about the technology—it's about putting emergent scholarship principles into practice through the media I use to share ideas.
 
-## Emgergent scholarship principles embodied
+## Emergent scholarship principles embodied
 
 While this writing process enables a more open and collaborative practice, it's also a way for me to test the [principles of emergent scholarship](/principles.md); do these principles actually enable "a forward-looking, interdisciplinary approach to knowledge creation and sharing that embraces complexity, connection, collaboration, adaptation, and public engagement"?
 
@@ -60,7 +60,7 @@ While this writing process enables a more open and collaborative practice, it's 
 
 - GitHub metrics make engagement visible (stars, forks, issues), similar to altmetrics for academic publication
 - Public dialogue creates transparent record of impact, moving away from the notion of value through traditional citation metrics
-- However, DOIs (through Zenodo) enable traditional citation alongside alternative engagement metrics
+- However, DOIs (through OSF) enable traditional citation alongside alternative engagement metrics
 
 **Sustainability through ecology**
 

@@ -1,28 +1,37 @@
 ---
-title: "Publishing with purpose: Using AI to enhance scientific discourse"
-author: "Michael Rowe"
-affiliation: "University of Lincoln"
-email: "mrowe@lincoln.ac.uk"
-abstract: ""
-tags: ["editor", "generative AI", "journal", "research", "publication"]
+title: Publishing with purpose Using AI to enhance scientific discourse
+author:
+  - Michael Rowe
+affiliation:
+  - University of Lincoln
+abstract: "The introduction of generative AI into scientific publishing presents both opportunities and risks for the research ecosystem. While AI could enhance knowledge creation and streamline research processes, it may also amplify existing problems within the research industrial complex - a system that prioritises publication metrics over meaningful scientific progress. In this viewpoint article I suggest that generative AI is likely to reinforce harmful processes unless scientific journals and editors use these technologies to transform themselves into vibrant knowledge communities that facilitate meaningful discourse and collaborative learning. I describe how AI could support this transformation by surfacing connections between researchers' work, making peer review more dialogic, enhancing post-publication discourse, and enabling multimodal knowledge translation. However, implementing this vision faces significant challenges, deeply rooted in the entrenched incentives of the current academic publishing system. Universities evaluate faculty based largely on publication metrics, funding bodies rely on those metrics for grant decisions, and publishers benefit from maintaining existing models. Making meaningful change therefore requires coordinated action across multiple stakeholders who must be willing to accept short-term costs for long-term systemic benefits. The key to success lies in consistently returning to journals' core purpose: advancing scientific knowledge through thoughtful research and professional dialogue. By reimagining journals as AI-supported communities rather than metrics-driven repositories, we can better serve both the scientific community and the broader society it aims to benefit."
+email:
+  - mrowe@lincoln.ac.uk
+tags:
+  - editor
+  - generative
+  - AI
+  - journal
+  - research
+  - publication
 version: 1.1
-created: "2025-01-27"
-doi: 
+created: 2025-01-27
+doi:
   live: ""
-  preprint: "10.31219/osf.io/d7hwf_v1"
+  preprint: 10.31219/osf.io/d7hwf_v1
   published: ""
 ---
 # Publishing with purpose: Using AI to enhance scientific discourse
 
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
-- **Affilitation**: University of Lincoln (mrowe@lincoln.ac.uk)
+- **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 - **Created**: January 27, 2025
 - **Version**: 1.1
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: editor, generative AI, journal, research, publication
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **Preprint DOI**: [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
+- **Preprint DOI** (Open Science Framework): [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
 - **Peer reviewed**: Yes
 - **Journal publication**: [Using AI to enhance scientific discourse by transforming journals into learning communities](https://www.archivesofphysiotherapy.com/index.php/aop/article/view/3442). Archives of Physiotherapy, 15(1): 90-96. DOI: 10.33393/aop.2025.3442
 :::

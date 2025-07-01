@@ -2,6 +2,7 @@
 title: "A theoretical framework for integrating AI into health professions education"
 author: "Michael Rowe"
 affiliation: "University of Lincoln"
+abstract: "Health professions education faces a significant challenge: graduates are simultaneously overwhelmed with information yet under-prepared for complex practice environments. Meanwhile, artificial intelligence (AI) tools are being rapidly adopted by students, revealing fundamental gaps in traditional educational approaches. This paper introduces the ACADEMIC framework, a theoretically grounded approach to integrating AI into health professions education (HPE) that shifts focus from assessing outputs to supporting learning processes. Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, I analysed learning interactions across six dimensions: power dynamics, knowledge representation, agency, contextual influence, identity formation, and temporality. From this comparative analysis emerged seven principles—Augmented dialogue, Critical consciousness, Adaptive expertise development, Dynamic contexts, Emergent curriculum design, Metacognitive development, and Interprofessional Community knowledge building—that guide the integration of AI into HPE. Rather than viewing AI as a tool for efficient content delivery or a threat to academic integrity, the ACADEMIC framework positions AI as a partner in learning that can address longstanding challenges. The framework emphasises that most students are not natural autodidacts and need guidance in learning with AI rather than simply using it to produce better outputs. By reframing the relationship between students and AI, educators can create learning environments that more authentically prepare professionals for the complexity, uncertainty, and collaborative demands of contemporary healthcare practice."
 email: "mrowe@lincoln.ac.uk"
 abstract: ""
 created: "2025-03-22"
@@ -18,25 +19,27 @@ tags:
   - emergent-scholarship
 doi:
   live: ""
-  preprint: 10.5281/zenodo.15106214
+  preprint: ""
   journal: ""
 ---
 # A theoretical framework for integrating AI into health professions education
 
 ::: tip Metadata
 - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
-- **Affilitation**: University of Lincoln (mrowe@lincoln.ac.uk)
+- **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 - **Created**: March 29, 2025
 - **Version**: 0.7
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **DOI**: [10.5281/zenodo.15106214](https://zenodo.org/records/15106214)
+- **Preprint DOI**:
+	- Open Science Framework (preferred): [10.31219/osf.io/c764f_v1](https://doi.org/10.31219/osf.io/c764f_v1)
+	- Zenodo (legacy): [10.5281/zenodo.15106214](https://zenodo.org/records/15106214)
 - **Peer reviewed**: No
 :::
 
 ::: warning
-I am in the process of updating the data analysis section of this essay. I suspect that the final outcomes (i.e. the principles) will remain unchanged, but I mention it here for transparency.
+I am in the process of updating the data analysis section of this paper. I anticipate that the final outcomes (i.e. the principles) will remain unchanged, but I mention it here for transparency.
 :::
 
 ---

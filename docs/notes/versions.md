@@ -16,6 +16,6 @@ This process allows me to get ideas out into the world quickly, but with the cav
 
 There are therefore 3 versions of the work:
 
-1. The live version on this site, which will contine evolving and getting refined (0.5, 0.7, 1.1, etc.)
+1. The live version on this site, which will continue evolving and getting refined (0.5, 0.7, 1.1, etc.)
 2. The preprint (0.9), which is the first version I think is good enough for peer review
 3. The published version (1.0), which is the 'version of record'
