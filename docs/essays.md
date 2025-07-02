@@ -14,9 +14,9 @@ Current AI education discourse focuses on prompting strategies, overlooking the 
 
 [Read more](essays/context-sovereignty.md)
 
-## Beyond text boxes: Exploring a graph-based user interface for AI-supported learning
+## Beyond text boxes: Graph-based user interfaces for AI-supported learning
 
-This essay critiques text-entry interfaces for AI-supported learning, arguing they perpetuate outdated container metaphors that do more to fragment and artificially separate knowledge structures than to connect them. Instead, **graph-based interfaces** using interactive knowledge graphs better reflect how expertise actually develops. In this alternative user interface, AI serves as both conversational partner and network builder, with dialogue embedded within spatial knowledge landscapes rather than isolated chat histories. Features like multimodal nodes, multi-dimensional navigation, and progressive complexity management support integrative thinking. Though implementable with current technologies, the barriers are primarily conceptual—our attachment to container thinking. Graph-based interfaces would better develop the connection-making capabilities that define professional expertise.
+This essay critiques text-entry interfaces for AI-supported learning, arguing they perpetuate outdated *container* metaphors for learning environments that do more to fragment  than to connect them. Instead, **graph-based interfaces** using interactive knowledge graphs better reflect how expertise actually develops. In this alternative user interface, AI serves as both conversational partner and network builder, with dialogue embedded within spatial knowledge landscapes rather than isolated chat histories. Features like multimodal nodes, multi-dimensional navigation, and progressive complexity management support integrative thinking. Though implementable with current technologies, the barriers are primarily conceptual—our attachment to container thinking. Graph-based interfaces would better develop the connection-making capabilities that define professional expertise.
 
 [Read more](essays/graph-based-ui.md)
 
