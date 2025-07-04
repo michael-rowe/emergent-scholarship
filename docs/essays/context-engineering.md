@@ -1,5 +1,5 @@
 ---
-title: "Context sovereignty for AI-supported learning: A human-centred approach"
+title: "Context engineering and the technical foundations of educational transformation"
 author:
   - Michael Rowe
   - Wesley Lynch
@@ -28,6 +28,9 @@ doi:
   preprint: ""
   journal: ""
 ---
+
+# Context engineering and the technical foundations of educational transformation
+
 ::: tip **Metadata**
 - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
