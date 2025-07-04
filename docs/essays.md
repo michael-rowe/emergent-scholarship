@@ -2,6 +2,12 @@
 
 A collection of essays exploring the implications of emergent scholarship across different education and practice contexts.
 
+## Context engineering and the technical foundations of educational transformation
+
+Context engineering reconceptualises educational infrastructure through persistent knowledge ecosystems that transcend traditional approaches to curriculum design. Technical foundations, including knowledge graphs, federated intelligence protocols, new forms of information architecture,and persistent memory systems, enable networked knowledge construction where understanding emerges through interconnection rather than isolation. This creates profound systemic transformation: governance structures requiring democratic validation processes involving multiple stakeholders, infrastructure investment demanding comprehensive institutional capability development, and institutional identity fundamentally shifting toward knowledge ecosystem facilitation rather than content transmission. These changes establish technological path dependencies that render traditional educational approaches increasingly untenable within contemporary professional practice contexts.
+
+[Read more](essays/context-engineering.md)
+
 ## The learning alignment problem: AI and the loss of control in higher education
 
 Higher education's focus on 'prompt engineering' misses the fundamental issue: prompts emerge from personal meaning-making frameworks, not technical skills. AI acts as a mirror, revealing that students were already optimising for grades over learning, long before AI exposed the problem in such clear terms. The **learning alignment problem** shows how education systems reward measurable proxies rather than authentic learning outcomes. Instead of controlling the mechanics of AI interaction, institutions should cultivate conditions where thoughtful AI partnership serves students' genuine learning purposes. Learning is inherently personal and contextual and cannot be engineered through technical specification or control.
