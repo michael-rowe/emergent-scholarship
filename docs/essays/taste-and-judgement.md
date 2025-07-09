@@ -76,7 +76,7 @@ Second, binary frameworks create false choices that constrain our engagement wit
 
 The sanctuary strategy positions humans as reactive rather than proactive in shaping our relationship with AI systems. By focusing on what AI cannot do, we surrender agency over determining how AI might serve our purposes and values. We become defenders of fixed territories rather than architects of evolving relationships.
 
-The persistence of binary thinking despite its obvious limitations suggests deeper cultural investments in human exceptionalism. Our need to identify capabilities that remain exclusively human reflects broader patterns of separation that characterise modern consciousness—the separation of mind from body, culture from nature, reason from emotion. These dualistic frameworks prove increasingly inadequate for navigating relationships with systems that operate through the very medium of language and symbolic reasoning that we associate with distinctively human capabilities.
+The persistence of binary thinking, despite its obvious limitations, suggests deeper cultural investments in human exceptionalism. Our need to identify capabilities that remain exclusively human reflects broader patterns of separation that characterise modern consciousness—the separation of mind from body, culture from nature, reason from emotion. These dualistic frameworks prove increasingly inadequate for navigating relationships with systems that operate through the very medium of language and symbolic reasoning that we associate with distinctively human capabilities.
 
 ## Understanding the roots
 

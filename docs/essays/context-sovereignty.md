@@ -42,7 +42,7 @@ doi:
 - **Peer reviewed**: No
 :::
 
-## Abstract
+**Abstract**
 
 The current discourse around artificial intelligence in education has become preoccupied with prompting strategies, overlooking more fundamental questions about the nature of context in human-AI collaboration. This paper explores the concept of *context engineering* as an operational framework that supports personal learning and the philosophical goal of *context sovereignty*. Drawing from complexity science and learning theory, we argue that context functions as a dynamic field of meaning-making rather than static background information, and that ownership of that context is an essential consideration. Current approaches to context-setting in AI-supported learning—primarily prompting and document uploading—create episodic burdens requiring learners to adapt to AI systems rather than insisting that AI systems adapt to learners. Context sovereignty offers an alternative paradigm based on three principles: persistent understanding, individual agency, and cognitive extension. This framework addresses concerns about privacy, intellectual challenge, and authentic assessment while enabling new forms of collaborative learning that preserve human agency. Rather than treating AI as an external tool requiring skilful manipulation, context sovereignty suggests AI can become a cognitive partner that understands and extends human thinking while respecting individual boundaries. The implications extend beyond technical implementation to fundamental questions about the nature of learning, assessment, and human-AI collaboration in educational settings.
 
