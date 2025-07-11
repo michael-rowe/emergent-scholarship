@@ -30,7 +30,7 @@ doi:
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 - **Peer reviewed**: No
-- :::
+:::
 
 **Abstract**
 

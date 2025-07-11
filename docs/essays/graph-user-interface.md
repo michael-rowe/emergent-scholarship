@@ -49,7 +49,7 @@ There are many ideas that inspired this essay, but these are the ones that most 
 - My own learning experiences using tools like [Obsidian](https://obsidian.md/) and [Hypothes.is](https://web.hypothes.is/)
 - The [emergent scholarship principles](/principles.md)
 
-## Abstract
+**Abstract**
 
 This essay critically examines the dominant interface paradigm for AI interaction today—text-entry fields, chronological chat histories, and project folders—arguing that these interfaces reinforce outdated container-based knowledge metaphors that are misaligned with how expertise develops in professional domains. Container-based approaches artificially segment knowledge that practitioners must mentally reintegrate, creating challenges in health professions education where practice demands integrative thinking across traditionally separated domains. The text-entry field, despite its ubiquity in AI interactions, simply recreates container thinking in conversational form, trapping information in linear streams that require scrolling rather than conceptual navigation.
 
