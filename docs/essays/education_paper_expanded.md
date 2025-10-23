@@ -56,7 +56,7 @@ Unlike clinical decisions where errors can have immediate and irreversible conse
 
 **Historical context and resilience**: Traditional education has always contained errors—outdated textbooks teaching incorrect atomic models, teachers making calculation mistakes, peer tutors sharing misconceptions. A comprehensive review of science textbook errors found an average of 1.2 significant errors per chapter in widely-used texts. Yet learning has always occurred despite, and sometimes because of, these imperfections.
 
-### 2.2 Lower Baseline Performance and Greater Improvement Potential
+### 2.2 Lower baseline performance and greater improvement potential
 
 The baseline against which we must evaluate AI tutoring is not perfection but current educational reality:
 
