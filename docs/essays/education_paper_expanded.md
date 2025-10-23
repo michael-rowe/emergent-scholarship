@@ -2,17 +2,17 @@
 
 ## Abstract
 
-Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates achieve superior learning outcomes through dramatically increased engagement compared to more accurate but less accessible alternatives. Drawing on systematic reviews of educational technology adoption and learning outcomes, we show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as diagnostic AI in healthcare.
+Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through dramatically increased engagement compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
 
 ## 1. Introduction
 
-### The Engagement Crisis in Educational Technology
+### Engagement with educational technology
 
-Educational institutions invest billions annually in high-quality learning resources—meticulously crafted textbooks, comprehensive online courses, expertly designed problem sets—yet studies consistently show that 60-70% of students do not meaningfully engage with these materials outside mandatory assignments. This engagement crisis represents a fundamental failure in educational technology design: we have optimised for content quality while ignoring the primary determinant of learning outcomes—actual use.
+Educational institutions invest billions annually in high-quality learning resources—meticulously crafted textbooks, comprehensive online courses, expertly designed problem sets—yet studies consistently show that 60-70% of students do not meaningfully engage with these materials outside mandatory assignments. This lack of engagement represents a fundamental failure in educational technology design: we have optimised for content quality while ignoring the primary determinant of learning outcomes; actual use.
 
 The introduction of AI tutoring systems has intensified this debate. These systems can provide personalised, interactive learning support at scale, but they operate at accuracy levels (85-92%) that many educators consider unacceptable. The demand for near-perfect accuracy before deployment reflects a fundamental misunderstanding of how learning occurs and what role educational technology should play in that process.
 
-### Two AI Paradigms, Different Thresholds
+### Two AI paradigms, different thresholds
 
 The public discourse around AI accuracy conflates two fundamentally different applications:
 
@@ -30,19 +30,19 @@ The public discourse around AI accuracy conflates two fundamentally different ap
 - Lower stakes with natural feedback mechanisms
 - Can provide net benefit with moderate accuracy (85-90%)
 
-The conflation of these paradigms leads to unnecessary barriers to educational AI deployment. We demand diagnostic-level accuracy from systems that operate in an entirely different epistemological context—one where errors are not just tolerable but potentially pedagogically valuable.
+The conflation of these paradigms leads to unnecessary barriers to educational AI deployment. The sector demands diagnostic-level accuracy from systems that operate in an entirely different epistemological context; one where errors are not just tolerable but potentially pedagogically valuable.
 
-### The Core Argument
+### The core argument
 
-We demonstrate through mathematical modelling and empirical evidence that:
+We demonstrate through mathematical modelling that:
 1. Population learning benefit equals the product of utilisation rate and per-use effectiveness
 2. AI systems that achieve 4-5× higher engagement can tolerate 10-15% error rates while still improving learning outcomes
 3. Education's natural error correction mechanisms make moderate inaccuracy far more tolerable than in clinical settings
 4. The process of evaluating potentially imperfect AI output develops critical thinking skills that are themselves valuable educational outcomes
 
-## 2. Educational Context Differs from Clinical
+## 2. Educational context differs from clinical
 
-### 2.1 Error Correction Mechanisms
+### 2.1 Error correction mechanisms
 
 Unlike clinical decisions where errors can have immediate and irreversible consequences, educational environments contain multiple layers of error correction:
 
