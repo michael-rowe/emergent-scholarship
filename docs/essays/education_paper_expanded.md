@@ -18,7 +18,7 @@ The public discourse around AI accuracy conflates two fundamentally different ap
 
 **Diagnostic AI** (radiology, pathology, clinical decision support):
 - Compresses vast amounts of data (gigabytes of imaging) into critical decisions (kilobytes of diagnosis)
-- Output is typically trusted as definitive by end users
+- Output is typically trusted when triangulated with other sources of information
 - Limited opportunity for error correction
 - High stakes for individual errors
 - Requires very high accuracy (>95%) for safe deployment
@@ -85,6 +85,7 @@ The concern about AI accuracy reflects an outdated pedagogical model that modern
 
 **Traditional model (sage on the stage)**:
 - Instructor delivers authoritative truth
+- The instructor defines what is relevant and what is not and by defining what's 'in' and what's 'out' they may focus on outdated relevance (that is why there are an increasing number of industries that actually favour not hiring students fresh from university but prefer self-taught applicants)
 - Students receive and memorise information
 - Accuracy of transmitted information is paramount
 - Errors represent system failures
