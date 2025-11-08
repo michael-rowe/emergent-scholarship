@@ -4,7 +4,7 @@ A collection of essays exploring the implications of emergent scholarship across
 
 ## Beyond document management: Graph infrastructure for professional education curricula
 
-
+Current professional curricula suffer from a fundamental problem: while comprehensively documented, they lack systematic queryability. This creates unnecessary barriers for students navigating prerequisites, educators identifying gaps, and institutions demonstrating compliance. We propose a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces. This approach makes curriculum structure explicitly queryable while preserving essential pedagogical mediation. Rather than eliminating curriculum complexity, it removes technical barriers to understanding it, supporting educators through better infrastructure while empowering students with structural transparency.
 
 [Read more](essays/curriculum-infrastructure.md)
 
