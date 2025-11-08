@@ -2,6 +2,12 @@
 
 A collection of essays exploring the implications of emergent scholarship across different education and practice contexts.
 
+## Beyond document management: Graph infrastructure for professional education curricula
+
+
+
+[Read more](essays/curriculum-infrastructure.md)
+
 ## Taste and judgement in human-AI systems
 
 This essay challenges the prevalent "Why AI can't replace..." discourse that positions humans as passive defenders of diminishing cognitive territory. Instead of continuing defensive strategies that require constant retreat as AI capabilities expand, the analysis proposes developing "taste"—sophisticated contextual judgement that enables thoughtful collaboration with artificial intelligence systems. Drawing on ecological thinking, the essay reframes human-AI relationships as embedded within complex cognitive systems where intelligence emerges through interaction rather than competition. The practical focus on taste development offers readers a framework for determining when, how, and why to engage AI capabilities in ways that enhance rather than diminish what they value, transforming zero-sum competition into collaborative partnership that preserves human agency over meaning-making while accessing AI's expanding capabilities.
