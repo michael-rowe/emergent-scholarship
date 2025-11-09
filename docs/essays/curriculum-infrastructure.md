@@ -45,15 +45,11 @@ doi:
 
 ## Abstract
 
-## Abstract
-
 Professional curricula are comprehensively documented but not systematically queryable, creating artificial information scarcity. This creates significant problems for institutions: regulatory compliance reporting consumes weeks of staff time, quality assurance requires exhaustive manual verification, and curriculum office teams cannot efficiently answer structural questions. Current approaches—manual document review, VLE keyword search, curriculum mapping spreadsheets, and purpose-built curriculum management systems—fail to expose curriculum structure in queryable form. We propose an architecture where graph databases become the source of truth for curriculum structure, with vector databases for content retrieval and the Model Context Protocol providing accessible interfaces. This makes documented curriculum structure explicitly queryable—prerequisite chains, competency mappings, and assessment coverage—enabling compliance verification in hours rather than weeks. The architecture suits AI-forward institutions—those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies. Technology handles structural verification; educators retain essential authority over educational meaning-making. The proposal argues for removing technical barriers to interrogating curriculum complexity rather than eliminating that complexity through technological solution.
 
 ---
 
-## 1. Introduction: The artificial scarcity problem
-
-### Documented but not queryable
+## 1. An artificial scarcity problem
 
 Professional education curricula—in medicine, nursing, allied health, and other regulated disciplines—are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time. Quality assurance processes involve collating spreadsheets from multiple module leads, manually cross-referencing teaching content against regulatory frameworks (GMC standards, NMC competencies, HCPC standards), and compiling evidence that specific competencies have adequate coverage.
 
@@ -99,7 +95,7 @@ All these approaches share the limitation identified in Section 1: rich structur
 
 ---
 
-## 3. Proposed architecture: Graph as source of truth
+## 3. Proposed architecture
 
 Professional curricula require infrastructure supporting queries over typed relationships, not merely content search. When quality assurance staff need to verify that prescribing safety competency has adequate assessment coverage across all prerequisite chains, they need to traverse explicit REQUIRES relationships between modules, explicit ADDRESSES relationships between learning outcomes and competencies, and explicit ASSESSES relationships between assessments and outcomes. Semantic similarity cannot answer this—finding content "about prescribing" doesn't verify structural coverage. Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling the structural queries that compliance and quality assurance processes require.
 
@@ -115,13 +111,13 @@ Critically, the graph database becomes the source of truth where educators work 
 
 MCP is relatively new (released by Anthropic in 2024) but addresses a genuine standardisation need: providing consistent tool interfaces across different AI systems. Even as specific protocols evolve, the principle—standardised semantic interfaces between AI models and institutional data—remains architecturally valuable. Institutions adopting early should expect protocol refinements, but the core capability (enabling AI systems to query structured curriculum data) is stable even if implementation details change. This layer is crucial for adoption: without it, queryable infrastructure would only serve database administrators rather than the staff who actually need structural access.
 
-### Ontology considerations: Structure over specifics
+### Ontology considerations
 
 Representing curriculum structure requires an ontology defining entity types (Programme, Module, Session, Learning Outcome, Assessment, Competency) and relationship types (CONTAINS, REQUIRES, ADDRESSES, TESTS, MAP_TO). The Higher Education Reference Model (HERM) provides a pragmatic starting point with standardised vocabulary enabling interoperability across institutions and systems.
 
-However, ontology choice involves epistemological commitments about knowledge categorization. HERM embodies particular assumptions about how curricula should be structured—assumptions that may not adequately represent all institutional contexts or disciplinary approaches. A nursing curriculum's relationship between "clinical placement" and "practice competency" might not map cleanly to HERM's categories. An integrated medical curriculum where content doesn't organize neatly into discrete modules might struggle with HERM's hierarchical assumptions.
+However, ontology choice involves epistemological commitments about knowledge categorisation. HERM embodies particular assumptions about how curricula should be structured—assumptions that may not adequately represent all institutional contexts or disciplinary approaches. A nursing curriculum's relationship between "clinical placement" and "practice competency" might not map cleanly to HERM's categories. An integrated medical curriculum where content doesn't organise neatly into discrete modules might struggle with HERM's hierarchical assumptions.
 
-**What matters is internal consistency rather than adherence to external standards**. An institution could use HERM, develop institution-specific ontologies, or adopt programme-specific frameworks. The crucial requirement is that the chosen ontology enables consistent relationship encoding within the institution's context. Graph databases are schema-flexible—ontologies can evolve as curricula develop and new relationship types become important to represent. The key architectural principle is making relationships explicit and queryable, not imposing rigid structures.
+However, what matters is internal consistency rather than adherence to external standards. An institution could use HERM, develop institution-specific ontologies, or adopt programme-specific frameworks. The crucial requirement is that the chosen ontology enables consistent relationship encoding within the institution's context. Graph databases are schema-flexible—ontologies can evolve as curricula develop and new relationship types become important to represent. The key architectural principle is making relationships explicit and queryable, not imposing rigid structures.
 
 ### Inverting technological constraints
 
@@ -178,7 +174,7 @@ This technological heterogeneity isn't a weakness—it's an opportunity for AI-f
 - Small open-source models running locally on institutional infrastructure, maintaining complete data sovereignty
 - Large frontier models via API for enhanced capabilities, trading some control for performance
 - Hybrid approaches using local models for sensitive data and API models for general queries
-- Different embedding models optimized for biomedical text versus general educational content
+- Different embedding models optimised for biomedical text versus general educational content
 
 The graph database core remains stable regardless of these choices. When better embedding models emerge, institutions can re-embed content without restructuring the graph. When new AI providers offer improved capabilities, interfaces can switch providers without rebuilding curriculum structure. When MCP evolves or alternative protocols emerge, the abstraction layer can adapt while core infrastructure persists. This architectural separation—stable structure in graphs, evolving intelligence in models—provides genuine flexibility.
 
@@ -194,7 +190,7 @@ Institutions don't start from nothing. They have existing curriculum management 
 
 This requires phased implementation over 18-24 months. Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential—staff won't abandon familiar systems until new infrastructure demonstrably improves their work.
 
-A detailed implementation pathway appears in Appendix A, including specific phases, timelines, and critical success factors for institutions considering adoption.
+*A high-level implementation pathway will be shared as an appendix, including specific phases, timelines, and critical success factors for institutions considering adoption.*
 
 ### Change management realities
 
@@ -227,33 +223,3 @@ Implementation requires AI-forward institutional commitment: treating AI integra
 Institutions adopting this architecture should view it as infrastructure investment enabling multiple concurrent uses—compliance reporting, quality assurance, curriculum design support, and potentially student access—rather than solving particular problems through technical means. The graph infrastructure doesn't solve curriculum complexity; it makes that complexity navigable by removing artificial technical barriers. Success depends on organisational commitment, realistic timelines acknowledging substantial change management requirements, and clear demonstration of efficiency gains justifying the AI-forward engagement this approach demands.
 
 Professional education increasingly operates under scrutiny from regulatory bodies demanding explicit evidence of competency coverage and systematic quality assurance. Institutions need infrastructure supporting these requirements efficiently. The question isn't whether to make curriculum structure queryable, but whether institutions build capability to control their technological approaches or outsource these decisions to vendors. For AI-forward institutions, graph-based curriculum infrastructure offers a path to institutional agency in an increasingly AI-mediated educational landscape.
-
----
-
-## Appendices
-
-### Appendix A: Implementation Pathway (detailed transition phases)
-
-### Appendix B: Technical Specifications (database choices, MCP configuration, integration patterns)
-
-### Appendix C: Stakeholder Adoption Strategies (student, faculty, administrator considerations)
-
-### Appendix D: Budget Estimates (initial investment, recurring costs, scaling considerations)
-
----
-
-## Key Themes Running Through Essay
-
-1. **Artificial scarcity vs necessary mediation**: Distinguish what should be accessible (structure) from what requires expertise (interpretation)
-    
-2. **Technology supporting educators**: Emphasize throughout that this enables better pedagogy, not replacing it
-    
-3. **Graph as source of truth**: Make clear this isn't parallel representation—it's where work happens
-    
-4. **Curriculum as designed vs enacted**: Acknowledge limitations—graph captures documented structure, not lived experience
-    
-5. **Infrastructure critique**: Frame as removing technical barriers rather than solving complexity through technology
-    
-6. **Ontology pragmatics**: HERM as convenient starting point, internal consistency matters more than specific choice
-    
-7. **Complementary approaches**: Graph + vector + accessible interfaces, each serving distinct purposes
