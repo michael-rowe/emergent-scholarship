@@ -20,12 +20,12 @@ doi:
 # Avoiding innovation theatre: A framework for supporting institutional AI integration
 
 ::: tip **Metadata**
-- **Author**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk)
-- **Affiliations**: 1) University of Lincoln
+- **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk)
+- **Affiliations**: University of Lincoln
 - **Created**: Dec 05, 2025
 - **Version**: 0.4
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
-- **Keywords*AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management*: 
+- **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management*: 
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Preprint DOI**: N/A
 - **Peer reviewed**: No
