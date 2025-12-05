@@ -1,3 +1,5 @@
+
+---
 title: "Avoiding innovation theatre: A framework for supporting institutional AI integration"
 author:
   - Michael Rowe
