@@ -157,8 +157,6 @@ Learning systems influence boundary permeability. If experiments generate insigh
 
 These interdependencies suggest that institutional transformation typically requires coordinated movement across domains rather than isolated initiatives in single areas. The framework helps leaders identify which domains need attention and in what sequence, based on current positioning and intended direction.
 
-<iframe src="https://claude.site/public/artifacts/3e01ca67-46c2-48b0-9c5a-c3fc364bdae3/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
-
 ## Methodological considerations
 
 ### Framework genesis and iteration
