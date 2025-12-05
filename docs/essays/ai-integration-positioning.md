@@ -25,7 +25,7 @@ doi:
 - **Created**: Dec 05, 2025
 - **Version**: 0.4
 - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
-- **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management*: 
+- **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management: 
 - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Preprint DOI**: N/A
 - **Peer reviewed**: No
