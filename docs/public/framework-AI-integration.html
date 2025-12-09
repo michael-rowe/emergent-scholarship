@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Alignment Framework for AI Integration</title>
+    
+    <!-- Chart.js for radar visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- React and ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel Standalone for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background: #f8fafc;
+        }
+        
+        .min-h-screen {
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        
+        .max-w-3xl {
+            max-width: 48rem;
+            margin: 0 auto;
+        }
+        
+        .max-w-5xl {
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+        
+        .bg-white {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            padding: 2rem;
+        }
+        
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-3 { margin-top: 0.75rem; }
+        .mt-4 { margin-top: 1rem; }
+        .ml-4 { margin-left: 1rem; }
+        
+        .text-3xl {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            font-weight: 700;
+        }
+        
+        .text-2xl {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 700;
+        }
+        
+        .text-xl {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+        }
+        
+        .text-lg {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        
+        .text-sm {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+        
+        .font-semibold { font-weight: 600; }
+        .font-medium { font-weight: 500; }
+        .italic { font-style: italic; }
+        
+        .text-slate-900 { color: #0f172a; }
+        .text-slate-700 { color: #334155; }
+        .text-slate-600 { color: #475569; }
+        .text-slate-500 { color: #64748b; }
+        .text-slate-400 { color: #94a3b8; }
+        
+        .progress-container {
+            margin-bottom: 2rem;
+        }
+        
+        .progress-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .progress-bar {
+            height: 0.5rem;
+            background: #e2e8f0;
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #475569;
+            transition: width 0.3s;
+        }
+        
+        .space-y-2 > * + * { margin-top: 0.5rem; }
+        .space-y-3 > * + * { margin-top: 0.75rem; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .space-y-6 > * + * { margin-top: 1.5rem; }
+        
+        .flex { display: flex; }
+        .flex-items-start { align-items: flex-start; }
+        .flex-items-center { align-items: center; }
+        .flex-justify-between { justify-content: space-between; }
+        .gap-4 { gap: 1rem; }
+        
+        .border-l-4 { border-left: 4px solid; }
+        .rounded { border-radius: 0.25rem; }
+        .rounded-lg { border-radius: 0.5rem; }
+        
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        
+        .bg-blue-50 { background: #eff6ff; }
+        .border-blue-400 { border-color: #60a5fa; }
+        .text-blue-900 { color: #1e3a8a; }
+        .text-blue-800 { color: #1e40af; }
+        
+        .bg-slate-50 { background: #f8fafc; }
+        .bg-slate-100 { background: #f1f5f9; }
+        
+        .leading-relaxed { line-height: 1.625; }
+        
+        ul.styled-list {
+            list-style: none;
+        }
+        
+        ul.styled-list li {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        ul.styled-list li span:first-child {
+            margin-right: 0.5rem;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #475569;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .button:hover:not(:disabled) {
+            background: #334155;
+        }
+        
+        .button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .button-secondary {
+            background: white;
+            color: #334155;
+            border: 2px solid #cbd5e1;
+        }
+        
+        .button-secondary:hover:not(:disabled) {
+            background: #f8fafc;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .button-group .button {
+            flex: 1;
+        }
+        
+        .button-group .button-secondary {
+            flex: 0 0 auto;
+            width: auto;
+        }
+        
+        .score-buttons {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .score-button {
+            flex: 1;
+            height: 3rem;
+            border-radius: 0.25rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            background: #f1f5f9;
+            color: #475569;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .score-button:hover {
+            background: #e2e8f0;
+        }
+        
+        .score-button.selected {
+            background: #475569;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transform: scale(1.1);
+        }
+        
+        .spectrum-box {
+            padding: 1rem;
+            border-left: 4px solid;
+            border-radius: 0.25rem;
+        }
+        
+        .spectrum-box.purple {
+            background: #faf5ff;
+            border-color: #9333ea;
+        }
+        
+        .spectrum-box.blue {
+            background: #eff6ff;
+            border-color: #3b82f6;
+        }
+        
+        .spectrum-box.orange {
+            background: #fff7ed;
+            border-color: #f97316;
+        }
+        
+        .spectrum-label {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        
+        .spectrum-label.purple { color: #581c87; }
+        .spectrum-label.blue { color: #1e40af; }
+        .spectrum-label.orange { color: #9a3412; }
+        
+        .spectrum-text.purple { color: #6b21a8; }
+        .spectrum-text.blue { color: #1d4ed8; }
+        .spectrum-text.orange { color: #c2410c; }
+        
+        .evidence-box {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+        
+        .evidence-box h3 {
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 0.75rem;
+        }
+        
+        .intent-option {
+            width: 100%;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid #e2e8f0;
+            text-align: left;
+            transition: all 0.2s;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .intent-option:hover {
+            border-color: #cbd5e1;
+        }
+        
+        .intent-option.selected {
+            background: #faf5ff;
+            border-color: #9333ea;
+        }
+        
+        .intent-option.selected.blue {
+            background: #eff6ff;
+            border-color: #3b82f6;
+        }
+        
+        .intent-option.selected.orange {
+            background: #fff7ed;
+            border-color: #f97316;
+        }
+        
+        .intent-option-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .radio-circle {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 9999px;
+            border: 2px solid;
+        }
+        
+        .radio-circle.purple { border-color: #9333ea; }
+        .radio-circle.blue { border-color: #3b82f6; }
+        .radio-circle.orange { border-color: #f97316; }
+        
+        .radio-circle.filled.purple { background: #9333ea; }
+        .radio-circle.filled.blue { background: #3b82f6; }
+        .radio-circle.filled.orange { background: #f97316; }
+        
+        .chart-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        
+        .grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .grid-cols-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        @media (max-width: 768px) {
+            .grid-cols-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .stat-box {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .stat-value.purple { color: #9333ea; }
+        .stat-value.blue { color: #3b82f6; }
+        .stat-value.orange { color: #f97316; }
+        .stat-value.green { color: #10b981; }
+        .stat-value.amber { color: #f59e0b; }
+        
+        .alert-box {
+            padding: 1rem;
+            border-left: 4px solid;
+            border-radius: 0.25rem;
+            margin-bottom: 1rem;
+        }
+        
+        .alert-box.amber {
+            background: #fef3c7;
+            border-color: #f59e0b;
+        }
+        
+        .alert-box.blue {
+            background: #dbeafe;
+            border-color: #3b82f6;
+        }
+        
+        .alert-box.green {
+            background: #d1fae5;
+            border-color: #10b981;
+        }
+        
+        .alert-title {
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .alert-title.amber { color: #92400e; }
+        .alert-title.blue { color: #1e40af; }
+        .alert-title.green { color: #065f46; }
+        
+        .alert-text {
+            font-size: 0.875rem;
+        }
+        
+        .alert-text.amber { color: #78350f; }
+        .alert-text.blue { color: #1e40af; }
+        .alert-text.green { color: #065f46; }
+        
+        .domain-result-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+        }
+        
+        .domain-result-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        
+        .domain-result-title {
+            flex: 1;
+        }
+        
+        .domain-result-title h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #0f172a;
+        }
+        
+        .domain-result-title p {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin-top: 0.25rem;
+        }
+        
+        .domain-result-score {
+            text-align: right;
+            margin-left: 1rem;
+        }
+        
+        .domain-result-score-value {
+            font-size: 1.875rem;
+            font-weight: 700;
+        }
+        
+        .domain-result-score-label {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin-top: 0.25rem;
+        }
+        
+        .action-box {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 0.25rem;
+        }
+        
+        .action-box p {
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .action-box .action-title {
+            font-weight: 500;
+            color: #334155;
+            margin-bottom: 0.5rem;
+        }
+        
+        .action-box ul {
+            list-style: none;
+        }
+        
+        .action-box ul li {
+            display: flex;
+            align-items: flex-start;
+            font-size: 0.875rem;
+            color: #334155;
+            margin-bottom: 0.5rem;
+        }
+        
+        .action-box ul li span:first-child {
+            margin-right: 0.5rem;
+            color: #94a3b8;
+        }
+        
+        .success-box {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #d1fae5;
+            border-radius: 0.25rem;
+        }
+        
+        .success-box p {
+            font-size: 0.875rem;
+            color: #065f46;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+        
+        const CONTENT = {
+            domains: [
+                {
+                    name: 'Governance',
+                    fullName: 'Governance and accountability',
+                    description: 'Examines who holds decision-making authority, where risk sits when initiatives fail, and who defines success criteria (including ethical standards). Reveals whether power and accountability are distributed proportionally or concentrated at specific levels.',
+                    spectrum: {
+                        incremental: 'Leadership approval required but insulated from consequences. Risk sits with individuals. Success criteria defined centrally. Experiments designed for contained outcomes.',
+                        selective: 'Shared accountability for specific initiatives. Risk distributed for designated experiments. Success criteria negotiated within defined boundaries.',
+                        transformative: 'Proportional risk-sharing across levels. Those with authority carry commensurate consequences. Success definition emerges from experimentation process.'
+                    },
+                    evidence: [
+                        'Who approved your last failed AI initiative?',
+                        'Who carried career consequences when it failed?',
+                        'Who defined what "failure" meant?',
+                        'Can experiments challenge executive-level decisions?'
+                    ],
+                    interventions: {
+                        incremental_to_selective: [
+                            'Create co-ownership structure for 2-3 strategic experiments where executives share accountability with project leads',
+                            'Establish transparent criteria for success/failure defined collaboratively before initiative launch',
+                            'Implement quarterly review where leadership reports on experiments they sponsored, including failures'
+                        ],
+                        selective_to_transformative: [
+                            'Institute formal risk-sharing agreements where senior leaders carry proportional career stakes in outcomes',
+                            'Enable bottom-up challenge of strategic assumptions through structured governance mechanisms',
+                            'Create protected pathways for experiments that question executive-level decisions'
+                        ]
+                    }
+                },
+                {
+                    name: 'Resources',
+                    fullName: 'Resource architecture',
+                    description: 'Examines how organisations allocate resources and create capacity for experimentation. Reveals whether initiatives are purely additive or involve genuine reallocation, and whether infrastructure exists to support learning from outcomes.',
+                    spectrum: {
+                        incremental: 'Purely additive initiatives. Nothing defunded. All existing structures preserved. Investment framed as efficiency gains or low-cost additions.',
+                        selective: 'Targeted reallocation within units. Some existing work reprioritised. Protected budget for designated experiments. Core institutional structures maintained.',
+                        transformative: 'Active defunding decisions. Protected experimental budget at institutional level. Dedicated capacity for learning infrastructure. Clear choices about what ends to enable what begins.'
+                    },
+                    evidence: [
+                        'Has any existing initiative been defunded to resource AI experiments?',
+                        'Does protected experimental budget exist that doesn\'t require individual business cases?',
+                        'Is there dedicated capacity (staff time, not just funding) to support learning from failures?',
+                        'Do resources flow based on insights from previous experiments?'
+                    ],
+                    interventions: {
+                        incremental_to_selective: [
+                            'Identify 2-3 current initiatives to sunset, redirecting resources to AI experimentation',
+                            'Create ring-fenced experimental budget (even if small) that doesn\'t require project-by-project justification',
+                            'Allocate 0.5 FTE to documenting and disseminating learning from experiments'
+                        ],
+                        selective_to_transformative: [
+                            'Institute annual portfolio review where continuation of existing work requires explicit justification',
+                            'Create institutional-level experimental budget representing meaningful percentage of operational funds',
+                            'Build dedicated team responsible for learning infrastructure and insight capture'
+                        ]
+                    }
+                },
+                {
+                    name: 'Learning',
+                    fullName: 'Learning systems',
+                    description: 'Examines how organisations generate and use insight from initiatives. Reveals whether experiments are designed primarily to succeed safely or to generate learning, and whether insights influence future decisions.',
+                    spectrum: {
+                        incremental: 'Initiatives designed to succeed or fail safely. Limited documentation. Failed experiments fade quietly. Success stories circulated without systematic analysis.',
+                        selective: 'Post-implementation reviews for designated initiatives. Structured documentation. Insights shared within teams. Some influence on similar future projects.',
+                        transformative: 'Infrastructure treating both success and failure as data sources. Systematic capture and analysis of insights. Learning influences institutional decisions, resource allocation, and governance.'
+                    },
+                    evidence: [
+                        'What happened to insights from your last failed AI experiment?',
+                        'Can you name three things learned from failures that changed institutional approach?',
+                        'Do experiment results influence policy decisions?',
+                        'Is there infrastructure to capture and spread learning systematically?'
+                    ],
+                    interventions: {
+                        incremental_to_selective: [
+                            'Mandate structured post-mortems for all AI initiatives regardless of outcome',
+                            'Create accessible repository where teams document what worked, what didn\'t, and why',
+                            'Schedule quarterly cross-team sessions to share insights from ongoing experiments'
+                        ],
+                        selective_to_transformative: [
+                            'Establish formal mechanism where experiment insights trigger policy review',
+                            'Create role responsible for synthesising learning across initiatives and reporting to leadership',
+                            'Make continued funding for new initiatives contingent on demonstrating learning from previous work'
+                        ]
+                    }
+                },
+                {
+                    name: 'Boundaries',
+                    fullName: 'Boundary setting',
+                    description: 'Examines what is protected from transformation versus open for experimentation. Reveals which constraints are genuine (regulatory, contractual) versus maintained by institutional preference, and what it would take to make supposedly immovable things movable.',
+                    spectrum: {
+                        incremental: 'Fundamental structures protected. Experiments at operational margins. Core assumptions about mission delivery untouched. Clear boundaries around what can be questioned.',
+                        selective: 'Some core areas open for designated experiments. Explicit distinction between genuine constraints and institutional choices. Defined zones of permeability.',
+                        transformative: 'Core assumptions available for challenge. Active questioning of what constitutes genuine vs. assumed constraints. Willingness to test boundaries of fundamental structures.'
+                    },
+                    evidence: [
+                        'Can experiments challenge how you deliver core services?',
+                        'Can experiments challenge your fundamental structures?',
+                        'Have you distinguished between regulatory/technical constraints vs. institutional preference?',
+                        'What would it take to make your "immovable" structures movable?'
+                    ],
+                    interventions: {
+                        incremental_to_selective: [
+                            'Map constraints: which are regulatory/contractual vs. institutional preference',
+                            'Designate 1-2 "core assumptions" as experimentally available for 12-month trial',
+                            'Create protected space for experiments that question established practices in defined areas'
+                        ],
+                        selective_to_transformative: [
+                            'Institute regular "constraint challenge" process where teams question institutional assumptions',
+                            'Create pathway for experiments that test fundamental structures with defined criteria for continuation/abandonment',
+                            'Establish executive-level commitment to act on evidence even when it challenges core institutional identity'
+                        ]
+                    }
+                }
+            ]
+        };
+        
+        const positionLabels = {
+            incremental: { label: 'Incremental', color: '#9333ea' },
+            selective: { label: 'Selective', color: '#3b82f6' },
+            transformative: { label: 'Transformative', color: '#f97316' }
+        };
+        
+        function getPositionFromScore(score) {
+            if (score <= 3.5) return 'incremental';
+            if (score <= 6.5) return 'selective';
+            return 'transformative';
+        }
+        
+        function analyzePattern(scores, intent) {
+            const avg = scores.reduce((sum, s) => sum + s, 0) / scores.length;
+            const variance = scores.reduce((sum, s) => sum + Math.pow(s - avg, 2), 0) / scores.length;
+            const stdDev = Math.sqrt(variance);
+            
+            const structuralPosition = getPositionFromScore(avg);
+            const isAligned = structuralPosition === intent;
+            const isUneven = stdDev > 2.5;
+            
+            return {
+                average: avg,
+                structuralPosition,
+                isAligned,
+                isUneven,
+                variance: stdDev
+            };
+        }
+        
+        function FrameworkAssessment() {
+            const [phase, setPhase] = useState('intro');
+            const [step, setStep] = useState(0);
+            const [scores, setScores] = useState(Array(4).fill(null));
+            const [strategicIntent, setStrategicIntent] = useState(null);
+            const chartRef = useRef(null);
+            const chartInstance = useRef(null);
+            
+            const updateScore = (domainIndex, score) => {
+                const newScores = [...scores];
+                newScores[domainIndex] = score;
+                setScores(newScores);
+            };
+            
+            const canProceed = scores[step] !== null;
+            const allComplete = scores.every(s => s !== null);
+            
+            const handleNext = () => {
+                if (phase === 'assessment' && step < 3) {
+                    setStep(step + 1);
+                } else if (phase === 'assessment' && allComplete) {
+                    setPhase('intent');
+                } else if (phase === 'intent' && strategicIntent) {
+                    setPhase('results');
+                }
+            };
+            
+            const handleBack = () => {
+                if (phase === 'results') {
+                    setPhase('intent');
+                } else if (phase === 'intent') {
+                    setPhase('assessment');
+                    setStep(3);
+                } else if (step > 0) {
+                    setStep(step - 1);
+                }
+            };
+            
+            const handleReset = () => {
+                setPhase('intro');
+                setStep(0);
+                setScores(Array(4).fill(null));
+                setStrategicIntent(null);
+                if (chartInstance.current) {
+                    chartInstance.current.destroy();
+                    chartInstance.current = null;
+                }
+            };
+            
+            useEffect(() => {
+                if (phase === 'results' && chartRef.current) {
+                    const ctx = chartRef.current.getContext('2d');
+                    
+                    if (chartInstance.current) {
+                        chartInstance.current.destroy();
+                    }
+                    
+                    const radarData = {
+                        labels: CONTENT.domains.map(d => d.name),
+                        datasets: [{
+                            label: 'Current position',
+                            data: scores,
+                            fill: true,
+                            backgroundColor: 'rgba(124, 58, 237, 0.3)',
+                            borderColor: 'rgb(124, 58, 237)',
+                            pointBackgroundColor: 'rgb(124, 58, 237)',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: 'rgb(124, 58, 237)',
+                            borderWidth: 2
+                        }]
+                    };
+                    
+                    chartInstance.current = new Chart(ctx, {
+                        type: 'radar',
+                        data: radarData,
+                        options: {
+                            scales: {
+                                r: {
+                                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                                    pointLabels: { font: { size: 12 } },
+                                    suggestedMin: 0,
+                                    suggestedMax: 10,
+                                    ticks: { stepSize: 2 }
+                                }
+                            },
+                            plugins: {
+                                legend: { display: false },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            return context.parsed.r.toFixed(1) + '/10';
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            }, [phase, scores]);
+            
+            // Introduction phase
+            if (phase === 'intro') {
+                return (
+                    <div className="min-h-screen">
+                        <div className="max-w-3xl">
+                            <div className="bg-white">
+                                <h1 className="text-3xl text-slate-900 mb-4">Strategic Alignment Framework for AI Integration</h1>
+                                <p className="text-lg text-slate-600 mb-8">A diagnostic tool for assessing structural-strategic alignment</p>
+                                
+                                <div className="space-y-6 mb-8">
+                                    <div>
+                                        <h2 className="text-xl text-slate-900 mb-3">The challenge</h2>
+                                        <p className="text-slate-700 leading-relaxed">
+                                            Institutions face pressure to respond to AI. Resources get allocated, initiatives launched, 
+                                            visible responses created. But often there's strategic drift - a gap between what institutions 
+                                            claim about their AI positioning and what their actual organisational patterns reveal. This drift 
+                                            creates vulnerability: resources spent on visible activity without building corresponding adaptive capacity.
+                                        </p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h2 className="text-xl text-slate-900 mb-3">What this framework does</h2>
+                                        <p className="text-slate-700 leading-relaxed mb-3">
+                                            This strategic alignment diagnostic examines four operational domains where senior leaders make 
+                                            concrete decisions that determine whether stated intentions align with structural reality:
+                                        </p>
+                                        <ul className="space-y-2 ml-4 styled-list">
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span><strong>Governance and accountability</strong> - Where risk sits, who decides, who carries consequences</span>
+                                            </li>
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span><strong>Resource architecture</strong> - What gets funded vs defunded, capacity for learning</span>
+                                            </li>
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span><strong>Learning systems</strong> - How insights get captured and influence decisions</span>
+                                            </li>
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span><strong>Boundary setting</strong> - What's protected vs open for transformation</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div>
+                                        <h2 className="text-xl text-slate-900 mb-3">Three legitimate strategic positions</h2>
+                                        <p className="text-slate-700 leading-relaxed mb-3">
+                                            For each domain, you'll position your organisation on a spectrum. All three positions can be 
+                                            appropriate depending on institutional context, mission, and strategic priorities:
+                                        </p>
+                                        <div className="space-y-3 ml-4">
+                                            <div>
+                                                <p className="text-slate-900 font-semibold mb-1">Incremental (0-3)</p>
+                                                <p className="text-sm text-slate-600">
+                                                    Contained experimentation at operational margins while protecting core structures. 
+                                                    Appropriate for institutions prioritising stability, facing regulatory constraints, or making 
+                                                    conscious choices about adoption timing.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p className="text-slate-900 font-semibold mb-1">Selective (4-6)</p>
+                                                <p className="text-sm text-slate-600">
+                                                    Strategic experimentation in designated areas while maintaining others as protected. 
+                                                    Appropriate for institutions seeking adaptive capacity without wholesale transformation.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p className="text-slate-900 font-semibold mb-1">Transformative (7-10)</p>
+                                                <p className="text-sm text-slate-600">
+                                                    Core structures available for experimental challenge. Appropriate for institutions facing 
+                                                    significant disruption or pursuing first-mover positioning.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p className="text-sm text-slate-600 mt-3 italic">
+                                            The question isn't which position is "best" - it's whether your structural reality matches your 
+                                            stated strategic intent.
+                                        </p>
+                                    </div>
+                                    
+                                    <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                                        <h3 className="text-sm font-semibold text-blue-900 mb-2">Understanding strategic drift</h3>
+                                        <p className="text-sm text-blue-800 mb-2">
+                                            This framework distinguishes between <strong>stated strategic intent</strong> (what organisations 
+                                            claim about their positioning) and <strong>structural reality</strong> (what organisational patterns 
+                                            actually enable). The gap between these represents strategic drift.
+                                        </p>
+                                        <p className="text-sm text-blue-800">
+                                            Organisational scholars sometimes term this "innovation theatre" - visible activity without 
+                                            corresponding structural enablers. The problem isn't the position itself, but rather <strong>accidental 
+                                            drift</strong> versus <strong>conscious choice</strong> about positioning.
+                                        </p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h2 className="text-xl text-slate-900 mb-3">How this diagnostic works</h2>
+                                        <p className="text-slate-700 leading-relaxed mb-3">
+                                            You'll assess your organisation across four domains, positioning yourself on the spectrum. 
+                                            Then you'll state your strategic intent. The diagnostic will:
+                                        </p>
+                                        <ul className="space-y-2 ml-4 styled-list">
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span>Reveal whether your structural reality matches your stated strategic intent</span>
+                                            </li>
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span>Identify where strategic drift occurs and which domains need attention</span>
+                                            </li>
+                                            <li className="text-slate-700">
+                                                <span className="text-slate-400">•</span>
+                                                <span>Provide concrete interventions for aligning structures with intentions</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div className="bg-slate-100 p-4 rounded">
+                                        <p className="text-sm text-slate-700 italic">
+                                            <strong>Important:</strong> This diagnostic works best when you assess based on structural reality - 
+                                            what your organisational patterns actually enable - rather than stated strategy or what you wish they enabled. 
+                                            The value comes from revealing gaps between intent and reality.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <button onClick={() => setPhase('assessment')} className="button">
+                                    Begin assessment
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+            
+            // Results phase implementation continues...
+            if (phase === 'results') {
+                const analysis = analyzePattern(scores, strategicIntent);
+                
+                return (
+                    <div className="min-h-screen">
+                        <div className="max-w-5xl">
+                            <div className="bg-white">
+                                <h1 className="text-3xl text-slate-900 mb-2">Strategic alignment assessment</h1>
+                                <p className="text-slate-600 mb-8">Your organisational profile and action planning</p>
+                                
+                                {/* Radar chart */}
+                                <div className="chart-container mb-8">
+                                    <canvas ref={chartRef}></canvas>
+                                </div>
+                                
+                                {/* Summary stats */}
+                                <div className="grid grid-cols-3 mb-8">
+                                    <div className="stat-box">
+                                        <h3 className="stat-label">Structural position</h3>
+                                        <p className={`stat-value ${analysis.structuralPosition}`} style={{ color: positionLabels[analysis.structuralPosition].color }}>
+                                            {positionLabels[analysis.structuralPosition].label}
+                                        </p>
+                                        <p className="text-sm text-slate-600 mt-2">Based on average score: {analysis.average.toFixed(1)}/10</p>
+                                    </div>
+                                    
+                                    <div className="stat-box">
+                                        <h3 className="stat-label">Strategic intent</h3>
+                                        <p className={`stat-value ${strategicIntent}`} style={{ color: positionLabels[strategicIntent].color }}>
+                                            {positionLabels[strategicIntent].label}
+                                        </p>
+                                        <p className="text-sm text-slate-600 mt-2">Your stated positioning</p>
+                                    </div>
+                                    
+                                    <div className="stat-box">
+                                        <h3 className="stat-label">Strategic-structural alignment</h3>
+                                        <p className={`stat-value ${analysis.isAligned ? 'green' : 'amber'}`} style={{ color: analysis.isAligned ? '#10b981' : '#f59e0b' }}>
+                                            {analysis.isAligned ? 'Aligned' : 'Drift detected'}
+                                        </p>
+                                        <p className="text-sm text-slate-600 mt-2">
+                                            {analysis.isUneven ? 'Inconsistent across domains' : 'Consistent pattern'}
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                {/* Key findings */}
+                                <div className="mb-8">
+                                    <h2 className="text-xl font-semibold text-slate-900 mb-4">Key findings</h2>
+                                    
+                                    {!analysis.isAligned && (
+                                        <div className="alert-box amber">
+                                            <p className="alert-title amber">Strategic drift detected</p>
+                                            <p className="alert-text amber">
+                                                Your organisation's stated intent ({positionLabels[strategicIntent].label}) doesn't match your structural reality ({positionLabels[analysis.structuralPosition].label}). 
+                                                This represents strategic drift - the gap between what you claim about positioning and what organisational 
+                                                patterns actually enable. Resources may be spent on visible activity without building corresponding 
+                                                structural capacity for your intended direction.
+                                            </p>
+                                        </div>
+                                    )}
+                                    
+                                    {analysis.isUneven && (
+                                        <div className="alert-box blue">
+                                            <p className="alert-title blue">Inconsistent patterns across domains</p>
+                                            <p className="alert-text blue">
+                                                Your scores vary significantly across domains (variance: {analysis.variance.toFixed(1)}). 
+                                                This suggests different parts of your organisation enable or constrain experimentation to different degrees, 
+                                                likely creating confusion about institutional direction.
+                                            </p>
+                                        </div>
+                                    )}
+                                    
+                                    {analysis.isAligned && !analysis.isUneven && (
+                                        <div className="alert-box green">
+                                            <p className="alert-title green">Strategic alignment achieved</p>
+                                            <p className="alert-text green">
+                                                Your structural position matches your stated intent, with consistent patterns across all domains. 
+                                                This suggests conscious strategic choice rather than accidental drift. All positions can be legitimate - 
+                                                what matters is whether you occupy your chosen position intentionally with full awareness of implications.
+                                            </p>
+                                        </div>
+                                    )}
+                                </div>
+                                
+                                {/* Domain-specific analysis */}
+                                <div className="mb-8">
+                                    <h2 className="text-xl font-semibold text-slate-900 mb-4">Domain analysis and recommended actions</h2>
+                                    <div className="space-y-6">
+                                        {CONTENT.domains.map((domain, idx) => {
+                                            const domainScore = scores[idx];
+                                            const currentPosition = getPositionFromScore(domainScore);
+                                            const needsAction = currentPosition !== strategicIntent;
+                                            
+                                            return (
+                                                <div key={domain.name} className="domain-result-box">
+                                                    <div className="domain-result-header">
+                                                        <div className="domain-result-title">
+                                                            <h3>{domain.fullName}</h3>
+                                                            <p>{domain.description}</p>
+                                                        </div>
+                                                        <div className="domain-result-score">
+                                                            <div className="domain-result-score-value" style={{ color: positionLabels[currentPosition].color }}>
+                                                                {domainScore}/10
+                                                            </div>
+                                                            <div className="domain-result-score-label">{positionLabels[currentPosition].label}</div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    {needsAction && (
+                                                        <div className="action-box">
+                                                            {currentPosition === 'incremental' && strategicIntent === 'selective' && (
+                                                                <>
+                                                                    <p className="font-medium text-slate-900">
+                                                                        Moving from Incremental to Selective means creating designated zones where experimentation can challenge specific assumptions, with proportional accountability and protected resources.
+                                                                    </p>
+                                                                    <p className="action-title">Recommended actions:</p>
+                                                                    <ul>
+                                                                        {domain.interventions.incremental_to_selective.map((action, i) => (
+                                                                            <li key={i}>
+                                                                                <span>•</span>
+                                                                                <span>{action}</span>
+                                                                            </li>
+                                                                        ))}
+                                                                    </ul>
+                                                                </>
+                                                            )}
+                                                            {currentPosition === 'incremental' && strategicIntent === 'transformative' && (
+                                                                <>
+                                                                    <p className="font-medium text-slate-900">
+                                                                        Moving from Incremental to Transformative requires fundamental shifts across all structural elements - this is typically a multi-year journey requiring sequential changes.
+                                                                    </p>
+                                                                    <p className="action-title">Recommended actions:</p>
+                                                                    <ul>
+                                                                        {[...domain.interventions.incremental_to_selective, ...domain.interventions.selective_to_transformative].map((action, i) => (
+                                                                            <li key={i}>
+                                                                                <span>•</span>
+                                                                                <span>{action}</span>
+                                                                            </li>
+                                                                        ))}
+                                                                    </ul>
+                                                                </>
+                                                            )}
+                                                            {currentPosition === 'selective' && strategicIntent === 'transformative' && (
+                                                                <>
+                                                                    <p className="font-medium text-slate-900">
+                                                                        Moving from Selective to Transformative means expanding from designated experimental zones to making core institutional structures available for challenge.
+                                                                    </p>
+                                                                    <p className="action-title">Recommended actions:</p>
+                                                                    <ul>
+                                                                        {domain.interventions.selective_to_transformative.map((action, i) => (
+                                                                            <li key={i}>
+                                                                                <span>•</span>
+                                                                                <span>{action}</span>
+                                                                            </li>
+                                                                        ))}
+                                                                    </ul>
+                                                                </>
+                                                            )}
+                                                        </div>
+                                                    )}
+                                                    
+                                                    {!needsAction && (
+                                                        <div className="success-box">
+                                                            <p>
+                                                                This domain aligns with your strategic intent. Focus on maintaining current structures and practices.
+                                                            </p>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                                
+                                {/* Interdependencies note */}
+                                <div className="alert-box blue mb-8">
+                                    <h3 className="alert-title blue">Note on interdependencies</h3>
+                                    <p className="alert-text blue">
+                                        These domains don't operate independently. Changes to Governance typically require corresponding adjustments to Resources. 
+                                        Learning systems depend on having Boundary permeability to question what counts as success. 
+                                        Sequencing matters: consider starting with domains where you have most institutional readiness.
+                                    </p>
+                                </div>
+                                
+                                {/* Action buttons */}
+                                <div className="button-group mb-8">
+                                    <button onClick={handleReset} className="button">
+                                        Start new assessment
+                                    </button>
+                                    <button onClick={() => window.print()} className="button button-secondary">
+                                        Print report
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+            
+            // Intent phase
+            if (phase === 'intent') {
+                return (
+                    <div className="min-h-screen">
+                        <div className="max-w-3xl">
+                            <div className="bg-white">
+                                <div className="progress-container">
+                                    <div className="progress-header">
+                                        <span className="text-sm font-medium text-slate-500">Strategic intent</span>
+                                        <span className="text-sm text-slate-500">Assessment complete</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{ width: '80%' }} />
+                                    </div>
+                                </div>
+                                
+                                <h1 className="text-3xl text-slate-900 mb-2">What's your strategic intent?</h1>
+                                <p className="text-slate-600 mb-8">
+                                    Based on your institutional context, mission, constraints, and strategic priorities, 
+                                    where do you intend your organisation to be positioned? All three positions can be appropriate.
+                                </p>
+                                
+                                <div className="space-y-4 mb-8">
+                                    <button
+                                        onClick={() => setStrategicIntent('incremental')}
+                                        className={`intent-option ${strategicIntent === 'incremental' ? 'selected' : ''}`}
+                                    >
+                                        <div className="intent-option-header">
+                                            <h3 className="text-lg font-semibold text-slate-900">Incremental</h3>
+                                            <div className={`radio-circle purple ${strategicIntent === 'incremental' ? 'filled' : ''}`} />
+                                        </div>
+                                        <p className="text-sm text-slate-600">
+                                            Contained experimentation at operational margins while protecting core structures. 
+                                            Appropriate for institutions prioritising stability, facing significant regulatory constraints, 
+                                            or making conscious choices about adoption timing.
+                                        </p>
+                                    </button>
+                                    
+                                    <button
+                                        onClick={() => setStrategicIntent('selective')}
+                                        className={`intent-option ${strategicIntent === 'selective' ? 'selected blue' : ''}`}
+                                    >
+                                        <div className="intent-option-header">
+                                            <h3 className="text-lg font-semibold text-slate-900">Selective</h3>
+                                            <div className={`radio-circle blue ${strategicIntent === 'selective' ? 'filled' : ''}`} />
+                                        </div>
+                                        <p className="text-sm text-slate-600">
+                                            Strategic experimentation in designated areas while maintaining others as protected. 
+                                            Explicit distinction between genuine constraints and institutional preferences. 
+                                            Appropriate for institutions seeking adaptive capacity without wholesale transformation.
+                                        </p>
+                                    </button>
+                                    
+                                    <button
+                                        onClick={() => setStrategicIntent('transformative')}
+                                        className={`intent-option ${strategicIntent === 'transformative' ? 'selected orange' : ''}`}
+                                    >
+                                        <div className="intent-option-header">
+                                            <h3 className="text-lg font-semibold text-slate-900">Transformative</h3>
+                                            <div className={`radio-circle orange ${strategicIntent === 'transformative' ? 'filled' : ''}`} />
+                                        </div>
+                                        <p className="text-sm text-slate-600">
+                                            Core institutional structures available for experimental challenge. Proportional risk-sharing 
+                                            and systematic learning infrastructure. Appropriate for institutions facing significant disruption 
+                                            or pursuing first-mover positioning.
+                                        </p>
+                                    </button>
+                                </div>
+                                
+                                <div className="button-group">
+                                    <button onClick={handleBack} className="button button-secondary">
+                                        Back to assessment
+                                    </button>
+                                    <button onClick={handleNext} disabled={!strategicIntent} className="button">
+                                        View analysis and actions
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+            
+            // Assessment phase
+            const currentDomain = CONTENT.domains[step];
+            const currentScore = scores[step];
+            
+            return (
+                <div className="min-h-screen">
+                    <div className="max-w-3xl">
+                        <div className="bg-white">
+                            <div className="progress-container">
+                                <div className="progress-header">
+                                    <span className="text-sm font-medium text-slate-500">Domain {step + 1} of 4</span>
+                                    <span className="text-sm text-slate-500">{scores.filter(s => s !== null).length}/4 complete</span>
+                                </div>
+                                <div className="progress-bar">
+                                    <div className="progress-fill" style={{ width: `${((step + (canProceed ? 1 : 0)) / 4) * 100}%` }} />
+                                </div>
+                            </div>
+                            
+                            <h1 className="text-3xl text-slate-900 mb-2">{currentDomain.fullName}</h1>
+                            <p className="text-slate-600 mb-6">{currentDomain.description}</p>
+                            
+                            <div className="p-4 bg-slate-50 rounded-lg mb-8">
+                                <p className="text-sm text-slate-700 italic">
+                                    Position your organisation based on structural reality, not stated strategy or aspiration. 
+                                    What do your actual organisational patterns enable?
+                                </p>
+                            </div>
+                            
+                            <div className="space-y-6 mb-8">
+                                <div className="spectrum-box purple">
+                                    <p className="spectrum-label purple text-sm mb-1">0-3: Incremental</p>
+                                    <p className="spectrum-text purple text-sm">{currentDomain.spectrum.incremental}</p>
+                                </div>
+                                
+                                <div className="spectrum-box blue">
+                                    <p className="spectrum-label blue text-sm mb-1">4-6: Selective</p>
+                                    <p className="spectrum-text blue text-sm">{currentDomain.spectrum.selective}</p>
+                                </div>
+                                
+                                <div className="spectrum-box orange">
+                                    <p className="spectrum-label orange text-sm mb-1">7-10: Transformative</p>
+                                    <p className="spectrum-text orange text-sm">{currentDomain.spectrum.transformative}</p>
+                                </div>
+                            </div>
+                            
+                            <div className="evidence-box mb-8">
+                                <h3>Evidence to consider:</h3>
+                                <ul className="space-y-2 styled-list">
+                                    {currentDomain.evidence.map((q, idx) => (
+                                        <li key={idx} className="text-slate-700 text-sm">
+                                            <span className="text-slate-400">•</span>
+                                            <span>{q}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            
+                            <div className="mb-8">
+                                <label className="text-sm font-medium text-slate-700 mb-4" style={{ display: 'block' }}>
+                                    Where does your organisation currently sit?
+                                </label>
+                                <div className="score-buttons">
+                                    {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((score) => (
+                                        <button
+                                            key={score}
+                                            onClick={() => updateScore(step, score)}
+                                            className={`score-button ${currentScore === score ? 'selected' : ''}`}
+                                        >
+                                            {score}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                            
+                            <div className="button-group">
+                                <button onClick={handleBack} disabled={step === 0} className="button button-secondary">
+                                    Back
+                                </button>
+                                <button onClick={handleNext} disabled={!canProceed} className="button">
+                                    {step === 3 && allComplete ? 'Continue to strategic intent' : 'Next domain'}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+        
+        ReactDOM.render(<FrameworkAssessment />, document.getElementById('root'));
+    </script>
+</body>
+</html>
