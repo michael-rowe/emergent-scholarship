@@ -350,7 +350,7 @@ You have 45 minutes before your next meeting. Looking at your task list, you nee
 
 ## Activity: Apply to your actual work
 
-**Time required:** 20-25 minutes  
+**Time required:** 20-25 minutes
 **Objective:** Develop functional application and critical evaluation by using AI for real content creation, then honestly assessing efficiency
 
 Choose ONE content creation task from your actual workload this week:
@@ -410,8 +410,8 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 
 ### Time analysis
 
-**Normal time for this task:** [_**] minutes  
-**Time with AI (including all revision):** [**_] minutes  
+**Normal time for this task:** [_**] minutes
+**Time with AI (including all revision):** [**_] minutes
 **Net time saved (or lost):** [___] minutes
 
 ### Quality check
@@ -536,19 +536,19 @@ Possible patterns:
 
 ## Key takeaways
 
-### Substitution applies foundational literacy to specific tasks
+**Substitution applies foundational literacy to specific tasks**
 
 You're using extraction-level engagement and structured prompting (RGID from lesson 2) to accelerate bounded tasks—lesson planning, slides, assessment, professional writing—while maintaining quality through critical evaluation. This is instrumental efficiency: saving time on tasks that don't require deep engagement so you can redirect cognitive resources toward high-value work. Success means completing necessary content faster while maintaining acceptable quality.
 
-### Efficiency serves headspace, not productivity
+**Efficiency serves headspace, not productivity**
 
 The value of AI-assisted content creation isn't producing more content—it's producing necessary content efficiently so you have time for work that genuinely matters. Without intentional planning, efficiency gains simply disappear into your schedule. Identify high-value work that matters to you, then protect the time you save for those activities. Schedule them before other commitments fill the space. This is contextual judgement—understanding how efficiency serves what matters.
 
-### Honest evaluation builds literacy
+**Honest evaluation builds literacy**
 
 Ask: Does this work? Is it usable? Did it actually save time including all revision? The evaluation is largely binary at substitution level—it works or it doesn't—but the honesty matters enormously for literacy development. If AI adds overhead rather than saving time for a particular task, that's valuable information. Through repeated honest evaluation across different tasks, you develop taste—professional judgement about when substitution serves your work and when it doesn't.
 
-### Not all work should be efficient
+**Not all work should be efficient**
 
 Use AI to accelerate tasks that don't require deep engagement. Reserve your cognitive resources for work requiring genuine intellectual engagement—research, deep reading, developing original arguments. The efficiency you gain through substitution should serve your capacity for deep, meaningful scholarly work. That's what makes this AI literacy rather than just productivity hacking.
 
@@ -571,17 +571,17 @@ Before moving on, make sure you've identified at least one routine content creat
 
 ## Resources
 
-### AI-assisted content creation
+**AI-assisted content creation**
 
 - Mollick, E. & Mollick, L. (2023). Using AI to implement effective teaching strategies in classrooms. SSRN.
 - Mollick, E. & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. SSRN Electronic Journal.
 
-### Time, attention, and headspace
+**Time, attention, and headspace**
 
 - Newport, C. (2016). Deep work: Rules for focused success in a distracted world. Grand Central Publishing.
 - Burkeman, O. (2021). Four thousand weeks: Time management for mortals. Farrar, Straus and Giroux.
 
-### Efficiency and meaningful work
+**Efficiency and meaningful work**
 
 - Allen, D. (2015). Getting things done: The art of stress-free productivity. Penguin.
 - Drucker, P. (2006). The effective executive: The definitive guide to getting the right things done. Harper Business.

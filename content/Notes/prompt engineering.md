@@ -1,25 +1,22 @@
 ---
-title: Context sovereignty
-description:
+title: Prompt engineering
+description: Prompt engineering is...
 aliases:
 type: note
 author: "[[Michael Rowe]]"
-created: 2026-01-08
+created: 2026-01-09
 updated:
 status: draft
-needs_review: false
+needs_review: true
 tags:
   - artificial-intelligence
-  - context-engineering
-  - context-sovereignty
   - model-context-protocol
   - language-model
 category: ""
-related: "[[context engineering]]"
+related:
 builds_on:
-leads_to:
+leads_to: "[[context engineering]]"
 contradicts:
 source: ""
 source_url: ""
-context: ""
 ---

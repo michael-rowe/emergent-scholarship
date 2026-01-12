@@ -347,50 +347,47 @@ You need to write a difficult email to a colleague who missed an important deadl
 
 **What's your approach?**
 
-<details> <summary><strong>Option A: Use AI to draft the entire email</strong></summary>
+> [!example]- Option A: Use AI to draft the entire email
+>
+> **Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
+>
+> **What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
+>
+> You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
+>
+> **Time total:** 5 minutes writing, weeks repairing relationship
+>
+> **Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
 
-**Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
+> [!example]- Option B: Write it entirely yourself without AI
+>
+> **Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labour is exhausting. You're not sure if you got the tone right.
+>
+> **What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
+>
+> **Time total:** 30 minutes of emotionally taxing work
+>
+> **Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
 
-**What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
+> [!example]- Option C: Use AI for structure only, write sensitive content yourself
+>
+> **Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
+>
+> AI suggests framework:
+>
+> 1. Express concern about the situation (not blame)
+> 2. Explain concrete impact (short timeline now)
+> 3. Ask what happened (genuine question)
+> 4. Propose path forward collaboratively
+>
+> You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
+>
+> **Time total:** 15 minutes (3 min structure, 12 min writing)
+>
+> **Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
 
-You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
-
-**Time total:** 5 minutes writing, weeks repairing relationship
-
-**Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
-
-</details> <details> <summary><strong>Option B: Write it entirely yourself without AI</strong></summary>
-
-**Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labor is exhausting. You're not sure if you got the tone right.
-
-**What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
-
-**Time total:** 30 minutes of emotionally taxing work
-
-**Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
-
-</details> <details> <summary><strong>Option C: Use AI for structure only, write sensitive content yourself</strong></summary>
-
-**Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
-
-AI suggests framework:
-
-1. Express concern about the situation (not blame)
-2. Explain concrete impact (short timeline now)
-3. Ask what happened (genuine question)
-4. Propose path forward collaboratively
-
-You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
-
-**Time total:** 15 minutes (3 min structure, 12 min writing)
-
-**Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
-
-</details>
-
-**Reflection:** When should you use AI for writing? When should you write entirely yourself?
-
-[Text input box]
+> [!question] Reflection
+> When should you use AI for writing? When should you write entirely yourself?
 
 **Decision principle:** Use AI for structure and routine content; write sensitive, relationship-dependent, or core intellectual content yourself. Don't let AI handle tone when relationships matter.
 
@@ -508,25 +505,25 @@ For any text where you used AI assistance:
 
 ## Activity: Document patterns for future practice
 
-**Time required:** 8-10 minutes  
+**Time required:** 8-10 minutes
 **Objective:** Reflect on what you learned about when AI helps versus hinders your writing, building taste through pattern recognition
 
 ### What worked
 
 **AI was helpful for:**
 
-Task type: [_**]  
-What it did well: [**_]  
-Why it worked: [_**]  
+Task type: [_**]
+What it did well: [**_]
+Why it worked: [_**]
 Voice retention score: [**_]%
 
 ### What didn't work
 
 **AI was not helpful for:**
 
-Task type: [_**]  
-Why it added friction: [**_]  
-What I needed instead: [_**]  
+Task type: [_**]
+Why it added friction: [**_]
+What I needed instead: [_**]
 What I learned: [**_]
 
 ### Pattern recognition
@@ -572,19 +569,19 @@ Looking across today's exercises, identify patterns:
 
 ## Key takeaways
 
-### AI as assistant requires critical selection
+**AI as assistant requires critical selection**
 
 AI as writing assistant means you maintain control over voice, argument, and quality through rigorous critical selection. AI drafts options, you select what works, reject what doesn't, and revise everything to sound like you. Your distinctive voice comes from what you choose to keep, how you adapt it, and what you reject. This critical evaluation process is where your voice and scholarly judgement reside—not in AI's initial draft.
 
-### Voice preservation distinguishes literacy from competence
+**Voice preservation distinguishes literacy from competence**
 
 Many people can get AI to draft text. Fewer develop the critical evaluation skills to recognise what preserves versus compromises their distinctive voice. This requires ethical awareness (maintaining scholarly integrity), critical evaluation (distinguishing genuine improvements from generic alternatives), and contextual judgement (knowing when your voice matters more than efficiency). These dimensions develop through practice with honest assessment, not through following rules.
 
-### Read aloud to catch generic patterns
+**Read aloud to catch generic patterns**
 
 Reading your writing aloud is the single best test for voice preservation. Your ear catches formulaic phrases, awkward rhythm, and generic academic prose that your eyes miss. Make this systematic: read every AI-assisted piece aloud, mark phrases that don't sound like you, revise them immediately. With practice, you'll catch these patterns during writing rather than needing separate review.
 
-### Substitution works for bounded tasks, not core intellectual work
+**Substitution works for bounded tasks, not core intellectual work**
 
 Substitution-level writing support works for routine correspondence, overcoming blank page paralysis, clarity improvements on existing text, and generating alternative phrasings. It works less well for core arguments requiring your specific examples, sensitive communications needing careful relationship-aware tone, and complex scholarly claims where precision matters more than efficiency. Recognising this distinction is contextual judgement—understanding when AI serves your goals.
 
@@ -617,18 +614,18 @@ Adaptation requires the functional competence and critical evaluation you've bui
 
 ## Resources
 
-### AI-assisted writing
+**AI-assisted writing**
 
 - Mollick, E. & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. SSRN Electronic Journal.
 - Fyfe, P. (2022). How to cheat on your final paper: Assigning AI for student writing. Notices of the AMS, 69(11).
 
-### Academic writing craft
+**Academic writing craft**
 
 - Pinker, S. (2014). The sense of style: The thinking person's guide to writing in the 21st century. Penguin.
 - Sword, H. (2012). Stylish academic writing. Harvard University Press.
 - Silvia, P. (2007). How to write a lot: A practical guide to productive academic writing. APA.
 
-### Voice and style
+**Voice and style**
 
 - Williams, J. & Bizup, J. (2017). Style: Lessons in clarity and grace. Pearson.
 

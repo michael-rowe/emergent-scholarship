@@ -374,7 +374,7 @@ Think of 2-3 papers currently in your backlog. Run each through this checklist:
 
 ## Activity: Process your backlog strategically
 
-**Time required:** 15 minutes  
+**Time required:** 15 minutes
 **Objective:** Apply functional application and critical evaluation to actual reading triage
 
 ### The four-tier system
@@ -543,19 +543,19 @@ Create a simple system for tracking your backlog that distinguishes extraction f
 
 ## Key takeaways
 
-### Extraction versus comprehension is a literacy distinction
+**Extraction versus comprehension is a literacy distinction**
 
 Information extraction differs from comprehension building, and both serve different reading goals. Extraction answers specific questions about what a paper says—main arguments, methodology, findings. Comprehension builds understanding of how something works, why it matters, what implications it has—this requires your engagement with texts. Recognising which goal you have for each paper is fundamental to contextual judgement. This isn't cheating—it's strategic scholarship.
 
-### When summaries suffice requires judgement
+**When summaries suffice requires judgement**
 
 Extraction suffices for routine monitoring of your field, scanning breadth in adjacent areas, checking relevance before investing reading time, and retrieving specific information. You need deeper engagement for papers central to your research, methodologies you're considering adopting, theoretical frameworks you'll apply, and when building genuine expertise. The judgement about which papers warrant deep reading is highly individual to your work and develops through reflective practice.
 
-### Strategic triage prevents backlog paralysis
+**Strategic triage prevents backlog paralysis**
 
 Most academics have reading backlogs growing faster than they can manage, creating perpetual feelings of being behind. AI helps you actually process your backlog by enabling rapid triage—identifying what needs careful reading versus what needs only information extraction versus what's not relevant. This strategic approach means you read less total volume but read the right things at the right depth.
 
-### Guard against over-reliance
+**Guard against over-reliance**
 
 Using AI for extraction carries a risk: defaulting to summaries when you need comprehension. Guard against this by setting explicit criteria for when you'll read papers yourself, regularly reading without AI to maintain critical reading skills, and documenting what you learn in your own words. Aim for 20-30% of your reading to be deep engagement without AI assistance. If everything becomes extraction, your scholarly skills atrophy.
 
@@ -578,17 +578,17 @@ Before moving on, make sure you've set up your reading tracking system and sched
 
 ## Resources
 
-### Reading strategies and comprehension
+**Reading strategies and comprehension**
 
 - Adler, M.J. (1972). How to read a book: The classic guide to intelligent reading. Touchstone.
 - Karnofsky, H. (2021). Reading books vs engaging with them. Cold Takes.
 
-### AI-assisted reading research
+**AI-assisted reading research**
 
 - Howard, P.N. & Jamil, S. (2023). The use of generative AI to support research. SocArXiv.
 - Shanahan, M. (2024). Talking about large language models. Communications of the ACM, 67(2), 68-79.
 
-### Managing information overload
+**Managing information overload**
 
 - Weinberger, D. (2011). Too big to know: Rethinking knowledge now that the facts aren't the facts. Basic Books.
 
